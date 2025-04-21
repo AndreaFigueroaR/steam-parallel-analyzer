@@ -17,7 +17,6 @@ mod review_register;
 use crate::review_register::ReviewInfo;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
-    //poría intentar hacer algo para separar el archivo original en varios archivos temporales con diferentes registros
     let file =
         File::open("/home/andy//Escritorio/ProgConcu/data-set-tp1/steam_reviews.csv")?;
     let reader = Reader::from_reader(file);
@@ -54,29 +53,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 });
             global_acc
         });
-        let grand_theft_id : u32 = 271590;
-        let tom_clancy_id :u32 = 359550;
-        let player_uknown_id:u32= 578080;
 
-        if games_map.contains_key(&tom_clancy_id){
-            let game_info = games_map.get(&tom_clancy_id).unwrap();
-            println!("El juego {:?} tiene {:?} reviews", game_info.game, game_info.review_count);
-        }
-        if games_map.contains_key(&grand_theft_id){
-            let game_info = games_map.get(&grand_theft_id).unwrap();
-            println!("El juego {:?} tiene {:?} reviews", game_info.game, game_info.review_count);
-        }
-        if games_map.contains_key(&player_uknown_id){
-            let game_info = games_map.get(&player_uknown_id).unwrap();
-            println!("El juego {:?} tiene {:?} reviews", game_info.game, game_info.review_count);
-        }
-    //inlusive si falla el resultado esto está bien.
-
-
-    //OBTENGO SOLO LOS K GAMES CON MÁS REVIEWS: ojo aquí ha de estar fallando.
-    //IMPLEMENTACIÓN DE TOP K paralelo:
+    //OBTENGO SOLO LOS K GAMES CON MÁS REVIEWS.
     let k =3;
-    let mut heap_complete_top_games_info = games_map.into_par_iter()
+    let mut complete_top_games_info = games_map.into_par_iter()
         .map(|(_, v)| v)
         .fold(||BinaryHeap::<Reverse<GameInfo>>::new(),|mut local_acc,game_info|{
             if local_acc.len() < k {
@@ -92,25 +72,26 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 if global_acc.len() < k {
                     global_acc.push(Reverse(game_info));
                 } else if global_acc.peek().unwrap().0 <= game_info {
+                    global_acc.pop();
                     global_acc.push(Reverse(game_info));
                 } 
             }   
             global_acc
         });
+    let resumed_top_games_info: Vec<GameInfo> = complete_top_games_info
+        .drain()
+        .map(|mut reverse_game_info| {
+            reverse_game_info.0.par_filter_languages_to_highest_k(k);
+            reverse_game_info.0
 
-    let mut complete_top_games_info = Vec::with_capacity(heap_complete_top_games_info.len());
-    while let Some(Reverse(game_info))= heap_complete_top_games_info.pop(){
-        complete_top_games_info.push(game_info);
-    }
-    complete_top_games_info.reverse();
+        })
+        .collect();
     
-    // for i in 0..k {
-    //     println!("El {:?}avo juego con más reviews es: {:?} con {:?} reviews",i, complete_top_games_info[i].game,complete_top_games_info[i].review_count );
-    // } 
+    // for game_info in resumed_top_games_info{
+    //     println!("game: {:?}", game_info.game);
+    //     println!("review_count: {:?}", game_info.review_count);
+    //     println!("languages: {:?}", game_info.languages);
+    // }
 
-    // hago la slección de los idiomas de cada juego de forma secuencial
-    complete_top_games_info.iter_mut().for_each(|complete_game_info|{
-        complete_game_info.par_filter_languages_to_highest_k(k);
-    });
     Ok(())
 }
