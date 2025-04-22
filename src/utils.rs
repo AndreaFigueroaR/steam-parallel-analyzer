@@ -4,6 +4,7 @@ use std::collections::BinaryHeap;
 /// `TopK<T>` mantiene los `k` elementos máximos de tipo `T`.
 /// Usa un min-heap (almacenado como BinaryHeap<Reverse<T>>) para que
 /// el elemento más pequeño de los top k esté siempre en la raíz.
+#[derive(Debug)]
 pub struct TopK<T: Ord> {
     heap: BinaryHeap<Reverse<T>>,
     capacity: usize,
@@ -24,7 +25,7 @@ impl<T: Ord> TopK<T> {
     /// - Si ya hay k elementos y `value` es mayor que el más pequeño
     ///   de los actuales (es decir, el tope del min-heap), reemplaza
     ///   ese tope; en caso contrario, se descarta.
-    pub fn consider_push(&mut self, value: T) {
+    pub fn consider_include(&mut self, value: T) {
         if self.capacity == 0 {
             return;
         }
@@ -72,3 +73,28 @@ impl<T: Ord> TopK<T> {
     }
 }
 
+#[cfg(test)]
+mod tests {
+    use super::TopK;
+
+    #[test]
+    fn basic_topk_sorted() {
+        let mut top3 = TopK::new(3);
+        for x in &[5, 1, 7, 3, 9, 2] {
+            top3.consider_include(*x);
+        }
+        let result = top3.into_sorted();
+        assert_eq!(result, vec![9, 7, 5]);
+    }
+
+    #[test]
+    fn basic_topk_unsorted() {
+        let mut top3 = TopK::new(3);
+        for x in &[5, 1, 7, 3, 9, 2] {
+            top3.consider_include(*x);
+        }
+        let mut result = top3.into_unsorted();
+        result.sort_unstable();
+        assert_eq!(result, vec![5, 7, 9]); // comprobamos el contenido sin orden inicial
+    }
+}

@@ -1,5 +1,5 @@
-use crate::language_info::LanguageReviewsInfo;
-use crate::language_top_review::LanguageTopReview;
+use crate::language_reviews_info::LanguageReviewsInfo;
+use crate::review::Review;
 use rayon::prelude::*;
 
 use std::collections::HashMap;
@@ -7,26 +7,26 @@ use std::collections::HashMap;
 #[derive(Debug)]
 pub struct LanguageManager {
     pub languages: HashMap<String, LanguageReviewsInfo>,
+    //el valor de este campo sirve para inicializar tosos los language_reviews_info que se fuesen a crear 
+    pub top_reviews_retained: usize //Cantidad de top reviews de cada idioma a retener (para games solo es 1, para lenguages son los 10)
 }
 
 impl LanguageManager {
-    pub fn new() -> Self {
+    pub fn new(reviews_to_retain:usize) -> Self {
         LanguageManager {
             languages: HashMap::new(),
+            top_reviews_retained: reviews_to_retain
         }
     }
 
-    // Método del manager de lenguages que considera el  review en cualquier idioma (del juego) actualizando los idiomas registrados de reviews del juego así como (de existir) actualizando la información preexistente relativa a dicho idioma
-    pub fn consider_review(&mut self, language: String, cont: String, votes: u64) {
+    // Método del manager de lenguages que considera el  review en cualquier idioma actualizando los idiomas registrados de reviews del juego así como (de existir) actualizando la información preexistente relativa a dicho idioma
+    pub fn consider_review(&mut self, language: String, review: Review) {
         if self.languages.contains_key(&language){
-            let language_state = self.languages.get_mut(&language).unwrap();
-            language_state.consider_new_review(cont, votes);
+            self.languages.get_mut(&language).unwrap()
+                        .consider_new_review(review);
         }else{
-            self.languages.insert(language.clone(), LanguageReviewsInfo {
-                name: language,
-                review_count: 1,
-                top_review: LanguageTopReview { cont, votes }
-            });
+            self.languages.insert(language.clone(),
+                                 LanguageReviewsInfo::new(self.top_reviews_retained, language, review));
 
         }
         
@@ -36,8 +36,7 @@ impl LanguageManager {
     pub fn join(&mut self, other: LanguageManager) {
         other.languages.into_iter().for_each(|(language, new_data)| {
             if self.languages.contains_key(&language){
-                let this_language: &mut LanguageReviewsInfo = self.languages.get_mut(&language).unwrap();
-                this_language.join(new_data);
+                self.languages.get_mut(&language).unwrap().join(new_data);
             } else {
                 self.languages.insert(language, new_data);
             }            
@@ -52,7 +51,7 @@ impl LanguageManager {
             return;
         }
         let mut items: Vec<(String, LanguageReviewsInfo)> = self.languages.drain().collect();
-        items.par_sort_by(|(_, a), (_, b)| b.cmp(a));
+        items.par_sort_by(|(_, language_info_a), (_, language_info_b)| language_info_b.cmp(language_info_a));
         items.truncate(k);
         self.languages = items.into_iter().collect();
     }
