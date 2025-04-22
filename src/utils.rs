@@ -4,7 +4,6 @@ use std::collections::BinaryHeap;
 /// `TopK<T>` mantiene los `k` elementos máximos de tipo `T`.
 /// Usa un min-heap (almacenado como BinaryHeap<Reverse<T>>) para que
 /// el elemento más pequeño de los top k esté siempre en la raíz.
-#[derive(Debug)]
 pub struct TopK<T: Ord> {
     heap: BinaryHeap<Reverse<T>>,
     capacity: usize,
@@ -46,15 +45,6 @@ impl<T: Ord> TopK<T> {
         self.heap.into_iter().map(|rev| rev.0).collect()
     }
 
-    //creo que no es neceario porqueen la consigna al parecer me indican que no importa el orden de los top k
-    // /// Extrae y devuelve todos los top k en un Vec ordenado de mayor a menor.
-    // /// Consumirá el heap.
-    // pub fn into_sorted(mut self) -> Vec<T> {
-    //     let mut v: Vec<T> = self.heap.drain().map(|rev| rev.0).collect();
-    //     // Actualmente `v` está en orden ascendente de los top k, invertimos:
-    //     v.sort_unstable_by(|a, b| b.cmp(a));
-    //     v
-    // }
 }
 
 #[cfg(test)]
@@ -69,6 +59,6 @@ mod tests {
         }
         let mut result = top3.into_unsorted();
         result.sort_unstable();
-        assert_eq!(result, vec![5, 7, 9]); // comprobamos el contenido sin orden inicial
+        assert_eq!(result, vec![5, 7, 9]);
     }
 }

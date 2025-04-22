@@ -5,7 +5,6 @@ use crate::review::Review;
 use crate::utils::TopK;
 use rayon::prelude::*;
 
-#[derive(Debug)]
 pub struct GamesManager{
     games: HashMap<u32, GameInfo>,
 }

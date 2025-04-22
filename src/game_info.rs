@@ -3,7 +3,6 @@ use crate::review::Review;
 use std::{cmp::Ordering, usize};
 
 
-#[derive(Debug)]
 pub struct GameInfo {
     pub id: u32,
     game : String,

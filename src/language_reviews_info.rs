@@ -4,9 +4,8 @@ use std::cmp::Ordering;
 
 
 /// LanguageReviewsInfo: contiene, respeto a un idioma, el nombre, la cantidad de reviews que se registraronen este idioma y el top review en este idioma (contenido y cantidad de votos que indican que es útil)
-#[derive(Debug)]
 pub struct LanguageReviewsInfo{
-    pub name: String,
+    name: String,
     review_count: u32,//cuenta de los reviews en este idioma
     top_reviews: TopK<Review>
 }

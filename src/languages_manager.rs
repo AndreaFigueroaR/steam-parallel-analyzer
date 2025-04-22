@@ -4,7 +4,6 @@ use rayon::prelude::*;
 
 use std::collections::HashMap;
 
-#[derive(Debug)]
 pub struct LanguagesManager {
     languages: HashMap<String, LanguageReviewsInfo>,
     top_reviews_retained: usize //Cantidad de top reviews de cada idioma a retener (para games solo es 1, para lenguages son los 10)
