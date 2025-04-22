@@ -6,16 +6,18 @@ use std::{cmp::Ordering, usize};
 #[derive(Debug)]
 pub struct GameInfo {
     pub id: u32,
-    pub game : String,
-    pub review_count: u32,//cuantos reviews hemos visto de este juego
-    pub languages: LanguagesManager
+    game : String,
+    review_count: u32,//cuantos reviews hemos visto de este juego
+    languages: LanguagesManager
 }
 
 impl GameInfo {
+
+    pub const CANT_REVIEWS_PER_LANGUAGE: usize =1;
+
     //crea su languageManager con la configuración para que solo mantenga el top review
     pub fn new(id :u32, game: String, language: String, review: Review ) -> Self {
-        //TODO: tener como constante este uno hardcodeado
-        let mut languages = LanguagesManager::new(1);
+        let mut languages = LanguagesManager::new(GameInfo::CANT_REVIEWS_PER_LANGUAGE);
         languages.consider_review(language, review);
         GameInfo { id, game, review_count: 1, languages }
     }
@@ -40,7 +42,7 @@ impl GameInfo {
     /// metodo que concurrentemente reduce la información guardada por cada idioma de los reviews del juego para dejar solo la información de los top k lenguages con más reviews o en caso de empate or orden alfabético.
     /// No altera el orden con respecto a otros GameInfos.
     pub fn par_filter_languages_to_highest_k(&mut self, k: usize){
-        self.languages.par_filter_to_highest_k(k);
+        self.languages.par_filter_top_k_languages(k);
     }
 }
 

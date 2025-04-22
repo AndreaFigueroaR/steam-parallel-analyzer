@@ -7,8 +7,8 @@ use std::cmp::Ordering;
 #[derive(Debug)]
 pub struct LanguageReviewsInfo{
     pub name: String,
-    pub review_count: u32,//cuenta de los reviews en este idioma
-    pub top_reviews: TopK<Review>
+    review_count: u32,//cuenta de los reviews en este idioma
+    top_reviews: TopK<Review>
 }
 //tambien podría tener un top k binaryHeap 
 impl LanguageReviewsInfo {

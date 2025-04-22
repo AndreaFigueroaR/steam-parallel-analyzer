@@ -6,12 +6,12 @@ use std::collections::HashMap;
 
 #[derive(Debug)]
 pub struct LanguagesManager {
-    pub languages: HashMap<String, LanguageReviewsInfo>,
-    //el valor de este campo sirve para inicializar tosos los language_reviews_info que se fuesen a crear 
-    pub top_reviews_retained: usize //Cantidad de top reviews de cada idioma a retener (para games solo es 1, para lenguages son los 10)
+    languages: HashMap<String, LanguageReviewsInfo>,
+    top_reviews_retained: usize //Cantidad de top reviews de cada idioma a retener (para games solo es 1, para lenguages son los 10)
 }
 
 impl LanguagesManager {
+    
     pub fn new(reviews_to_retain:usize) -> Self {
         LanguagesManager {
             languages: HashMap::new(),
@@ -46,7 +46,7 @@ impl LanguagesManager {
 
     /// Método que concurrentemente se encarga de dejar los lenguages guardados internamente solo con los top k lenguages
     /// Para lo cual se tiene en consideración el orden establecido por los `LanguageReviewsInfo` (primero por cantidad de reviews y luego por orden alfabético) 
-    pub fn par_filter_to_highest_k(&mut self, k: usize){
+    pub fn par_filter_top_k_languages(&mut self, k: usize){
         if self.languages.len() <= k {
             return;
         }
