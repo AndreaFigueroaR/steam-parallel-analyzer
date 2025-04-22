@@ -4,11 +4,11 @@ use std::cmp::Ordering;
 pub struct Review {
     /// Review: contiene el contenido de un review y la cantidad de votos que indican que es útil. 
     cont: String,
-    votes: u64
+    votes: u32
 }
 impl Review {
     /// Método que crea un nuevo Review con el contenido y la cantidad de votos que indican que es útil.
-    pub fn new(cont: String, votes: u64) -> Self {
+    pub fn new(cont: String, votes: u32) -> Self {
         Review { cont, votes }
     }
 }
