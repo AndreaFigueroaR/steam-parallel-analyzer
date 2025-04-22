@@ -31,15 +31,12 @@ impl<T: Ord> TopK<T> {
         }
 
         if self.heap.len() < self.capacity {
-            // Aún no alcanzamos k elementos: insertamos
             self.heap.push(Reverse(value));
-        } else if let Some(mut smallest) = self.heap.peek_mut() {
-            // `smallest` es el Reverse<T> del tope (el menor de los top k)
+        } else if let Some(smallest) = self.heap.peek() {
             if value > (smallest.0) {
-                // Reemplaza in-place el más pequeño
-                *smallest = Reverse(value);
+                self.heap.pop();
+                self.heap.push(Reverse(value));
             }
-            // Si no es mayor, se descarta
         }
     }
 
@@ -63,29 +60,20 @@ impl<T: Ord> TopK<T> {
         self.heap.into_iter().map(|rev| rev.0).collect()
     }
 
-    /// Extrae y devuelve todos los top k en un Vec ordenado de mayor a menor.
-    /// Consumirá el heap.
-    pub fn into_sorted(mut self) -> Vec<T> {
-        let mut v: Vec<T> = self.heap.drain().map(|rev| rev.0).collect();
-        // Actualmente `v` está en orden ascendente de los top k, invertimos:
-        v.sort_unstable_by(|a, b| b.cmp(a));
-        v
-    }
+    //creo que no es neceario porqueen la consigna al parecer me indican que no importa el orden de los top k
+    // /// Extrae y devuelve todos los top k en un Vec ordenado de mayor a menor.
+    // /// Consumirá el heap.
+    // pub fn into_sorted(mut self) -> Vec<T> {
+    //     let mut v: Vec<T> = self.heap.drain().map(|rev| rev.0).collect();
+    //     // Actualmente `v` está en orden ascendente de los top k, invertimos:
+    //     v.sort_unstable_by(|a, b| b.cmp(a));
+    //     v
+    // }
 }
 
 #[cfg(test)]
 mod tests {
     use super::TopK;
-
-    #[test]
-    fn basic_topk_sorted() {
-        let mut top3 = TopK::new(3);
-        for x in &[5, 1, 7, 3, 9, 2] {
-            top3.consider_include(*x);
-        }
-        let result = top3.into_sorted();
-        assert_eq!(result, vec![9, 7, 5]);
-    }
 
     #[test]
     fn basic_topk_unsorted() {

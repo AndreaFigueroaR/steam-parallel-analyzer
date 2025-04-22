@@ -1,22 +1,20 @@
-use std::collections::HashMap;
-use std::collections::BinaryHeap;
-use std::fs::File;
-use csv::Reader;
-use rayon::prelude::*;
-use std::cmp::Reverse;
-
-
+mod review_register;
+mod review;
 mod language_reviews_info;
 mod language_manager;
 mod game_info;
-mod review;
 mod utils;
 
+
+use std::collections::HashMap;
+use std::fs::File;
+use csv::Reader;
+use rayon::prelude::*;
+
+use crate::review_register::ReviewInfo;
 use crate::review::Review;
 use crate::game_info::GameInfo;
-
-mod review_register;
-use crate::review_register::ReviewInfo;
+use crate::utils::TopK;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let file =
@@ -58,42 +56,33 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     //OBTENGO SOLO LOS K GAMES CON MÁS REVIEWS.
     let k =3;
-    let mut complete_top_games_info = games_map.into_par_iter()
-        .map(|(_, v)| v)
-        .fold(||BinaryHeap::<Reverse<GameInfo>>::new(),|mut local_acc,game_info|{
-            if local_acc.len() < k {
-                local_acc.push(Reverse(game_info));
-            } else if local_acc.peek().unwrap().0 < game_info {
-                local_acc.pop();
-                local_acc.push(Reverse(game_info));
-            }
+    let complete_top_games_info = games_map.into_par_iter()
+        .map(|(_, game_info)| game_info)
+        .fold(||TopK::<GameInfo>::new(k),|mut local_acc,game_info|{
+            local_acc.consider_include(game_info);
             local_acc
         })
-        .reduce(||BinaryHeap::<Reverse<GameInfo>>::new(),|mut global_acc,mut local_acc: BinaryHeap<Reverse<GameInfo>>|{ 
-            while let Some(Reverse(game_info)) = local_acc.pop() {
-                if global_acc.len() < k {
-                    global_acc.push(Reverse(game_info));
-                } else if global_acc.peek().unwrap().0 <= game_info {
-                    global_acc.pop();
-                    global_acc.push(Reverse(game_info));
-                } 
-            }   
+        .reduce(||TopK::<GameInfo>::new(k),|mut global_acc,local_acc: TopK<GameInfo>|{ 
+            //el metodo into_unsorted vacia el local acc
+            local_acc.into_unsorted().into_iter().for_each(|game_info| {
+                global_acc.consider_include(game_info);
+            });
             global_acc
         });
-    let resumed_top_games_info: Vec<GameInfo> = complete_top_games_info
-        .drain()
-        .map(|mut reverse_game_info| {
-            reverse_game_info.0.par_filter_languages_to_highest_k(k);
-            reverse_game_info.0
 
-        })
-        .collect();
+    let resumed_top_games_info: Vec<GameInfo> = complete_top_games_info.into_unsorted()
+            .into_iter()
+            .map(|mut game_info| {
+                game_info.par_filter_languages_to_highest_k(k);
+                game_info
+
+            }).collect();
     
-    // for game_info in resumed_top_games_info{
-    //     println!("game: {:?}", game_info.game);
-    //     println!("review_count: {:?}", game_info.review_count);
-    //     println!("languages: {:?}", game_info.languages);
-    // }
+    for game_info in resumed_top_games_info{
+        println!("game: {:?}", game_info.game);
+        println!("review_count: {:?}", game_info.review_count);
+        println!("languages: {:?}", game_info.languages);
+    }
 
     Ok(())
 }
