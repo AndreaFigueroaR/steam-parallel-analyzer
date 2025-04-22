@@ -40,20 +40,6 @@ impl<T: Ord> TopK<T> {
         }
     }
 
-    /// Devuelve cuántos elementos hay actualmente (<= k).
-    pub fn len(&self) -> usize {
-        self.heap.len()
-    }
-
-    /// Devuelve true si no hay elementos.
-    pub fn is_empty(&self) -> bool {
-        self.heap.is_empty()
-    }
-
-    /// Devuelve el menor de los top k (es decir, el umbral mínimo), sin extraer.
-    pub fn peek_min(&self) -> Option<&T> {
-        self.heap.peek().map(|rev| &rev.0)
-    }
     /// Extrae y devuelve todos los top k en un `Vec` **sin** ordenarlos.
     /// Consumirá el heap, pero evita el coste de ordenamiento (O(k)).
     pub fn into_unsorted(self) -> Vec<T> {
