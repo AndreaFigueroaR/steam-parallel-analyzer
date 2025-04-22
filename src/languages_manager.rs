@@ -5,15 +5,15 @@ use rayon::prelude::*;
 use std::collections::HashMap;
 
 #[derive(Debug)]
-pub struct LanguageManager {
+pub struct LanguagesManager {
     pub languages: HashMap<String, LanguageReviewsInfo>,
     //el valor de este campo sirve para inicializar tosos los language_reviews_info que se fuesen a crear 
     pub top_reviews_retained: usize //Cantidad de top reviews de cada idioma a retener (para games solo es 1, para lenguages son los 10)
 }
 
-impl LanguageManager {
+impl LanguagesManager {
     pub fn new(reviews_to_retain:usize) -> Self {
-        LanguageManager {
+        LanguagesManager {
             languages: HashMap::new(),
             top_reviews_retained: reviews_to_retain
         }
@@ -33,7 +33,7 @@ impl LanguageManager {
     }
     
     // metodo para fusionar dos Languages Manangers
-    pub fn join(&mut self, other: LanguageManager) {
+    pub fn join(&mut self, other: LanguagesManager) {
         other.languages.into_iter().for_each(|(language, new_data)| {
             if self.languages.contains_key(&language){
                 self.languages.get_mut(&language).unwrap().join(new_data);

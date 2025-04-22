@@ -1,22 +1,23 @@
-use crate::language_manager::LanguageManager;
+use crate::languages_manager::LanguagesManager;
 use crate::review::Review;
 use std::{cmp::Ordering, usize};
 
 
 #[derive(Debug)]
 pub struct GameInfo {
+    pub id: u32,
     pub game : String,
     pub review_count: u32,//cuantos reviews hemos visto de este juego
-    pub languages: LanguageManager
+    pub languages: LanguagesManager
 }
 
 impl GameInfo {
     //crea su languageManager con la configuración para que solo mantenga el top review
-    pub fn new(game: String, language: String, review: Review ) -> Self {
+    pub fn new(id :u32, game: String, language: String, review: Review ) -> Self {
         //TODO: tener como constante este uno hardcodeado
-        let mut languages = LanguageManager::new(1);
+        let mut languages = LanguagesManager::new(1);
         languages.consider_review(language, review);
-        GameInfo { game,review_count: 1, languages }
+        GameInfo { id, game, review_count: 1, languages }
     }
 
     /// Método para considerar el contenido de un review unitario nuevo en el `GameInfo` actual.
@@ -30,6 +31,7 @@ impl GameInfo {
     /// Método de un GameInfo que se encarga de juntar dos GamesInfo de un mismo juego en dicha instancia. 
     /// La cantidad de reviews de este juego se actualiza como tambien se 
     pub fn join(&mut self, other: GameInfo) {
+        assert!(self.id == other.id);
         assert!(self.game == other.game);
         self.review_count += other.review_count;
         self.languages.join(other.languages);

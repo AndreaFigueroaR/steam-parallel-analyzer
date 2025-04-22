@@ -1,6 +1,6 @@
 use std::cmp::Ordering;
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Review {
     /// Review: contiene el contenido de un review y la cantidad de votos que indican que es útil. 
     pub cont: String,
