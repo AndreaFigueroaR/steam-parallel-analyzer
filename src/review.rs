@@ -2,9 +2,9 @@ use std::cmp::Ordering;
 
 #[derive(Clone)]
 pub struct Review {
-    /// Review: contiene el contenido de un review y la cantidad de votos que indican que es útil. 
+    /// Review: contiene el contenido de un review y la cantidad de votos que indican que es útil.
     cont: String,
-    votes: u32
+    votes: u32,
 }
 impl Review {
     /// Método que crea un nuevo Review con el contenido y la cantidad de votos que indican que es útil.
@@ -12,7 +12,7 @@ impl Review {
         Review { cont, votes }
     }
 }
-    /// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews
+/// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews
 impl PartialEq for Review {
     fn eq(&self, other: &Self) -> bool {
         self.votes == other.votes

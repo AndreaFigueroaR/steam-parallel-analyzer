@@ -10,7 +10,7 @@ pub struct ReviewInfo {
     pub language: String,
     pub review: String,
     #[serde(deserialize_with = "de_votes_helpful")]
-    pub votes_helpful: u32
+    pub votes_helpful: u32,
 }
 
 /// Función de deserialización personalizada para `votes_helpful` en vista de que hay al menos un registro que desborda el rango de u32
@@ -21,6 +21,6 @@ where
     let s: &str = Deserialize::deserialize(deserializer)?;
     match s.parse::<u32>() {
         Ok(v) => Ok(v),
-        Err(_) => Ok(0)
+        Err(_) => Ok(0),
     }
 }

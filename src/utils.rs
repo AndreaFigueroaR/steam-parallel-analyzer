@@ -44,7 +44,6 @@ impl<T: Ord> TopK<T> {
     pub fn into_unsorted(self) -> Vec<T> {
         self.heap.into_iter().map(|rev| rev.0).collect()
     }
-
 }
 
 #[cfg(test)]
