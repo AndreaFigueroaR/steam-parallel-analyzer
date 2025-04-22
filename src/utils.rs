@@ -1,0 +1,74 @@
+use std::cmp::Reverse;
+use std::collections::BinaryHeap;
+
+/// `TopK<T>` mantiene los `k` elementos máximos de tipo `T`.
+/// Usa un min-heap (almacenado como BinaryHeap<Reverse<T>>) para que
+/// el elemento más pequeño de los top k esté siempre en la raíz.
+pub struct TopK<T: Ord> {
+    heap: BinaryHeap<Reverse<T>>,
+    capacity: usize,
+}
+
+impl<T: Ord> TopK<T> {
+    /// Crea un nuevo TopK con capacidad para `k` elementos.
+    /// Si `k == 0`, el heap nunca almacenará elementos.
+    pub fn new(k: usize) -> Self {
+        TopK {
+            heap: BinaryHeap::with_capacity(k),
+            capacity: k,
+        }
+    }
+
+    /// Intenta insertar `value` en los top k.
+    /// - Si aún no hay k elementos, se inserta directamente.
+    /// - Si ya hay k elementos y `value` es mayor que el más pequeño
+    ///   de los actuales (es decir, el tope del min-heap), reemplaza
+    ///   ese tope; en caso contrario, se descarta.
+    pub fn consider_push(&mut self, value: T) {
+        if self.capacity == 0 {
+            return;
+        }
+
+        if self.heap.len() < self.capacity {
+            // Aún no alcanzamos k elementos: insertamos
+            self.heap.push(Reverse(value));
+        } else if let Some(mut smallest) = self.heap.peek_mut() {
+            // `smallest` es el Reverse<T> del tope (el menor de los top k)
+            if value > (smallest.0) {
+                // Reemplaza in-place el más pequeño
+                *smallest = Reverse(value);
+            }
+            // Si no es mayor, se descarta
+        }
+    }
+
+    /// Devuelve cuántos elementos hay actualmente (<= k).
+    pub fn len(&self) -> usize {
+        self.heap.len()
+    }
+
+    /// Devuelve true si no hay elementos.
+    pub fn is_empty(&self) -> bool {
+        self.heap.is_empty()
+    }
+
+    /// Devuelve el menor de los top k (es decir, el umbral mínimo), sin extraer.
+    pub fn peek_min(&self) -> Option<&T> {
+        self.heap.peek().map(|rev| &rev.0)
+    }
+    /// Extrae y devuelve todos los top k en un `Vec` **sin** ordenarlos.
+    /// Consumirá el heap, pero evita el coste de ordenamiento (O(k)).
+    pub fn into_unsorted(self) -> Vec<T> {
+        self.heap.into_iter().map(|rev| rev.0).collect()
+    }
+
+    /// Extrae y devuelve todos los top k en un Vec ordenado de mayor a menor.
+    /// Consumirá el heap.
+    pub fn into_sorted(mut self) -> Vec<T> {
+        let mut v: Vec<T> = self.heap.drain().map(|rev| rev.0).collect();
+        // Actualmente `v` está en orden ascendente de los top k, invertimos:
+        v.sort_unstable_by(|a, b| b.cmp(a));
+        v
+    }
+}
+
