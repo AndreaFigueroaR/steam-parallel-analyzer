@@ -1,15 +1,17 @@
 use std::cmp::Ordering;
+use serde::Serialize;
 
-#[derive(Clone)]
+
+#[derive(Clone, Serialize)]
 pub struct Review {
-    /// Review: contiene el contenido de un review y la cantidad de votos que indican que es útil.
-    cont: String,
-    votes: u32,
+    pub review: String,
+    pub votes: u32,
 }
+
 impl Review {
     /// Método que crea un nuevo Review con el contenido y la cantidad de votos que indican que es útil.
-    pub fn new(cont: String, votes: u32) -> Self {
-        Review { cont, votes }
+    pub fn new(review: String, votes: u32) -> Self {
+        Review { review, votes }
     }
 }
 /// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews
