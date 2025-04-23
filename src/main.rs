@@ -7,21 +7,17 @@ use collectors::{
     languages_collecting::languages_manager::LanguagesManager,
 };
 
-use dtos::{
-    review_register::ReviewRegister, 
-    review::Review,
-    program_output_dto::ProgramOutputDto
-};
+use dtos::{program_output_dto::ProgramOutputDto, review::Review, review_register::ReviewRegister};
 
 use csv::Reader;
 use rayon::ThreadPoolBuilder;
 use rayon::prelude::*;
+use serde_json;
 use std::env;
-use std::fs::{File,read_dir};
+use std::fs::{File, read_dir};
 use std::io;
 use std::io::BufWriter;
 use std::time::Instant;
-use serde_json;
 
 const CANT_LANGUAGES_PER_GAME: usize = 3;
 const CANT_REVIEWS_PER_LANGUAGE: usize = 10;
@@ -30,6 +26,7 @@ const CANT_TOP_K_GAMES: usize = 3;
 const CANT_TOP_K_LANGUAGES: usize = 3;
 
 const PADRON: u32 = 110450;
+
 fn main() -> io::Result<()> {
     let (directory_path, num_threads, output_filename) = arguments_parsing();
 
@@ -41,7 +38,8 @@ fn main() -> io::Result<()> {
     let registers_par_iterator = get_par_iter_throgh_rewiews(directory_path);
     //comienza el procesamiento: inicio a tomar el tiempo:
     let start = Instant::now();
-    let (mut games_manager, mut languages_manager) = registers_par_iterator
+    let (mut games_manager, mut languages_manager) =
+        registers_par_iterator
             .fold(
                 || {
                     (
@@ -93,19 +91,24 @@ fn main() -> io::Result<()> {
     games_manager.filter_games_top_k_languages_par(CANT_LANGUAGES_PER_GAME);
 
     languages_manager.par_filter_top_k_languages(CANT_TOP_K_LANGUAGES);
-    
+
     //printeo cuanto tiempo me tardé en procesar la data (no cuento cuanto tarde escribirla)
     println!("{:?}", start.elapsed());
-    //escribo la data en un archivo json    
-    save_json(output_filename, ProgramOutputDto{
-        padron: PADRON,
-        top_games:games_manager.into_serializable(),
-        top_languages: languages_manager.into_serializable()})
-        .unwrap();
+    save_json(
+        output_filename,
+        ProgramOutputDto::new(
+            PADRON,
+            games_manager.into_serializable(),
+            languages_manager.into_serializable(),
+        ),
+    )
+    .unwrap();
     Ok(())
 }
 
-fn get_par_iter_throgh_rewiews(directory_path: String) -> impl ParallelIterator<Item = ReviewRegister> {
+fn get_par_iter_throgh_rewiews(
+    directory_path: String,
+) -> impl ParallelIterator<Item = ReviewRegister> {
     read_dir(directory_path)
         .unwrap()
         .par_bridge()
@@ -121,7 +124,7 @@ fn get_par_iter_throgh_rewiews(directory_path: String) -> impl ParallelIterator<
         })
 }
 
-fn save_json<T: serde::Serialize>(path: String, output: T) ->  io::Result<()> {
+fn save_json<T: serde::Serialize>(path: String, output: T) -> io::Result<()> {
     let file = File::create(path)?;
     let mut writer = BufWriter::new(file);
     serde_json::to_writer_pretty(&mut writer, &output).unwrap();

@@ -1,7 +1,6 @@
-
 use crate::collectors::games_collecting::game_info::*;
+use crate::dtos::{game_dto::GameDto, review::Review};
 use crate::utils::top_k::TopK;
-use crate::dtos::{review::Review,game_dto::GameDto};
 
 use rayon::prelude::*;
 use std::collections::HashMap;
@@ -16,6 +15,7 @@ impl GamesManager {
             games: HashMap::new(),
         }
     }
+
     pub fn consider_review(&mut self, app_id: u32, game: String, language: String, review: Review) {
         if self.games.contains_key(&app_id) {
             self.games
@@ -27,6 +27,7 @@ impl GamesManager {
                 .insert(app_id, GameInfo::new(app_id, game, language, review));
         }
     }
+
     pub fn join(&mut self, other: GamesManager) {
         other.games.into_iter().for_each(|(app_id, game_info)| {
             if self.games.contains_key(&app_id) {
@@ -67,7 +68,7 @@ impl GamesManager {
             .map(|game_info| (game_info.get_id(), game_info))
             .collect();
         // como que 78 segundos con esta opcion
-        
+
         // // OPCION 2
         // if self.games.len() <= k {
         //     return;
@@ -89,9 +90,11 @@ impl GamesManager {
         });
     }
 
-    pub fn into_serializable(self) -> Vec<GameDto>{
-        self.games.into_iter().map(|(_, game_info)| {
-                game_info.into_serializable()
-        }).collect()
+    pub fn into_serializable(self) -> Vec<GameDto> {
+        self.games
+            .into_iter()
+            .map(|(_, game_info)| game_info.into_serializable())
+            .collect()
     }
+    
 }

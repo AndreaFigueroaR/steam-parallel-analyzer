@@ -1,14 +1,13 @@
 use crate::collectors::languages_collecting::languages_manager::LanguagesManager;
-use crate::dtos::{review::Review, game_dto::GameDto};
+use crate::dtos::{game_dto::GameDto, review::Review};
 use std::{cmp::Ordering, usize};
 
 pub struct GameInfo {
     id: u32,
     game: String,
-    review_count: u32, //cuantos reviews hemos visto de este juego
+    review_count: u32,
     languages: LanguagesManager,
 }
-
 
 impl GameInfo {
     pub const CANT_REVIEWS_PER_LANGUAGE: usize = 1;
@@ -24,6 +23,7 @@ impl GameInfo {
             languages,
         }
     }
+
     pub fn get_id(&self) -> u32 {
         self.id
     }
@@ -52,7 +52,11 @@ impl GameInfo {
     }
 
     pub fn into_serializable(self) -> GameDto {
-        GameDto::new(self.game, self.review_count, self.languages.into_serializable())
+        GameDto::new(
+            self.game,
+            self.review_count,
+            self.languages.into_serializable(),
+        )
     }
 }
 
@@ -70,7 +74,7 @@ impl PartialOrd for GameInfo {
     }
 }
 
-// 4) Ord: primero por review_count, luego por game
+// Ord: primero por review_count, luego por game
 impl Ord for GameInfo {
     fn cmp(&self, other: &Self) -> Ordering {
         match self.review_count.cmp(&other.review_count) {

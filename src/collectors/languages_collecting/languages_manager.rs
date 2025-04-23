@@ -1,5 +1,5 @@
 use crate::collectors::languages_collecting::language_reviews_info::LanguageReviewsInfo;
-use crate::dtos::{review::Review, language_dto::LanguageDto};
+use crate::dtos::{language_dto::LanguageDto, review::Review};
 use rayon::prelude::*;
 use std::collections::HashMap;
 
@@ -9,7 +9,6 @@ pub struct LanguagesManager {
 }
 
 impl LanguagesManager {
-
     pub fn new(reviews_to_retain: usize) -> Self {
         LanguagesManager {
             languages: HashMap::new(),
@@ -60,12 +59,10 @@ impl LanguagesManager {
         self.languages = items.into_iter().collect();
     }
 
-    pub fn into_serializable(self) -> Vec<LanguageDto>{
-        self.languages.into_iter().map(|(_, language_info)| {
-                language_info.into_serializable()
-        }).collect()
+    pub fn into_serializable(self) -> Vec<LanguageDto> {
+        self.languages
+            .into_iter()
+            .map(|(_, language_info)| language_info.into_serializable())
+            .collect()
     }
-
 }
-
-

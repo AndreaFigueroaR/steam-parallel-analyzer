@@ -1,6 +1,5 @@
-use std::cmp::Ordering;
 use serde::Serialize;
-
+use std::cmp::Ordering;
 
 #[derive(Clone, Serialize)]
 pub struct Review {

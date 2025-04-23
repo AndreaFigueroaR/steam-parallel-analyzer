@@ -1,26 +1,28 @@
 use crate::dtos::review::Review;
-
-use serde::ser::{ Serialize, SerializeStruct, Serializer};
+use serde::ser::{Serialize, SerializeStruct, Serializer};
 
 const UNIQUE_LANGUAGE: usize = 1;
 const BASE_COUNT_FILEDS_DESERIALIZATION: usize = 2;
 
-const HEADER_LANGUAGE_NAME :&str = "language";
-const HEADER_REVIEW_COUNT :&str = "review_count";
+const HEADER_LANGUAGE_NAME: &str = "language";
+const HEADER_REVIEW_COUNT: &str = "review_count";
 const HEADERS_SINGLE_TOP_REVIEW: [&str; 2] = ["top_review", "top_review_votes"];
-const HEADER_MULT_TOP_REVIEWS :&str = "top_reviews";
-
+const HEADER_MULT_TOP_REVIEWS: &str = "top_reviews";
 
 /// Version of LanguageReviewsInfo deserializable
 pub struct LanguageDto {
-    pub language: String,
-    pub review_count: u32,
-    pub top_reviews: Vec<Review>
+    language: String,
+    review_count: u32,
+    top_reviews: Vec<Review>,
 }
 
-impl LanguageDto{
+impl LanguageDto {
     pub fn new(language: String, review_count: u32, top_reviews: Vec<Review>) -> Self {
-        LanguageDto { language, review_count, top_reviews }
+        LanguageDto {
+            language,
+            review_count,
+            top_reviews,
+        }
     }
 }
 
@@ -30,13 +32,18 @@ impl Serialize for LanguageDto {
         S: Serializer,
     {
         //Calculo de los campos
-        let fields_cant = BASE_COUNT_FILEDS_DESERIALIZATION + if self.top_reviews.len() == UNIQUE_LANGUAGE { 2 } else { 1 };
+        let fields_cant = BASE_COUNT_FILEDS_DESERIALIZATION
+            + if self.top_reviews.len() == UNIQUE_LANGUAGE {
+                2
+            } else {
+                1
+            };
         let mut state = serializer.serialize_struct("LanguageDto", fields_cant)?;
-        
+
         //Campos siempre presentes
         state.serialize_field(HEADER_LANGUAGE_NAME, &self.language)?;
         state.serialize_field(HEADER_REVIEW_COUNT, &self.review_count)?;
-        
+
         //FOrmato diferente según la cantidad de top_reviews
         if self.top_reviews.len() == UNIQUE_LANGUAGE {
             let top_review = &self.top_reviews[UNIQUE_LANGUAGE - 1];
@@ -45,7 +52,7 @@ impl Serialize for LanguageDto {
         } else {
             state.serialize_field(HEADER_MULT_TOP_REVIEWS, &self.top_reviews)?;
         }
-        
+
         state.end()
     }
 }

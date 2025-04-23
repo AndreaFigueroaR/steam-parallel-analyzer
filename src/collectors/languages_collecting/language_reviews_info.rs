@@ -1,4 +1,4 @@
-use crate::dtos::{review::Review, language_dto::LanguageDto};
+use crate::dtos::{language_dto::LanguageDto, review::Review};
 use crate::utils::top_k::TopK;
 
 use std::cmp::Ordering;
@@ -9,7 +9,6 @@ pub struct LanguageReviewsInfo {
     review_count: u32,
     top_reviews: TopK<Review>,
 }
-
 
 impl LanguageReviewsInfo {
     /// Método que crea un nuevo LanguageReviewsInfo con el nombre del idioma, a partir de la información del primer review en este idioma registrado.
@@ -41,10 +40,13 @@ impl LanguageReviewsInfo {
             self.top_reviews.consider_include(value);
         }
     }
-    pub fn into_serializable(self)-> LanguageDto{
-        LanguageDto::new(self.language, self.review_count,self.top_reviews.into_unsorted())
+    pub fn into_serializable(self) -> LanguageDto {
+        LanguageDto::new(
+            self.language,
+            self.review_count,
+            self.top_reviews.into_unsorted(),
+        )
     }
-
 }
 
 impl PartialEq for LanguageReviewsInfo {
@@ -73,5 +75,3 @@ impl Ord for LanguageReviewsInfo {
         }
     }
 }
-
-
