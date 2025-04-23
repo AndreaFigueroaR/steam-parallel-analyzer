@@ -2,8 +2,7 @@ use std::cmp::Reverse;
 use std::collections::BinaryHeap;
 
 /// `TopK<T>` mantiene los `k` elementos máximos de tipo `T`.
-/// Usa un min-heap (almacenado como BinaryHeap<Reverse<T>>) para que
-/// el elemento más pequeño de los top k esté siempre en la raíz.
+/// Usa un min-heap para que el elemento más pequeño de los top k sea accesible y reemplazable por un "mejor" elemento en O(log k)
 pub struct TopK<T: Ord> {
     heap: BinaryHeap<Reverse<T>>,
     capacity: usize,

@@ -2,7 +2,7 @@ use crate::collectors::languages_collecting::languages_manager::LanguagesManager
 use crate::dtos::{game_dto::GameDto, review::Review};
 use std::{cmp::Ordering, usize};
 
-/// Estructura util para colectar la información de un juego en particular.
+/// Estructura util para colectar la información de un juego en particular de forma eficiente.
 /// Además de contener información relativa al juego como tal (id, nombre, cuenta de cuantos reviews hubo de este), se colecta tambipen información de las reviews del mismo segregadas por el lenguage: esto mediante la composicón con un `LanguageManager``
 pub struct GameInfo {
     /// ID del juego (único) del que la instancia  guarda y guardará información.
@@ -60,13 +60,14 @@ impl GameInfo {
         self.review_count += other.review_count;
         self.languages.join(other.languages);
     }
-
-    /// Método que concurrentemente, mediante reduce la información guardada por cada idioma de los reviews del juego para dejar solo la información de los top k lenguages con más reviews o en caso de empate or orden alfabético.
-    /// No altera el orden con respecto a otros GameInfos.
+    /// Método que altera los reviews propiamente guardados (segregados por lenguage) del juego para solo retener, de todos los lenguages registrados, sus `k` más importantes reviews (más votadas)
+    /// El método no afecta el orden respecto a otras instancias de `GameInfo`
     pub fn par_filter_languages_to_highest_k(&mut self, k: usize) {
         self.languages.par_filter_top_k_languages(k);
     }
 
+    /// Método que toma la propiedad de la instancia de `GameInfo` (posteriormente no se podrá usar) y devuelve su versión como data transfer object.
+    /// La estructura `GameDto` devuelta en escencia contiene la misma información que anteriormente tenía el `GameInfo` en un formato serializable. 
     pub fn into_serializable(self) -> GameDto {
         GameDto::new(
             self.game,
@@ -90,7 +91,7 @@ impl PartialOrd for GameInfo {
     }
 }
 
-// Ord: primero por review_count, luego por game
+// Establezco orden que considere primero el campo `review_count` luego el campo `game`  (nombre del juego)
 impl Ord for GameInfo {
     fn cmp(&self, other: &Self) -> Ordering {
         match self.review_count.cmp(&other.review_count) {
