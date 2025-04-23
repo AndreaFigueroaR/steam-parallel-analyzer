@@ -21,7 +21,7 @@ impl GamesManager {
             self.games
                 .get_mut(&app_id)
                 .unwrap()
-                .consider_review(language, review);
+                .consider_review(app_id,language, review);
         } else {
             self.games
                 .insert(app_id, GameInfo::new(app_id, game, language, review));
@@ -41,9 +41,10 @@ impl GamesManager {
     // Teniendo en consideración que la cantidad de juegos es mucho mayor a la cantidad de lenguages-> se decide usar el algoritmo de top k para que el manager de juegos se quede solo con los k más reviewd games.
     // Implementación concurrente
     pub fn par_filter_top_k_games(&mut self, k: usize) {
-        //OPCION 1
+        if self.games.len() <= k {
+            return;
+        }
         let items: Vec<(u32, GameInfo)> = self.games.drain().collect();
-        //creo un TopK con el tamaño k y con los valores de las claves
         self.games = items
             .into_par_iter()
             .map(|(_, game_info)| game_info)
@@ -67,20 +68,6 @@ impl GamesManager {
             .into_iter()
             .map(|game_info| (game_info.get_id(), game_info))
             .collect();
-        // como que 78 segundos con esta opcion
-
-        // // OPCION 2
-        // if self.games.len() <= k {
-        //     return;
-        // }
-        // let mut items: Vec<(u32, GameInfo)> = self.games.drain().collect();
-        // items.par_sort_by(|(_, game_info_a), (_, game_info_b)| {
-        //     game_info_b.cmp(game_info_a)
-        // });
-        // items.truncate(k);
-        // self.games = items.into_iter().collect();
-        // // // mejora en tiempo: 72 segundos con un hilo
-        // // 87.20894438s con dos hilos
     }
 
     /// Método que filtra cada juego para que solo mantenga los k lenguages con más reviews. De forma que por cada juego se lleve a cabo secuencialmente mientras que por cada lenguage de cada juego se lleva a cabo secuencialmente
@@ -96,5 +83,4 @@ impl GamesManager {
             .map(|(_, game_info)| game_info.into_serializable())
             .collect()
     }
-    
 }

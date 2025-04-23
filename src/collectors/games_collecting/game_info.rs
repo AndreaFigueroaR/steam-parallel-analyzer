@@ -2,17 +2,27 @@ use crate::collectors::languages_collecting::languages_manager::LanguagesManager
 use crate::dtos::{game_dto::GameDto, review::Review};
 use std::{cmp::Ordering, usize};
 
+/// Estructura util para colectar la información de un juego en particular.
+/// Además de contener información relativa al juego como tal (id, nombre, cuenta de cuantos reviews hubo de este), se colecta tambipen información de las reviews del mismo segregadas por el lenguage: esto mediante la composicón con un `LanguageManager``
 pub struct GameInfo {
+    /// ID del juego (único) del que la instancia  guarda y guardará información.
     id: u32,
+    /// Nombre del juego del que se está guardando información.
     game: String,
+    /// Cuenta de cuantos reviews se han considerado en la presente instancia de información del juego.
     review_count: u32,
+    /// Administrador de lenguages que guardará solo `CANT_REVIEWS_PER_LANGUAGE` reviews por cada lnguage registrado en reviews del juego.
     languages: LanguagesManager,
 }
 
 impl GameInfo {
+    /// Constante de cuantas reviews (con mayor cantidad de votos) por lenguage se enecsitan mantener para la información del juego.
+    /// Como solo se necesita la más votada por cada lenguage el valor es 1.
     pub const CANT_REVIEWS_PER_LANGUAGE: usize = 1;
 
-    //crea su languageManager con la configuración para que solo mantenga el top review
+    /// Crea una instancia de un `GameInfo` sabiendo que para un juego sea registrado debe havber sido encontrado mediante una Review
+    /// La review del juego debe proporcionar información básica sobre el mismo: el id del mismo, el nombre del juego, el lenguage de la review del juego así como también la información propia al contenido de la review.
+    /// El contenido de la review en  determinado lenguage es considerado para mantener el registro de el top review de cada lenguage (relativo a este juego).
     pub fn new(id: u32, game: String, language: String, review: Review) -> Self {
         let mut languages = LanguagesManager::new(GameInfo::CANT_REVIEWS_PER_LANGUAGE);
         languages.consider_review(language, review);
@@ -24,20 +34,26 @@ impl GameInfo {
         }
     }
 
+    /// Getter del id del juego sobre el cual esta instancia guarda información.
     pub fn get_id(&self) -> u32 {
         self.id
     }
 
-    /// Método para considerar el contenido de un review unitario nuevo en el `GameInfo` actual.
-    /// Para lo cual se actualiza la cuenta de reviews de este juego así como también se incorporan los datos en el 'languageManager' interno
-    /// El langugage manager mantendrá actualizado cual es el review su correspondiente lenguage con la mayor cantidad de votos como útil.
-    pub fn consider_review(&mut self, language: String, review: Review) {
+    /// Método que considera una review unitaria (debe ser relativa al mismo juego) en la información que se recopila  en la instancia de `GameInfo` actual.
+    /// - En caso de tratar de incorporar información de una review juego distinto se lanza un panic.
+    /// De brindar información nueva válida del juego: 
+    /// - El review afectará la cuenta de reviews del mismo
+    /// - Y también los datos segregados por lengauge que se guardan (no necesariamente se almacena, solo de ser parte del top `CANT_REVIEWS_PER_LANGUAGE` del lenguage en el que está el review).
+    pub fn consider_review(&mut self, app_id: u32, language: String, review: Review) {
+        assert!(self.id == app_id, "Se trató de incorporar una review de un juego distinto al que abarca la instancia de `GameInfo");
         self.review_count += 1;
         self.languages.consider_review(language, review);
     }
 
-    /// Método de un GameInfo que se encarga de juntar dos GamesInfo de un mismo juego en dicha instancia.
-    /// La cantidad de reviews de este juego se actualiza como tambien se
+    /// Método que junta el contenido del otro `GameInfo` dado en esta instancia.
+    /// Después de llamar a este método l:
+    /// - La instancia de `GameInfo` recibida como argumento no podrá ser usada pues se toma el ownership del mismo.
+    /// - La instancia actual tendrá considerada en la información que retiene los datos de ambas instancias. 
     pub fn join(&mut self, other: GameInfo) {
         assert!(self.id == other.id);
         assert!(self.game == other.game);
@@ -45,7 +61,7 @@ impl GameInfo {
         self.languages.join(other.languages);
     }
 
-    /// metodo que concurrentemente reduce la información guardada por cada idioma de los reviews del juego para dejar solo la información de los top k lenguages con más reviews o en caso de empate or orden alfabético.
+    /// Método que concurrentemente, mediante reduce la información guardada por cada idioma de los reviews del juego para dejar solo la información de los top k lenguages con más reviews o en caso de empate or orden alfabético.
     /// No altera el orden con respecto a otros GameInfos.
     pub fn par_filter_languages_to_highest_k(&mut self, k: usize) {
         self.languages.par_filter_top_k_languages(k);

@@ -1,2 +1,2 @@
-pub mod top_k;
 pub mod io;
+pub mod top_k;
