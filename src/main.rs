@@ -1,23 +1,27 @@
-mod game_info;
-mod games_manager;
-mod language_reviews_info;
-mod languages_manager;
-mod review;
-mod review_register;
+mod collectors;
+mod dtos;
 mod utils;
+
+use collectors::{
+    games_collecting::games_manager::GamesManager,
+    languages_collecting::languages_manager::LanguagesManager,
+};
+
+use dtos::{
+    review_register::ReviewRegister, 
+    review::Review,
+    program_output_dto::ProgramOutputDto
+};
 
 use csv::Reader;
 use rayon::ThreadPoolBuilder;
 use rayon::prelude::*;
 use std::env;
-use std::fs::File;
-use std::fs::read_dir;
+use std::fs::{File,read_dir};
 use std::io;
-
-use crate::games_manager::GamesManager;
-use crate::languages_manager::LanguagesManager;
-use crate::review::Review;
-use crate::review_register::ReviewInfo;
+use std::io::BufWriter;
+use std::time::Instant;
+use serde_json;
 
 const CANT_LANGUAGES_PER_GAME: usize = 3;
 const CANT_REVIEWS_PER_LANGUAGE: usize = 10;
@@ -25,6 +29,7 @@ const CANT_REVIEWS_PER_LANGUAGE: usize = 10;
 const CANT_TOP_K_GAMES: usize = 3;
 const CANT_TOP_K_LANGUAGES: usize = 3;
 
+const PADRON: u32 = 110450;
 fn main() -> io::Result<()> {
     let (directory_path, num_threads, output_filename) = arguments_parsing();
 
@@ -33,17 +38,10 @@ fn main() -> io::Result<()> {
         .build_global()
         .expect("Error al configurar el pool de hilos de Rayon");
 
-    let (mut games_manager, mut languages_manager) =
-        read_dir(directory_path)
-            .unwrap()
-            .par_bridge()
-            .map(|d| d.unwrap().path())
-            .filter(|path| path.is_file() && path.extension().map_or(false, |ext| ext == "csv"))
-            .flat_map(|path| {
-                let file = File::open(path).unwrap();
-                let reader = Reader::from_reader(file);
-                reader.into_deserialize::<ReviewInfo>().par_bridge()
-            })
+    let registers_par_iterator = get_par_iter_throgh_rewiews(directory_path);
+    //comienza el procesamiento: inicio a tomar el tiempo:
+    let start = Instant::now();
+    let (mut games_manager, mut languages_manager) = registers_par_iterator
             .fold(
                 || {
                     (
@@ -55,15 +53,15 @@ fn main() -> io::Result<()> {
                     GamesManager,
                     LanguagesManager,
                 ),
-                 result_reading| {
-                    let ReviewInfo {
+                 register| {
+                    let ReviewRegister {
                         app_id,
                         app_name: game,
                         language,
                         review: cont,
                         votes_helpful: votes,
                         ..
-                    } = result_reading.unwrap();
+                    } = register;
                     let review_cont = Review::new(cont, votes);
                     local_games_manager.consider_review(
                         app_id,
@@ -95,14 +93,40 @@ fn main() -> io::Result<()> {
     games_manager.filter_games_top_k_languages_par(CANT_LANGUAGES_PER_GAME);
 
     languages_manager.par_filter_top_k_languages(CANT_TOP_K_LANGUAGES);
-
-    // println!("{:?}",languages_manager);
-
-    //TODO implementar deserializador
+    
+    //printeo cuanto tiempo me tardé en procesar la data (no cuento cuanto tarde escribirla)
+    println!("{:?}", start.elapsed());
+    //escribo la data en un archivo json    
+    save_json(output_filename, ProgramOutputDto{
+        padron: PADRON,
+        top_games:games_manager.into_serializable(),
+        top_languages: languages_manager.into_serializable()})
+        .unwrap();
     Ok(())
 }
 
-// fn save_json_output()
+fn get_par_iter_throgh_rewiews(directory_path: String) -> impl ParallelIterator<Item = ReviewRegister> {
+    read_dir(directory_path)
+        .unwrap()
+        .par_bridge()
+        .map(|d| d.unwrap().path())
+        .filter(|path| path.is_file() && path.extension().map_or(false, |ext| ext == "csv"))
+        .flat_map(|path| {
+            let file = File::open(path).unwrap();
+            let reader = Reader::from_reader(file);
+            reader
+                .into_deserialize::<ReviewRegister>()
+                .par_bridge()
+                .filter_map(Result::ok)
+        })
+}
+
+fn save_json<T: serde::Serialize>(path: String, output: T) ->  io::Result<()> {
+    let file = File::create(path)?;
+    let mut writer = BufWriter::new(file);
+    serde_json::to_writer_pretty(&mut writer, &output).unwrap();
+    Ok(())
+}
 
 fn arguments_parsing() -> (String, usize, String) {
     let mut args = env::args().skip(1);

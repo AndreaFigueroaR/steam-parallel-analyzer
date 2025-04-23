@@ -1,13 +1,14 @@
-use crate::languages_manager::LanguagesManager;
-use crate::review::Review;
+use crate::collectors::languages_collecting::languages_manager::LanguagesManager;
+use crate::dtos::{review::Review, game_dto::GameDto};
 use std::{cmp::Ordering, usize};
 
 pub struct GameInfo {
-    pub id: u32,
+    id: u32,
     game: String,
     review_count: u32, //cuantos reviews hemos visto de este juego
     languages: LanguagesManager,
 }
+
 
 impl GameInfo {
     pub const CANT_REVIEWS_PER_LANGUAGE: usize = 1;
@@ -22,6 +23,9 @@ impl GameInfo {
             review_count: 1,
             languages,
         }
+    }
+    pub fn get_id(&self) -> u32 {
+        self.id
     }
 
     /// Método para considerar el contenido de un review unitario nuevo en el `GameInfo` actual.
@@ -45,6 +49,10 @@ impl GameInfo {
     /// No altera el orden con respecto a otros GameInfos.
     pub fn par_filter_languages_to_highest_k(&mut self, k: usize) {
         self.languages.par_filter_top_k_languages(k);
+    }
+
+    pub fn into_serializable(self) -> GameDto {
+        GameDto::new(self.game, self.review_count, self.languages.into_serializable())
     }
 }
 

@@ -1,14 +1,16 @@
-use crate::review::Review;
-use crate::utils::TopK;
+use crate::dtos::{review::Review, language_dto::LanguageDto};
+use crate::utils::top_k::TopK;
+
 use std::cmp::Ordering;
 
 /// LanguageReviewsInfo: contiene, respeto a un idioma, el nombre, la cantidad de reviews que se registraronen este idioma y el top review en este idioma (contenido y cantidad de votos que indican que es útil)
 pub struct LanguageReviewsInfo {
-    name: String,
-    review_count: u32, //cuenta de los reviews en este idioma
+    language: String,
+    review_count: u32,
     top_reviews: TopK<Review>,
 }
-//tambien podría tener un top k binaryHeap
+
+
 impl LanguageReviewsInfo {
     /// Método que crea un nuevo LanguageReviewsInfo con el nombre del idioma, a partir de la información del primer review en este idioma registrado.
     /// Para lo cual teiene en cuenta la cantidad de reviews y el top review de
@@ -16,7 +18,7 @@ impl LanguageReviewsInfo {
         let mut top_reviews: TopK<Review> = TopK::new(reviews_to_retain);
         top_reviews.consider_include(review);
         LanguageReviewsInfo {
-            name: language,
+            language,
             review_count: 1,
             top_reviews,
         }
@@ -30,7 +32,7 @@ impl LanguageReviewsInfo {
     /// Método que junta la información de otro LanguageReviewsInfo (otra info del mismo lenguage) en esta instancia.
     /// Actualizando la cuenta de reviews del lenguage y actualizando cuál es el review más útil en este lenguage
     pub fn join(&mut self, other: LanguageReviewsInfo) {
-        assert!(self.name == other.name);
+        assert!(self.language == other.language);
         self.review_count += other.review_count;
         //podría cambiarlo por una implementación de Ord de los Reviews que solo tenga en cuenta cual es la más útil
         //debería hacer un merge de los review counts
@@ -39,12 +41,16 @@ impl LanguageReviewsInfo {
             self.top_reviews.consider_include(value);
         }
     }
+    pub fn into_serializable(self)-> LanguageDto{
+        LanguageDto::new(self.language, self.review_count,self.top_reviews.into_unsorted())
+    }
+
 }
 
 impl PartialEq for LanguageReviewsInfo {
     /// Implementación personalizada que considera para la comparación de LanguageReviewsInfo solo la cantidad de reviews en dicho lenguage y en caso de "empate" el nombre del lenguage
     fn eq(&self, other: &Self) -> bool {
-        self.review_count == other.review_count && self.name == other.name
+        self.review_count == other.review_count && self.language == other.language
     }
 }
 
@@ -62,8 +68,10 @@ impl Ord for LanguageReviewsInfo {
     /// Implementación que establece el el orden de los `LanguageReviewsInfo` primero por `review_count` y si ambos tienen la misma cantidad de reseñas, desempata usando el nombre del idioma.
     fn cmp(&self, other: &Self) -> Ordering {
         match self.review_count.cmp(&other.review_count) {
-            Ordering::Equal => self.name.cmp(&other.name),
+            Ordering::Equal => self.language.cmp(&other.language),
             other_ordering => other_ordering,
         }
     }
 }
+
+
