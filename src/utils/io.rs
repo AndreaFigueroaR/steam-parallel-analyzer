@@ -13,6 +13,7 @@ const BAD_NUM_TREADS: &str = "El número de worker threads debe ser un entero po
 pub struct IO {}
 
 impl IO {
+    /// Método que obtiene de la linea de comandos  los argumentos: directorio de donde se leeran los datos, numero de workers y finalmente el nombre bajo el cual se guardará el resultado del procesamiento 
     pub fn parse_command_line_args() -> (String, usize, String) {
         let mut args = env::args().skip(1);
 
@@ -33,7 +34,7 @@ impl IO {
             .collect::<Vec<PathBuf>>()
     }
 
-    //metodoque lee los archivos csv de un directorio y devuelve un iterador paralelo de ReviewRegister
+    /// metodo que lee los archivos csv de un directorio y devuelve un iterador paralelo de ReviewRegister sobre los registros de los archivos csv en el directorio
     pub fn par_iter_into_rewiews(
         directory_path: String,
     ) -> impl ParallelIterator<Item = ReviewRegister> {
