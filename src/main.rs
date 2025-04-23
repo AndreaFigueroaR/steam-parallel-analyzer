@@ -9,11 +9,13 @@ use collectors::{
 
 use dtos::{program_output_dto::ProgramOutputDto, review::Review, review_register::ReviewRegister};
 
+use utils::command_line_parser::CommandLineParser;
+
 use csv::Reader;
 use rayon::ThreadPoolBuilder;
 use rayon::prelude::*;
 use serde_json;
-use std::env;
+
 use std::fs::{File, read_dir};
 use std::io;
 use std::io::BufWriter;
@@ -28,7 +30,7 @@ const CANT_TOP_K_LANGUAGES: usize = 3;
 const PADRON: u32 = 110450;
 
 fn main() -> io::Result<()> {
-    let (directory_path, num_threads, output_filename) = arguments_parsing();
+    let (directory_path, num_threads, output_filename) = CommandLineParser::arguments_parsing();
 
     ThreadPoolBuilder::new()
         .num_threads(num_threads)
@@ -129,24 +131,4 @@ fn save_json<T: serde::Serialize>(path: String, output: T) -> io::Result<()> {
     let mut writer = BufWriter::new(file);
     serde_json::to_writer_pretty(&mut writer, &output).unwrap();
     Ok(())
-}
-
-fn arguments_parsing() -> (String, usize, String) {
-    let mut args = env::args().skip(1);
-
-    let directory_path = args
-        .next()
-        .expect("Uso: programa <DIRECTORIO> <NUM_HILOS> <OUTPUT_FILENAME>");
-
-    let num_threads: usize = args
-        .next()
-        .expect("Uso: programa <DIRECTORIO> <NUM_HILOS> <OUTPUT_FILENAME>")
-        .parse()
-        .expect("El número de worker threads debe ser un entero positivo");
-
-    let output_filename = args
-        .next()
-        .expect("Uso: programa <DIRECTORIO> <NUM_HILOS> <OUTPUT_FILENAME>");
-
-    (directory_path, num_threads, output_filename)
 }
