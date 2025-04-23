@@ -4,6 +4,7 @@ use crate::utils::top_k::TopK;
 
 use rayon::prelude::*;
 use std::collections::HashMap;
+
 /// Estructura que se maneja las `top_reviews_retained` reviews más importantes (más votadas) consideradas en esta instancia, segregandolas por lenguage. 
 /// Proporciona  ina interfaz segura mediante la cual se puede considerar nuevas reviews dentro de la información relativa al lenguage en la que está dicha review. 
 /// Al considerar una review esta puede o no terminar siendo literalmente almacenada (dependiendo de si es de las más votadas) pero siempre influirá en la cuenta de reviews de su lenguage.
@@ -38,7 +39,7 @@ impl LanguagesManager {
         }
     }
 
-    // metodo para fusionar dos Languages Manangers
+    // metodo para fusionar dos Languages Manangers  fusionando informaciones del mismo lenguage y agregando la de nuevos lenguages.
     pub fn join(&mut self, other: LanguagesManager) {
         other
             .languages

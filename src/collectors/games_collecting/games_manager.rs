@@ -5,6 +5,9 @@ use crate::utils::top_k::TopK;
 use rayon::prelude::*;
 use std::collections::HashMap;
 
+/// Estructura que se maneja las `top_reviews_retained` reviews más importantes (más votadas) consideradas en esta instancia, segregandolas por lenguage. 
+/// Proporciona  ina interfaz segura mediante la cual se puede considerar nuevas reviews dentro de la información relativa al lenguage en la que está dicha review. 
+/// Al considerar una review esta puede o no terminar siendo literalmente almacenada (dependiendo de si es de las más votadas) pero siempre influirá en la cuenta de reviews de su lenguage.
 pub struct GamesManager {
     games: HashMap<u32, GameInfo>,
 }
@@ -16,6 +19,7 @@ impl GamesManager {
         }
     }
 
+    /// Método para considerar un review unitario, de cualquier juego, actualizando el estado guardado del juegode ya haber sido registrado o en caso de no haberse registrado previamente se crea la  información del juego basándose en esta primera review.
     pub fn consider_review(&mut self, app_id: u32, game: String, language: String, review: Review) {
         if self.games.contains_key(&app_id) {
             self.games
@@ -28,6 +32,10 @@ impl GamesManager {
         }
     }
 
+    /// Método que fusiona la instancia dada de `GamesManager` con la instancia actual.
+    /// - La instancia de `GamesManager` recibida como argumento no podrá ser usada pues se toma el ownership del mismo.
+    /// - La instancia actual tendrá considerada en la información que retiene los datos de ambas instancias.
+    /// - En caso de que haya juegos repetidos en ambas instancias se hace un merge de la información de ambos juegos. 
     pub fn join(&mut self, other: GamesManager) {
         other.games.into_iter().for_each(|(app_id, game_info)| {
             if self.games.contains_key(&app_id) {
@@ -38,8 +46,8 @@ impl GamesManager {
         });
     }
 
-    // Teniendo en consideración que la cantidad de juegos es mucho mayor a la cantidad de lenguages-> se decide usar el algoritmo de top k para que el manager de juegos se quede solo con los k más reviewd games.
-    // Implementación concurrente
+    /// Método que modifica la instancia actual de `GamesManager` para que solo mantenga los `k` juegos con más reviews.
+    /// El filtrado a los k juegos con más reviews se hace de forma paralela mediante una implementación concurrente del algoritmo top k.
     pub fn par_filter_top_k_games(&mut self, k: usize) {
         if self.games.len() <= k {
             return;
@@ -77,6 +85,8 @@ impl GamesManager {
         });
     }
 
+    /// Método que toma la propiedad de la instancia de `GamesManager` (posteriormente no se podrá usar) y devuelve su versión como data transfer object.
+    /// La estructura `Vec<GameDto>` devuelta en escencia contiene la misma información que anteriormente tenía el `GamesManager` en un formato serializable. 
     pub fn into_serializable(self) -> Vec<GameDto> {
         self.games
             .into_iter()
