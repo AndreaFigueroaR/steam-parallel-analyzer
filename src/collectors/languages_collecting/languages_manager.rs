@@ -5,14 +5,14 @@ use crate::utils::top_k::TopK;
 use rayon::prelude::*;
 use std::collections::HashMap;
 
-/// Estructura que se maneja las `top_reviews_retained` reviews más importantes (más votadas) consideradas en esta instancia, segregandolas por lenguage. 
-/// Proporciona  ina interfaz segura mediante la cual se puede considerar nuevas reviews dentro de la información relativa al lenguage en la que está dicha review. 
+/// Estructura que se maneja las `top_reviews_retained` reviews más importantes (más votadas) consideradas en esta instancia, segregandolas por lenguage.
+/// Proporciona  ina interfaz segura mediante la cual se puede considerar nuevas reviews dentro de la información relativa al lenguage en la que está dicha review.
 /// Al considerar una review esta puede o no terminar siendo literalmente almacenada (dependiendo de si es de las más votadas) pero siempre influirá en la cuenta de reviews de su lenguage.
 pub struct LanguagesManager {
     /// Lenguages que se han considerado en esta instancia junto a sus top `top_reviews_retained` reviews (las de más votos).
     languages: HashMap<String, LanguageReviewsInfo>,
     /// Cantidad de reviews de cada idioma que serán literalmente guardadas (contenido y su cantidad de calificaciones como util: `votes`)
-    top_reviews_retained: usize, 
+    top_reviews_retained: usize,
 }
 
 impl LanguagesManager {
@@ -60,7 +60,7 @@ impl LanguagesManager {
         if self.languages.len() <= k {
             return;
         }
-        let items : Vec<(String,LanguageReviewsInfo)> = self.languages.drain().collect();
+        let items: Vec<(String, LanguageReviewsInfo)> = self.languages.drain().collect();
         self.languages = items
             .into_par_iter()
             .map(|(_, language_info)| language_info)
@@ -74,9 +74,12 @@ impl LanguagesManager {
             .reduce(
                 || TopK::<LanguageReviewsInfo>::new(k),
                 |mut global_acc, local_acc| {
-                    local_acc.into_unsorted().into_iter().for_each(|language_info| {
-                        global_acc.consider_include(language_info);
-                    });
+                    local_acc
+                        .into_unsorted()
+                        .into_iter()
+                        .for_each(|language_info| {
+                            global_acc.consider_include(language_info);
+                        });
                     global_acc
                 },
             )
@@ -84,11 +87,10 @@ impl LanguagesManager {
             .into_iter()
             .map(|language_info| (language_info.get_name(), language_info))
             .collect();
-        
     }
 
     /// Método que toma la propiedad de la instancia de `LanguagesManager` (posteriormente no se podrá usar) y devuelve su versión como data transfer object.
-    /// El vector de `LanguageDto` devuelto en escencia contienen la información que anteriormente tenía el `LanguagesManager` en un formato serializable. 
+    /// El vector de `LanguageDto` devuelto en escencia contienen la información que anteriormente tenía el `LanguagesManager` en un formato serializable.
     pub fn into_serializable(self) -> Vec<LanguageDto> {
         self.languages
             .into_iter()

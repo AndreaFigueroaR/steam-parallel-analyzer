@@ -29,8 +29,11 @@ fn main() -> io::Result<()> {
 
     let start = Instant::now();
     let (games_manager, languages_manager) = par_proccessing(iter_reviews);
-
-    println!(" - Con {:?} workers tardo: {:?}" , num_threads, start.elapsed());
+    println!(
+        " - Con {:?} workers tardo: {:?}",
+        num_threads,
+        start.elapsed()
+    );
 
     IO::save_json(
         output_filename,

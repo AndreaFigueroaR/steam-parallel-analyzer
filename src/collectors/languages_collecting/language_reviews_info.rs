@@ -22,7 +22,7 @@ impl LanguageReviewsInfo {
             top_reviews,
         }
     }
-    pub fn get_name(&self)->String{
+    pub fn get_name(&self) -> String {
         self.language.clone()
     }
     /// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews del lenguage

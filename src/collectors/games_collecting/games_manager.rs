@@ -5,8 +5,8 @@ use crate::utils::top_k::TopK;
 use rayon::prelude::*;
 use std::collections::HashMap;
 
-/// Estructura que se maneja las `top_reviews_retained` reviews más importantes (más votadas) consideradas en esta instancia, segregandolas por lenguage. 
-/// Proporciona  ina interfaz segura mediante la cual se puede considerar nuevas reviews dentro de la información relativa al lenguage en la que está dicha review. 
+/// Estructura que se maneja las `top_reviews_retained` reviews más importantes (más votadas) consideradas en esta instancia, segregandolas por lenguage.
+/// Proporciona  ina interfaz segura mediante la cual se puede considerar nuevas reviews dentro de la información relativa al lenguage en la que está dicha review.
 /// Al considerar una review esta puede o no terminar siendo literalmente almacenada (dependiendo de si es de las más votadas) pero siempre influirá en la cuenta de reviews de su lenguage.
 pub struct GamesManager {
     games: HashMap<u32, GameInfo>,
@@ -25,7 +25,7 @@ impl GamesManager {
             self.games
                 .get_mut(&app_id)
                 .unwrap()
-                .consider_review(app_id,language, review);
+                .consider_review(app_id, language, review);
         } else {
             self.games
                 .insert(app_id, GameInfo::new(app_id, game, language, review));
@@ -35,7 +35,7 @@ impl GamesManager {
     /// Método que fusiona la instancia dada de `GamesManager` con la instancia actual.
     /// - La instancia de `GamesManager` recibida como argumento no podrá ser usada pues se toma el ownership del mismo.
     /// - La instancia actual tendrá considerada en la información que retiene los datos de ambas instancias.
-    /// - En caso de que haya juegos repetidos en ambas instancias se hace un merge de la información de ambos juegos. 
+    /// - En caso de que haya juegos repetidos en ambas instancias se hace un merge de la información de ambos juegos.
     pub fn join(&mut self, other: GamesManager) {
         other.games.into_iter().for_each(|(app_id, game_info)| {
             if self.games.contains_key(&app_id) {
@@ -86,7 +86,7 @@ impl GamesManager {
     }
 
     /// Método que toma la propiedad de la instancia de `GamesManager` (posteriormente no se podrá usar) y devuelve su versión como data transfer object.
-    /// La estructura `Vec<GameDto>` devuelta en escencia contiene la misma información que anteriormente tenía el `GamesManager` en un formato serializable. 
+    /// La estructura `Vec<GameDto>` devuelta en escencia contiene la misma información que anteriormente tenía el `GamesManager` en un formato serializable.
     pub fn into_serializable(self) -> Vec<GameDto> {
         self.games
             .into_iter()
