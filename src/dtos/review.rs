@@ -1,7 +1,7 @@
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 use std::cmp::Ordering;
 
-#[derive(Clone, Serialize)]
+#[derive(Clone, Debug, Serialize, Deserialize)]
 pub struct Review {
     pub review: String,
     pub votes: u32,
@@ -12,11 +12,17 @@ impl Review {
     pub fn new(review: String, votes: u32) -> Self {
         Review { review, votes }
     }
+
+    /// Indica si una review (todavía no materializada, con su texto prestado) quedaría por encima de `other`
+    /// según el mismo orden que `Ord for Review`. Permite decidir si vale la pena copiar el texto.
+    pub fn ranks_above(votes: u32, review: &str, other: &Review) -> bool {
+        (votes, review) > (other.votes, other.review.as_str())
+    }
 }
-/// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews
+
 impl PartialEq for Review {
     fn eq(&self, other: &Self) -> bool {
-        self.votes == other.votes
+        self.cmp(other) == Ordering::Equal
     }
 }
 
@@ -28,8 +34,12 @@ impl PartialOrd for Review {
     }
 }
 
+/// Orden primero por votos y, ante empate, por contenido. El desempate hace que el resultado sea
+/// determinista sin importar el orden en que los workers procesen los registros.
 impl Ord for Review {
     fn cmp(&self, other: &Self) -> Ordering {
-        self.votes.cmp(&other.votes)
+        self.votes
+            .cmp(&other.votes)
+            .then_with(|| self.review.cmp(&other.review))
     }
 }

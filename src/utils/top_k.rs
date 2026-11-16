@@ -18,6 +18,19 @@ impl<T: Ord> TopK<T> {
         }
     }
 
+    /// Indica, en O(1) y sin construir el elemento, si un candidato sería incluido.
+    /// `ranks_above_min` recibe el menor de los top k actuales y debe devolver si el candidato es mayor.
+    /// Permite evitar copias costosas (p. ej. el texto de una review) de candidatos que serían descartados.
+    pub fn admits(&self, ranks_above_min: impl FnOnce(&T) -> bool) -> bool {
+        if self.capacity == 0 {
+            return false;
+        }
+        match self.heap.peek() {
+            Some(smallest) if self.heap.len() >= self.capacity => ranks_above_min(&smallest.0),
+            _ => true,
+        }
+    }
+
     /// Intenta insertar `value` en los top k.
     /// - Si aún no hay k elementos, se inserta directamente.
     /// - Si ya hay k elementos y `value` es mayor que el más pequeño
@@ -30,11 +43,11 @@ impl<T: Ord> TopK<T> {
 
         if self.heap.len() < self.capacity {
             self.heap.push(Reverse(value));
-        } else if let Some(smallest) = self.heap.peek() {
-            if value > (smallest.0) {
-                self.heap.pop();
-                self.heap.push(Reverse(value));
-            }
+        } else if let Some(mut smallest) = self.heap.peek_mut()
+            && value > smallest.0
+        {
+            // Reemplazo in-place: un único sift-down en lugar de pop + push.
+            smallest.0 = value;
         }
     }
 
@@ -42,6 +55,16 @@ impl<T: Ord> TopK<T> {
     /// Consumirá el heap, pero evita el coste de ordenamiento (O(k)).
     pub fn into_unsorted(self) -> Vec<T> {
         self.heap.into_iter().map(|rev| rev.0).collect()
+    }
+
+    /// Extrae y devuelve todos los top k ordenados de mayor a menor (O(k log k)).
+    pub fn into_sorted_desc(self) -> Vec<T> {
+        // El orden ascendente de `Reverse<T>` es el orden descendente de `T`.
+        self.heap
+            .into_sorted_vec()
+            .into_iter()
+            .map(|rev| rev.0)
+            .collect()
     }
 }
 

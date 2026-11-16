@@ -1,0 +1,994 @@
+,app_id,app_name,review_id,language,review,timestamp_created,timestamp_updated,recommended,votes_helpful,votes_funny,weighted_vote_score,comment_count,steam_purchase,received_for_free,written_during_early_access,author.steamid,author.num_games_owned,author.num_reviews,author.playtime_forever,author.playtime_last_two_weeks,author.playtime_at_review,author.last_played
+0,292030,The Witcher 3: Wild Hunt,85185598,schinese,不玩此生遗憾，RPG游戏里的天花板，太吸引人了,1611381629,1611381629,True,0,0,0.0,0,True,False,False,76561199095369542,6,2,1909.0,1448.0,1909.0,1611343383.0
+1,292030,The Witcher 3: Wild Hunt,85185250,schinese,拔DIAO无情打桩机--杰洛特!!!,1611381030,1611381030,True,0,0,0.0,0,True,False,False,76561198949504115,30,10,2764.0,2743.0,2674.0,1611386307.0
+2,292030,The Witcher 3: Wild Hunt,85185111,schinese,巫师3NB,1611380800,1611380800,True,0,0,0.0,0,True,False,False,76561199090098988,5,1,1061.0,1061.0,1060.0,1611383777.0
+3,292030,The Witcher 3: Wild Hunt,85184605,english,"One of the best RPG's of all time, worthy of any collection",1611379970,1611379970,True,0,0,0.0,0,True,False,False,76561199054755373,5,3,5587.0,3200.0,5524.0,1611383744.0
+4,292030,The Witcher 3: Wild Hunt,85184287,schinese,大作,1611379427,1611379427,True,0,0,0.0,0,True,False,False,76561199028326951,7,4,217.0,42.0,217.0,1610788249.0
+5,292030,The Witcher 3: Wild Hunt,85184171,english,"good story, good graphics. lots to do.",1611379264,1611379264,True,0,0,0.0,0,True,False,False,76561198170193529,11,1,823.0,823.0,823.0,1611379201.0
+6,292030,The Witcher 3: Wild Hunt,85184064,english,"dis gud,",1611379091,1611379091,True,0,0,0.0,0,True,False,False,76561198119302812,27,2,4192.0,3398.0,4192.0,1611351734.0
+7,292030,The Witcher 3: Wild Hunt,85183602,turkish,".
+",1611378312,1611378312,True,0,0,0.0,0,True,False,False,76561199084188849,9,1,2701.0,0.0,2701.0,1609671218.0
+8,292030,The Witcher 3: Wild Hunt,85183227,schinese,年度最佳的作品，没啥好夸的，神作,1611377703,1611377703,True,0,0,0.0,0,True,False,False,76561198130808993,581,17,6921.0,222.0,6921.0,1611317275.0
+9,292030,The Witcher 3: Wild Hunt,85182785,spanish,great game,1611377005,1611377005,True,0,0,0.0,0,True,False,False,76561198301724112,38,5,2399.0,333.0,2364.0,1611379080.0
+10,292030,The Witcher 3: Wild Hunt,85182697,schinese,神作！不bb,1611376831,1611376831,True,0,0,0.0,0,False,False,False,76561199089209577,29,1,5368.0,1471.0,5368.0,1611371665.0
+11,292030,The Witcher 3: Wild Hunt,85182372,russian,"Шикарная игра с отличным сюжетом, неплохой графикой и большим открытым миром. В добавок, мой любимый жанр. Всем рекомендую.",1611376281,1611376281,True,0,0,0.0,0,True,False,False,76561198257031328,11,2,508.0,508.0,348.0,1611386568.0
+12,292030,The Witcher 3: Wild Hunt,85182067,schinese,"什么?你儿子失踪了?什么?这栋房子闹鬼?什么?你猜到我要玩""来句昆特牌""的梗?
+抱歉这个梗我玩一辈子(狗头)",1611375772,1611375772,True,0,0,0.0,0,True,False,False,76561198348941585,20,1,6598.0,29.0,6598.0,1610715923.0
+13,292030,The Witcher 3: Wild Hunt,85181146,russian,Замечательная карточная игра в антураже фэнтези-рпг),1611374238,1611374309,True,0,0,0.0,0,True,False,False,76561197987104694,501,23,7310.0,0.0,7310.0,1525554549.0
+14,292030,The Witcher 3: Wild Hunt,85181114,koreana,가성비 짱,1611374195,1611374195,True,0,0,0.0,0,True,False,False,76561199120263118,1,1,3285.0,3084.0,3205.0,1611385840.0
+15,292030,The Witcher 3: Wild Hunt,85180815,latam,"The witcher 3 es un gran juego RPG, permite gran variedad de decisiones que afectan el rumbo de la historia. Ofrece una gran cantidad de horas de juego, en mi caso 60 horas solo la campaña principal junto con algunos contratos de brujo y secundarias (muy pocas), aún me faltan los dlc´s. En conclusión, si quieres un juego largo, entretenido y con una buena historia, es una muy buena compra.",1611373708,1611373708,True,0,0,0.0,0,True,False,False,76561198301696591,5,1,3586.0,0.0,3586.0,1609390978.0
+16,292030,The Witcher 3: Wild Hunt,85180734,schinese,当你玩进去之后，一切都顺理成章了起来,1611373593,1611373593,True,0,0,0.0,0,True,False,False,76561198985671330,9,1,5483.0,2184.0,5483.0,1611371203.0
+17,292030,The Witcher 3: Wild Hunt,85180438,schinese,剑舞天下无敌！！,1611373087,1611373087,True,0,0,0.0,0,False,False,False,76561198149550625,66,7,5442.0,1643.0,5396.0,1611386646.0
+18,292030,The Witcher 3: Wild Hunt,85180436,english,favorite game of all time cant wait for the NexGen Versiion,1611373086,1611373086,True,0,0,0.0,0,True,False,False,76561198065591528,33,1,23329.0,177.0,23329.0,1611219011.0
+19,292030,The Witcher 3: Wild Hunt,85179968,schinese,打桩,1611372286,1611372286,True,0,0,0.0,0,False,False,False,76561198249585974,31,5,2153.0,46.0,2153.0,1611325386.0
+20,292030,The Witcher 3: Wild Hunt,85179753,english,Why wouldn't you get this,1611371978,1611371978,True,0,0,0.0,0,True,False,False,76561198996835044,131,2,8557.0,2004.0,8557.0,1611370967.0
+21,292030,The Witcher 3: Wild Hunt,85179400,english,"it is ok
+",1611371392,1611371392,True,0,0,0.0,0,True,False,False,76561198284845223,60,9,2518.0,242.0,2518.0,1611371338.0
+22,292030,The Witcher 3: Wild Hunt,85179341,english,"worth
+",1611371318,1611371318,True,0,0,0.0,0,True,False,False,76561198370568524,59,5,553.0,35.0,517.0,1611373633.0
+23,292030,The Witcher 3: Wild Hunt,85178836,schinese,寻路功能真的有点阴间，总体上讲还是很不错的游戏,1611370535,1611370535,True,1,0,0.523809552192688,0,True,False,False,76561198398613695,27,1,1740.0,1740.0,1616.0,1611385992.0
+24,292030,The Witcher 3: Wild Hunt,85178164,english,Isn't Geralt hot enough to get both Yennefer and Triss ? I guess I watched too much harem anime...,1611369478,1611369478,True,0,0,0.0,0,True,False,False,76561198040150323,51,37,165.0,0.0,165.0,1437875644.0
+25,292030,The Witcher 3: Wild Hunt,85177892,english,"Very Fun, Would play again!",1611369121,1611369121,True,0,0,0.0,0,True,False,False,76561198040190687,54,1,20168.0,75.0,20092.0,1611373713.0
+26,292030,The Witcher 3: Wild Hunt,85177779,schinese,NICE GAME,1611368946,1611368946,True,0,0,0.0,0,True,False,False,76561198413847345,13,4,6329.0,438.0,6240.0,1611374256.0
+27,292030,The Witcher 3: Wild Hunt,85177648,schinese,"🎁
+🎁’[h1] [b]‘官方奖励免费活动链接:→  https://usnhskhf.work/  
+适度游戏益脑 沉迷游戏伤身 [/b] [/h1]
+'-.............................................
+-.............................................
+-.............................................
+第一人称射击，美术风格跟漫画式的过场让人眼前一亮，旁白看着也挺有意思，但也就仅此而已，实际玩起来并想象中的好玩。游戏中玩家根据给出的任务目标，控制好燃料与食物资源并移动到任务目标所在飞船上开始搜索，同时获取其他的材料资源来打造武器等装备，也就是捡垃圾的部分了。
+
+之所以说想象中的好玩，主要是FPS方面实在一点都不爽，射击手感也不太好，单纯是捡垃圾的话很容易生腻。当然中途觉得腻了，你也可以选择当跑酷党，一上来就去舰桥下载地图，然后直接冲着目标零件去就行，如果选择全搜的话就太浪费时间了，仅适合热衷于捡垃圾的玩家。
+
+游戏品质是没有太大问题，不过要说最影响游戏体验的话，还是路痴DEBUFF，真的是恶心人。说是有25%机率移动到错误的地方，但是每次都是等到我移动到有任务目标的飞船上时触发，还不是一两次而是连着四五次，本身食物跟燃料都是足够的，这样一搞下来就全都消耗完了，只能被迫登陆到飞船上捡垃圾。
+
+如果制作组是想通过这种恶心人的DEBUFF来强行增加玩家的游玩时间，那么只会适得其反，游戏比较独特的美术风格也难以挽救过于重复的场景设计，本身FPS打得也不是那么爽，捡垃圾捡着捡着特别烦躁，加上音乐听多了也很烦，玩到中途就直接开着外置音乐来降低烦躁感了。你再搞个这么恶心人的DEBUFF，要是机率真像数字标着倒还好，遇到了只能说脸黑，连着五次都这样我只想对着制作人一拳超人。
+
+另外提醒一下感兴趣且准备入手的玩家，中途打了一定进度的时候千万不要再在主菜单点新游戏，特喵直接是把整个进程给重置了，还以为是换掉当轮游玩的人物重新游玩，所以千万别手贱XD可惜的是游戏并不支持多人，要是多人联机捡垃圾打打怪，游戏重复性过高的问题估计也不会被那么多玩家吐槽了。",1611368730,1611379495,True,39,0,0.7842262387275696,0,True,False,False,76561198326913512,69,28,1734.0,0.0,1734.0,1608666706.0
+28,292030,The Witcher 3: Wild Hunt,85177534,spanish,"Más optimizado que el 2, me corre en una Laptop gama media.
+
+Si tienes novia o trabajo, cuidado, te meteras en el juego días y días, no podras salir del juego, es demasiado inmersivo.
+
+y lo peor, cuando te des cuenta, notaras que solo llevaras el 2% del juego.
+
+es hermoso",1611368549,1611368549,True,0,0,0.0,0,True,False,False,76561198872374635,175,20,3131.0,0.0,3131.0,1608261630.0
+29,292030,League of Legends,85177505,brazilian,Se um dia alguém falar que esse jogo é ruim na minha frente eu juro que bato na pessoa.,1611368498,1611368498,True,1,0,0.523809552192688,0,True,False,False,76561198844659805,70,4,11115.0,2252.0,11115.0,1611186216.0
+30,292030,The Witcher 3: Wild Hunt,85176839,portuguese,"bom demais
+",1611367482,1611367482,True,0,0,0.0,0,True,False,False,76561198847379347,4,1,555.0,465.0,555.0,1611367371.0
+31,292030,The Witcher 3: Wild Hunt,85176700,vietnamese,great game,1611367252,1611367252,True,0,0,0.0,0,False,False,False,76561199070346428,20,11,3733.0,3690.0,3702.0,1611386662.0
+32,292030,The Witcher 3: Wild Hunt,85176661,brazilian,,1611367193,1611367193,True,0,0,0.0,0,True,False,False,76561198076880796,127,13,875.0,752.0,826.0,1611370135.0
+33,292030,The Witcher 3: Wild Hunt,85176440,schinese,对RPG无感 剧情也就那么回事没看进去,1611366821,1611366821,False,0,1,0.4014598727226257,0,True,False,False,76561198339525870,31,3,3155.0,0.0,3155.0,1587800627.0
+34,292030,The Witcher 3: Wild Hunt,85176249,brazilian,Obra prima!!!,1611366524,1611366524,True,0,0,0.0,0,True,False,False,76561198957873353,32,1,2888.0,1475.0,2888.0,1611366020.0
+35,292030,The Witcher 3: Wild Hunt,85176128,polish,"kox giera 
+",1611366350,1611366350,True,0,0,0.0,0,True,False,False,76561198222661132,19,3,4245.0,3270.0,4245.0,1611358690.0
+36,292030,Minecraft,85175979,koreana,말이 필요한가?,1611366159,1611366159,True,0,0,0.0,0,True,False,False,76561198830132881,19,1,3581.0,0.0,3581.0,1559799898.0
+37,292030,The Witcher 3: Wild Hunt,85175638,schinese,神作，徜徉在自由的开放世界，仿佛身临其境。剧情也不错，风景更是一绝。,1611365564,1611365564,True,0,0,0.0,0,True,False,False,76561198885418101,15,5,11004.0,821.0,11004.0,1610885956.0
+38,292030,The Witcher 3: Wild Hunt,85175587,polish,"zajebista gierka, tak jak uwielbiałem gothic 3 tak ta gierka jest jeszcze lepsza pod każdym względem wiec w imieniu Bezimiennego, zapraszam po gierkę w której fabule zanurzysz się głębiej niż w wodzie w której morsował sam Robert Makłowicz",1611365490,1611365490,True,0,0,0.0,0,True,False,False,76561199041017996,2,1,2868.0,1740.0,2775.0,1611371056.0
+39,292030,The Witcher 3: Wild Hunt,85174926,english,"The game is enjoyable enough but...
+-Combat has plenty of options but the game will play for you at times, takes away from player achievements.
+-The Story is good so far but so much of it, listening to every nagging thought is getting old fast.
+-The swords and armor having a level is retarded, how is it that this legendary warrior cannot use the same sword of the 8 guys he just killed. This feature is killing the game for me.
+-The repairs and crafting I hate, its not my thing. never is.",1611364401,1611364470,True,0,0,0.0,0,True,False,False,76561198020027165,208,105,497.0,370.0,398.0,1611370493.0
+40,292030,The Witcher 3: Wild Hunt,85174737,english,The only thing bigger than the world map is ur mom,1611364088,1611364088,True,0,0,0.0,0,True,False,False,76561199001673284,111,11,8068.0,0.0,8068.0,1597493874.0
+41,292030,The Witcher 3: Wild Hunt,85173767,turkish,"Kesinlikle oynadığım en iyi oyun.Oyun sizi atmosferiyle,karakteriyle,yaşayan dünyasıyla içine çekiyor.Oyunu tam olarak Geralt'ın gözünden görüyormuşsunuz gibi hisettiriyor.Oyundaki her iki dlcyi de bitirdim.İkisi de o kadar çok hoşuma gitti ki (Özellikle Blood and Wine) sırf dlcleriyle çıksaydı bu oyun,gene güzel olurdu.Ana hikayesi ayrı güzel,karakterleri ayrı güzel.Bütün yan görevleri,soru işaretlerini yaptım.Ve hepsi o kadar güzeldi ki....Oyuna 10 üzerinden puan versem kesinlikle 10/10 veririm.",1611362536,1611364881,True,0,0,0.0,0,False,False,False,76561198316530785,217,34,6841.0,2077.0,6841.0,1611364268.0
+42,292030,The Witcher 3: Wild Hunt,85173685,turkish,"Ya her şey harika, her şey güzel ama bu ayak işleri acayip canımı sıkıyor. Ben sırtında 2 metre boyunda 2 kılıç taşıyan, şehre adımını attığında tüm haydutlarının götünü çıkartan Geralt'ım. Adamın götüne çivi çakarım gerekirse ama amına kodumun pembe götlü Dandelion piçi için afiş almaya gidiyorum. Sikerler abi böyle işi. Ayrıca Ciri'yi sikine takmaması da ayrı canımı sıktı. Bu saatten sonra Dandelion denen ibne babamı darağacından da alsa en büyük düşmanım olacak.",1611362375,1611362375,True,0,0,0.0,0,True,False,False,76561198144057310,12,2,1205.0,1205.0,1160.0,1611363407.0
+43,292030,The Witcher 3: Wild Hunt,85173023,brazilian,Jogão da porra.,1611361229,1611361229,True,0,0,0.0,0,True,False,False,76561198141110905,59,4,20193.0,3692.0,20193.0,1611297095.0
+44,292030,The Witcher 3: Wild Hunt,85172993,spanish,De los mejores rpgs de los ultimos 20 años.,1611361186,1611361186,True,0,0,0.0,0,True,False,False,76561198078482139,78,10,3919.0,160.0,3919.0,1611279750.0
+45,292030,The Witcher 3: Wild Hunt,85172984,english,better than cyberpoop,1611361171,1611361171,True,0,0,0.0,0,False,False,False,76561198033304276,47,14,3159.0,0.0,3159.0,1524274341.0
+46,292030,The Witcher 3: Wild Hunt,85172769,english,"We all know you'll eventually play it, why not now? You get a pretty awesome story and great characters, not to mention the side quests aren't just chores to go through. Good rpg and do yourself a favor, get mods",1611360805,1611360805,True,0,0,0.0,0,True,False,False,76561198116559597,44,7,974.0,537.0,861.0,1611367610.0
+47,292030,The Witcher 3: Wild Hunt,85172618,turkish,Bitirmeye kıyamıyorum.,1611360594,1611360594,True,0,0,0.0,0,True,False,False,76561198246626952,206,26,3929.0,41.0,3929.0,1610812539.0
+48,292030,The Witcher 3: Wild Hunt,85172417,brazilian,very foda,1611360271,1611360271,True,0,0,0.0,0,True,False,False,76561198107351100,60,5,2104.0,2037.0,1882.0,1611386289.0
+49,292030,The Witcher 3: Wild Hunt,85171080,french,"Histoire et personnages fantastiques, l'immersion est totale et le gameplay est des plus agreables!
+",1611358240,1611358240,True,0,0,0.0,0,True,False,False,76561198150433984,4,2,3664.0,3664.0,3664.0,1611184644.0
+50,292030,The Witcher 3: Wild Hunt,85170596,english,best open world game i love it,1611357533,1611357533,True,0,0,0.0,0,True,False,False,76561198299050034,89,6,25.0,0.0,25.0,1578016131.0
+51,292030,The Witcher 3: Wild Hunt,85170497,schinese,"我玩了这么长时间，这个游戏挺好玩的，原谅我不会说什么赞美的话
+还有一点[spoiler]我永远喜欢希里雅[/spoiler]",1611357379,1611357430,True,0,0,0.0,0,True,False,False,76561199039857291,8,5,10699.0,0.0,10699.0,1610063842.0
+52,292030,The Witcher 3: Wild Hunt,85170453,english,"I don't think anyone needs a review at this point, good game is good",1611357290,1611357290,True,0,1,0.0,0,True,False,False,76561198080678414,287,4,303.0,94.0,303.0,1611284935.0
+53,292030,The Witcher 3: Wild Hunt,85170372,german,best game ever,1611357157,1611357157,True,0,0,0.0,0,True,False,False,76561198181483795,31,2,9003.0,1832.0,9003.0,1611357116.0
+54,292030,The Witcher 3: Wild Hunt,85170209,schinese,.,1611356948,1611356948,True,0,0,0.0,0,True,False,False,76561198284494326,27,5,3003.0,741.0,2820.0,1611368168.0
+55,292030,The Witcher 3: Wild Hunt,85170038,turkish,çok güzel oynayın burdan enis abime selamlar lelelleyleyleyley,1611356698,1611356698,True,0,0,0.0,0,True,False,False,76561198386661695,8,1,1529.0,685.0,1529.0,1610822854.0
+56,292030,The Witcher 3: Wild Hunt,85169788,english,"It's surprisingly large with a lot of open world opportunity, but also a clear path for linear progression. The characters and lore are fascinating, engaging and keep you wanting more. The game play is easy enough to understand to progress, but has layers for additional difficulty and is very rewarding to stray off course and battle/collect things. There's a TON to do, but you never feel inundated by the vastness, it's a very happy medium with a lot to love.",1611356341,1611356341,True,0,0,0.0,0,True,False,False,76561198352439354,25,2,930.0,88.0,930.0,1611059624.0
+57,292030,The Witcher 3: Wild Hunt,85169737,brazilian,bom,1611356281,1611356281,True,0,0,0.0,0,True,False,False,76561198797047686,9,2,2007.0,0.0,2007.0,1610078309.0
+58,292030,The Witcher 3: Wild Hunt,85169685,english,best game ever made,1611356191,1611356191,True,0,0,0.0,0,True,False,False,76561198868423923,48,1,9403.0,196.0,9236.0,1611378515.0
+59,292030,The Witcher 3: Wild Hunt,85169128,english,"Still better than Cyberpunk 2077
+One of the best games ever made.",1611355450,1611355450,True,0,0,0.0,0,True,False,False,76561197993334693,280,13,1437.0,0.0,1437.0,1569254891.0
+60,292030,The Witcher 3: Wild Hunt,85169052,english,"If you are a fan of open world games, at least try this game. The map is beautiful and well detailed, the storyline is incredible, the sidequests are perfect, the gameplay is decent, and the music is something else. Don't even bother playing Gwent you will lose.. a lot. Anyway, get this game for your own benefit.",1611355332,1611355332,True,0,0,0.0,0,True,False,False,76561198869011330,22,4,8234.0,12.0,8234.0,1611353247.0
+61,292030,The Witcher 3: Wild Hunt,85168445,french,999,1611354469,1611354469,True,0,0,0.0,0,True,False,False,76561198255687109,21,2,1025.0,63.0,1025.0,1611305853.0
+62,292030,The Witcher 3: Wild Hunt,85168239,russian,"Безусловно одна из лучших и интереснейших игр. Если дать этой игре графику 21 года, то она встанет на 1 месте, обогнав по качеству киберпанк и другие топовые игры. 
+Большое количество квестов, большие локации. Играть можно очень долго. Графика отличнейшая, текстуры очень четкие, нет мыла. Все очень просто, но при этом красиво и приятно. 
+Каждая игровая локация имеет свои особенности. Например в велене мрачная погода и почти постоянно идет дождь. 
+В общем игра классная, а если учитывать, что каждую распродажу она продается со всеми дополнениями всего за 450 рублей, то это вообще подарок судьбы. Однозначно стоит купить.",1611354213,1611354213,True,0,0,0.0,0,True,False,False,76561198994938274,23,4,5026.0,977.0,5026.0,1611353521.0
+63,292030,The Witcher 3: Wild Hunt,85168022,polish,kox,1611353906,1611353906,True,0,0,0.0,0,True,False,False,76561198308507040,43,2,4623.0,580.0,4623.0,1611353850.0
+64,292030,The Witcher 3: Wild Hunt,85167937,schinese,"原本是买来补票的，最近玩完赛博朋克回来玩巫师。
+“草尼玛的CDPR怎么会做出赛博朋克那坨玩意？”",1611353775,1611353775,True,1,1,0.52173912525177,0,True,False,False,76561198863910434,60,11,5139.0,5107.0,5139.0,1611353461.0
+65,292030,The Witcher 3: Wild Hunt,85167888,russian,"Очень длинная бродилка)) Для любителей, вот геймплей перед покупкой https://youtu.be/ywLoQXVXaQY",1611353696,1611353696,True,0,0,0.0,0,True,False,False,76561198882440127,11,4,2228.0,0.0,2228.0,1602971258.0
+66,292030,The Witcher 3: Wild Hunt,85167706,russian,top,1611353447,1611353447,True,0,0,0.0,0,True,False,False,76561198056090375,67,4,1873.0,1859.0,1813.0,1611386259.0
+67,292030,The Witcher 3: Wild Hunt,85167401,polish,POGGGGGCHAMP ez,1611353020,1611353020,True,0,0,0.0,0,True,False,False,76561198853276137,17,3,14936.0,299.0,14936.0,1610977518.0
+68,292030,The Witcher 3: Wild Hunt,85167273,polish,no co tu dużo mówić zajebista łot tego,1611352842,1611352842,True,0,0,0.0,0,True,False,False,76561198350539379,61,6,1201.0,1010.0,1144.0,1611354895.0
+69,292030,The Witcher 3: Wild Hunt,85167135,english,There needs to be a Witcher 4 made. This game was awesome.,1611352633,1611352633,True,0,0,0.0,0,True,False,False,76561198878346949,4,1,4456.0,2123.0,4456.0,1611352414.0
+70,292030,The Witcher 3: Wild Hunt,85166951,polish,"Najlepsza gra w jaką kiedykolwiek grałem, bardzo polecam.",1611352361,1611352361,True,0,0,0.0,0,True,False,False,76561199004646240,10,3,1707.0,1707.0,1707.0,1611351888.0
+71,292030,The Witcher 3: Wild Hunt,85166822,turkish,gj,1611352169,1611352169,True,0,1,0.523809552192688,0,True,False,False,76561199047839420,4,1,2987.0,1.0,2987.0,1611352679.0
+72,292030,The Witcher 3: Wild Hunt,85166678,english,"think of it CD projekt red  if you have made a more new expansions for the witcher 3 after blood and wine and fixed the bugs
+i think people would have love it but still there is hope you do it",1611351974,1611351974,True,0,0,0.0,0,True,False,False,76561198403635390,17,2,59008.0,288.0,59008.0,1611273818.0
+73,292030,The Witcher 3: Wild Hunt,85166259,polish,"Wciągająca gra, ale warto moim zdaniem zagrać. Gameplay i fabuła genialne!",1611351354,1611351354,True,0,0,0.0,0,True,False,False,76561198115537763,9,2,3762.0,1638.0,3762.0,1611096103.0
+74,292030,The Witcher 3: Wild Hunt,85166174,english,"A great narrative with booooooooobs, what else can a guy ask for???
+",1611351215,1611351215,True,0,0,0.0,0,True,False,False,76561198442392350,48,7,4573.0,4573.0,4401.0,1611361533.0
+75,292030,The Witcher 3: Wild Hunt,85165751,russian,"ОТЛИЧНАЯ РПГ)))ОЛД ФАГАМ ЗАЙДЕТ ТОЧНО)
+",1611350636,1611350636,True,0,0,0.0,0,True,False,False,76561199006895588,21,1,11934.0,29.0,11904.0,1611380725.0
+76,292030,The Witcher 3: Wild Hunt,85165570,schinese,没什么需要讲的,1611350390,1611350390,True,0,0,0.0,0,True,False,False,76561198220195440,168,56,4988.0,250.0,4737.0,1611366693.0
+77,292030,The Witcher 3: Wild Hunt,85165539,english,like dark souls but with witches,1611350345,1611350345,True,0,0,0.0,0,True,False,False,76561198983515611,271,82,325.0,325.0,325.0,1610921717.0
+78,292030,The Witcher 3: Wild Hunt,85165440,english,yes?,1611350211,1611350211,True,0,0,0.0,0,True,False,False,76561198992398418,4,2,5037.0,868.0,5037.0,1610814379.0
+79,292030,The Witcher 3: Wild Hunt,85165253,english,"After playing through the base game twice and now just finishing the DLC's. I can write my review with confidence. Never have I played a game so rewarding. Every aspect of this game I have fallen in love with. The game is incredibly story-rich, married with the combat it makes for a truly rewarding game. What I love about this game especially is that your decisions have consequences that make the game that so much more interactive. I would recommend highly this game to anybody, especially those that love an excellent story, with such good voice acting and mo-cap animations too.
+
+I could talk about how much I enjoyed playing this game for hours, but I will try and keep my review brief.",1611349999,1611349999,True,0,0,0.0,0,False,False,False,76561198070919036,227,12,11462.0,1867.0,11462.0,1611349730.0
+80,292030,The Witcher 3: Wild Hunt,85165157,russian,ИИИИИИИИУУУУУУУУУУУУУУ ИГРУЛЯ,1611349869,1611349869,True,0,0,0.0,0,True,False,False,76561198136461143,46,2,3724.0,2866.0,3532.0,1611379042.0
+81,292030,The Witcher 3: Wild Hunt,85164472,brazilian,otimo jogo,1611348995,1611348995,True,0,0,0.0,0,True,False,False,76561199101134482,3,2,512.0,512.0,463.0,1611385928.0
+82,292030,The Witcher 3: Wild Hunt,85164217,turkish,Enis cherryson,1611348640,1611348640,True,0,0,0.0,0,True,False,False,76561199094215094,18,10,12.0,0.0,12.0,1607679161.0
+83,292030,The Witcher 3: Wild Hunt,85164212,turkish,bu oyunu övmek için kitap yazılır ama erindiğim için tek kelime ile açıklıyacağım : EFSANE!,1611348633,1611348633,True,0,0,0.0,0,True,False,False,76561198849312196,18,2,895.0,895.0,895.0,1611348578.0
+84,292030,The Witcher 3: Wild Hunt,85163962,portuguese,Very nice tiddies xD,1611348304,1611348304,True,0,0,0.0,0,False,False,False,76561198176375646,15,2,2192.0,586.0,2191.0,1611353111.0
+85,292030,The Witcher 3: Wild Hunt,85163953,russian,"Топ игра, советую всем!",1611348293,1611348293,True,1,0,0.523809552192688,0,True,False,False,76561198308360704,17,1,2748.0,733.0,2748.0,1610629666.0
+86,292030,The Witcher 3: Wild Hunt,85163653,turkish,Anlatmaya gerek olmayan bir klasik. Müzikler başarılı oyun mekanikleri el biraz alışınca basit hale geliyor ama içerik ve hikaye olarak doyum oluşturan tatmin edici bir oyun.,1611347883,1611347883,True,0,0,0.0,0,True,False,False,76561198261470039,25,1,13755.0,0.0,13755.0,1601038551.0
+87,292030,The Witcher 3: Wild Hunt,85162932,english,.,1611346914,1611346914,True,0,0,0.0,0,True,False,False,76561198153445205,4,1,12823.0,4367.0,12479.0,1611368348.0
+88,292030,The Witcher 3: Wild Hunt,85162842,brazilian,Sensacional!,1611346809,1611346809,True,0,0,0.0,0,True,False,False,76561199037106126,3,1,5148.0,0.0,5148.0,1597123981.0
+89,292030,The Witcher 3: Wild Hunt,85162828,french,Un excellent jeu que l'on m'a recommandé et que je ne regrette pas d'avoir acheté <3,1611346789,1611346789,True,0,0,0.0,0,True,False,False,76561199050843456,1,1,2729.0,657.0,2581.0,1611355574.0
+90,292030,The Witcher 3: Wild Hunt,85162784,russian,"Сижу вот третью неделю играю, балдеж!!!",1611346732,1611346732,True,0,0,0.0,0,True,False,False,76561199120008376,3,1,1958.0,938.0,1699.0,1611362253.0
+91,292030,The Witcher 3: Wild Hunt,85162540,english,sdds,1611346388,1611346388,True,0,0,0.0,0,True,False,False,76561198056468274,13,2,52263.0,176.0,52086.0,1611383048.0
+92,292030,The Witcher 3: Wild Hunt,85161877,english,.,1611345538,1611345538,True,0,0,0.0,0,True,False,False,76561198372718987,57,9,1839.0,1820.0,1630.0,1611376949.0
+93,292030,The Witcher 3: Wild Hunt,85161557,russian,"Нету людей которые не слыхали об этой замечательной игре ! 
+Одна с любимых сюжетных игр",1611345109,1611345109,True,1,0,0.0,0,True,False,False,76561198219692041,159,31,1757.0,1200.0,1692.0,1611349050.0
+94,292030,The Witcher 3: Wild Hunt,85161536,russian,Что ещё можно сказать об одной из лучших игр современности?,1611345080,1611345080,True,0,0,0.0,0,True,False,False,76561198451143947,2,1,4905.0,4882.0,4905.0,1611334599.0
+95,292030,The Witcher 3: Wild Hunt,85161177,english,great fun,1611344616,1611344616,True,0,0,0.0,0,True,False,False,76561198039994237,127,3,12951.0,1300.0,12951.0,1611343558.0
+96,292030,The Witcher 3: Wild Hunt,85160906,french,Génial.,1611344257,1611344257,True,0,0,0.0,0,True,False,False,76561198207178564,66,13,3106.0,84.0,3023.0,1611349518.0
+97,292030,The Witcher 3: Wild Hunt,85160802,russian,"много болтовни, но вполне играбельно. сюжет интересен.",1611344125,1611344125,True,0,0,0.0,0,True,False,False,76561198119499036,108,30,2048.0,2048.0,2005.0,1611346687.0
+98,292030,The Witcher 3: Wild Hunt,85160795,english,good,1611344113,1611344113,True,0,0,0.0,0,True,False,False,76561198116926833,88,10,3358.0,2348.0,3358.0,1611343757.0
+99,292030,The Witcher 3: Wild Hunt,85160727,russian,"Человек : Спасибо Геральт !!
+Геральт : За что ?
+Человек : За то  что спас мне жизнь 
+Геральт : а , да",1611344018,1611344018,True,0,0,0.0,0,True,False,False,76561198273074828,121,21,7656.0,0.0,7656.0,1601206349.0
+100,292030,The Witcher 3: Wild Hunt,85160668,russian,каво,1611343933,1611343933,True,0,0,0.0,0,True,False,False,76561198402715361,25,1,1144.0,688.0,1094.0,1611375691.0
+101,292030,The Witcher 3: Wild Hunt,85160402,russian,"просто пушка,очень трогательная игра,вызывает незабываемые эмоции,заставляет ждать 4ю часть
+ПЛЮСЫ:
++графика просто 
++сюжет заставляет пролить слезу,очень непридвиденные повороты
++атмосфера 
++оптимизация
++саундтреки
+Минусы:
+-иногда случаются баги,и отвлекаешся от игры
+
+ВЫВОД
+Посравнению с плюсами,один единственный минус который даже минусом назвать сложно так как в каждой игре есть баги
+ОЧЕНЬ СОВЕТУЮ
+любые деньги бы отдал,вызывает незабываемые эмоции
+",1611343599,1611343599,True,0,0,0.0,0,True,False,False,76561198977158133,19,5,3683.0,1558.0,3683.0,1611342962.0
+102,292030,The Witcher 3: Wild Hunt,85160365,hungarian,It's ok,1611343550,1611343550,True,0,0,0.0,0,True,False,False,76561198056657810,92,3,6657.0,4148.0,6376.0,1611387534.0
+103,292030,The Witcher 3: Wild Hunt,85160152,polish,"Wiedźmin <3
+",1611343281,1611343281,True,0,0,0.0,0,True,False,False,76561198324212087,98,2,847.0,168.0,678.0,1611352951.0
+104,292030,The Witcher 3: Wild Hunt,85159857,schinese,"真特么的好
+",1611342908,1611342908,True,0,0,0.0,0,True,False,False,76561198796182989,20,1,3603.0,3474.0,3532.0,1611380501.0
+105,292030,The Witcher 3: Wild Hunt,85159811,russian,Никак вы б#лять не научитесь))),1611342855,1611342855,True,0,0,0.0,0,True,False,False,76561198203307352,22,6,303.0,0.0,303.0,1593792437.0
+106,292030,The Witcher 3: Wild Hunt,85159609,spanish,"⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
+⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀
+⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆ ta bueno
+⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆
+⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆
+⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿
+⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉
+⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇compralo
+⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇
+⠀⠀ ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇
+⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
+⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿",1611342618,1611342618,True,0,0,0.0,0,True,False,False,76561198169862755,113,9,7132.0,0.0,7132.0,1584338386.0
+107,292030,The Witcher 3: Wild Hunt,85159442,turkish,karakterin sesine gıcık oldum kız tavlamaya çalışan kekolar gibi konuşuyor benlik değil skyrim devamke,1611342401,1611342401,False,1,0,0.5020747184753418,0,True,False,False,76561198346328082,10,1,256.0,31.0,256.0,1611342037.0
+108,292030,The Witcher 3: Wild Hunt,85159433,russian,"Отличная игра!
+",1611342391,1611342391,True,0,0,0.0,0,True,False,False,76561198990643045,5,2,2840.0,1081.0,2803.0,1611344386.0
+109,292030,The Witcher 3: Wild Hunt,85159198,english,"Very immersive. They nail 13th century Europe in look and style. Fun game play. Days of Wine and Roses is a very good story. Combat is not tedious - if Arkham Asylum is a 10, this is about an 8. Combat might be too simple for hard core players. Voice acting top notch, I could criticise the lack of variety on non-mission NPCs but that is just the sprinkels on the frosting on this awesome cake.",1611342098,1611342098,True,0,0,0.0,0,True,False,False,76561197970572563,61,2,12389.0,0.0,12389.0,1530733034.0
+110,292030,The Witcher 3: Wild Hunt,85158947,polish,"Fajna gra na nudę, nie jest bardzo wymagająca, działa na moim 3 letnim laptopie ;D Polecam <3",1611341778,1611341778,True,0,0,0.0,0,True,False,False,76561199047193291,2,2,265.0,265.0,237.0,1611349832.0
+111,292030,The Witcher 3: Wild Hunt,85158398,brazilian,otima historia e jogabilidade,1611341069,1611341069,True,0,0,0.0,0,True,False,False,76561198963219747,9,3,470.0,361.0,470.0,1611285861.0
+112,292030,The Witcher 3: Wild Hunt,85158369,ukrainian,Просто хороша гра!,1611341034,1611341034,True,0,0,0.0,0,True,False,False,76561198970721108,19,14,298.0,298.0,298.0,1611340996.0
+113,292030,The Witcher 3: Wild Hunt,85158319,schinese,"《这款游戏可以作为一件艺术品来欣赏》
+
+你将会在：中世纪、具有魔法的魔幻世界
+你将扮演：出自凡人肉躯，却又拥有超乎常人的生命力、寿命、敏锐感知力的猎魔人！
+你将拥有：一把可以杀灭所有怪物的银剑、一把让所有人类闭嘴的铁剑
+你将要于：凶神恶煞的怪物追杀面前、人类尔虞我诈的夹缝之中 谋求一种平衡
+你的目标：打败陆地上所有的昆特牌玩家！（哦才不是）
+你的真正目标：找回女儿并保护她免受众多追求者的骚扰（为了避免剧透就说得通俗一点）
+ 
+“我的徽章在颤抖，附近一定有昆特牌玩家！”
+“我的徽章在颤抖，附近一定有女术士！”
+“我的徽章在颤抖，附近又有炼金素材了！”
+作为猎魔人，我们从不免费办事哦
+
+新手小贴士Tips：
+一定要熬过前期无人之地的任务，因为真的有点压抑，不过熬过之后去到诺城，一切又将豁然开朗起来！（还不是因为城里昆特牌玩家比较多!）不同地区的画风、氛围、人文环境都风格迥异，非常值得去入手！去体验！！！
+",1611340964,1611340964,True,0,1,0.0,0,True,False,False,76561198104209721,123,16,21758.0,0.0,21758.0,1590526395.0
+114,292030,The Witcher 3: Wild Hunt,85157801,russian,Игра шедевр.,1611340277,1611340277,True,0,0,0.0,0,True,False,False,76561198276382269,116,14,4588.0,1353.0,4564.0,1611341682.0
+115,292030,The Witcher 3: Wild Hunt,85157632,polish,Wciągający świat.,1611340070,1611340070,True,0,0,0.0,0,True,False,False,76561198279469104,22,1,5497.0,329.0,5233.0,1611355913.0
+116,292030,The Witcher 3: Wild Hunt,85157446,polish,,1611339816,1611339816,True,0,0,0.0,0,True,False,False,76561199076516208,24,5,570.0,262.0,570.0,1611345587.0
+117,292030,The Witcher 3: Wild Hunt,85157194,russian,"Великолепно, сюжет, диалоги придают доп. атмосферу! Персонажи и сам мир проработан отлично! Советую поиграть, если только пк соответствует требованиям ибо мир очень велик)",1611339515,1611339515,True,0,0,0.0,0,True,False,False,76561199083923362,2,2,1200.0,750.0,1200.0,1611244312.0
+118,292030,The Witcher 3: Wild Hunt,85156904,russian,КАЧАААААААЙ!!!( кто понял тот поймёт),1611339119,1611339119,True,0,0,0.0,0,True,False,False,76561198243379004,77,7,3545.0,2111.0,3391.0,1611351599.0
+119,292030,The Witcher 3: Wild Hunt,85156794,english,a,1611338975,1611338975,True,0,0,0.0,0,True,False,False,76561198124133410,1284,89,194.0,12.0,194.0,1611338972.0
+120,292030,The Witcher 3: Wild Hunt,85156761,schinese, 虽然才经历了主线的1/10，但谁能不说一句牛逼！！,1611338941,1611338941,True,0,0,0.0,0,True,False,False,76561198267329190,13,1,1132.0,1132.0,1132.0,1611338708.0
+121,292030,The Witcher 3: Wild Hunt,85156414,polish,Generalnie to sztos 10/10,1611338484,1611338484,True,0,0,0.0,0,True,False,False,76561198364022451,14,2,2364.0,2000.0,2357.0,1611338913.0
+122,292030,The Witcher 3: Wild Hunt,85156371,english,Hm.,1611338430,1611338430,True,0,0,0.0,0,True,False,False,76561198354430452,160,4,9265.0,0.0,9265.0,1601073125.0
+123,292030,The Witcher 3: Wild Hunt,85156057,schinese,cdpj牛逼,1611338054,1611338054,True,0,0,0.0,0,True,False,False,76561198344144010,28,4,4582.0,2512.0,4582.0,1611338021.0
+124,292030,The Witcher 3: Wild Hunt,85156036,turkish,Güzel,1611338039,1611338039,True,0,0,0.0,0,True,False,False,76561198316182891,14,2,4387.0,759.0,4336.0,1611341144.0
+125,292030,The Witcher 3: Wild Hunt,85155655,brazilian,BOOM,1611337598,1611337598,True,0,0,0.0,0,True,False,False,76561198050995742,500,1,296.0,24.0,272.0,1611366201.0
+126,292030,The Witcher 3: Wild Hunt,85155437,english,One of the greatest games of modern times,1611337348,1611337348,True,0,0,0.0,0,True,False,False,76561199082648770,24,2,3366.0,874.0,3366.0,1611006985.0
+127,292030,The Witcher 3: Wild Hunt,85155228,english,i mean sure i guess.,1611337064,1611337064,True,0,0,0.0,0,False,False,False,76561198107714552,28,4,18383.0,1957.0,18176.0,1611383300.0
+128,292030,The Witcher 3: Wild Hunt,85155206,english,"They certainly dumbed down the series since the last release. Sure it raked in a larger audience but it sacrificed what is was previously in the process, which was once well written and unique instead became copy-paste and bland. The game completely omits that Triss did nothing but screw Geralt over with everything she's done involving for the Sorceresses Lodge, most likely just to have her as a romance option. This isn't the only thing it omits either.
+
+Nothing says player hand holding like Geralt's *detective vision* removing any player involvement in questing, and Geralt's permanent monologuing to ensure the player knows what they're seeing scene to scene on the rollercoaster. Most quests will follow the same formula of: Talk to person > get told to go somewhere > while at somewhere, learn the person you talked to first is morally dubious > but so is the new person you meet in the quest > get money from either person and move on to next quest.
+
+The combat isn't as good as the predecessor, there's very little thought put into it, which isn't really Witcher-like. Unsure how many variants of ""x time of day"" wraith there really are, but they're overused in this. 
+
+Gwent was a good minigame, and the minigame shouldn't be more enjoyable than the actual game. Unfortunately, Gwent was also poorly balanced. Fixed by the spin off expansion of Gwent that you can play instead with more balance, but more child friendly too, because swearing is bad.
+
+All in all it's a shame, they had some fantastic ideas in the game that were ruined by trying to dumb everything else down as much as possible. It's also a great and interesting world. The gameplay is dull and generic. Quite the ""meh"" experience, for what could have been so much more.",1611337043,1611337043,False,0,0,0.4761904776096344,0,True,False,False,76561198010955177,379,73,8966.0,0.0,8966.0,1514416593.0
+129,292030,The Witcher 3: Wild Hunt,85155101,russian,Как не допапывайся - другой подобной игры не найдешь,1611336930,1611336930,True,0,0,0.0,0,True,False,False,76561198897436581,34,5,7003.0,852.0,6688.0,1611360458.0
+130,292030,The Witcher 3: Wild Hunt,85154893,schinese,nice game,1611336649,1611336649,True,0,0,0.0,0,True,False,False,76561198117150854,2,1,1642.0,1642.0,1390.0,1611387095.0
+131,292030,The Witcher 3: Wild Hunt,85154849,schinese,"18年入坑，21年通关
+伟大的游戏值得我最高的赞赏
+谢谢cdpr
+给了我一次一波三折的冒险，一场波澜壮阔的神话，一个栩栩如生的世界",1611336603,1611336603,True,0,0,0.0,0,True,False,False,76561198316468832,21,4,4756.0,1463.0,4756.0,1611336035.0
+132,292030,The Witcher 3: Wild Hunt,85154697,spanish,"Un excelente Juego. 
+Todo lo que tenga que ver con el mundo es un diez. 
+Los únicos puntos flacos son el combate y el crafteo (incluido el tema de los objetos que te encuentres por el mundo), se terminan haciendo muy monótonos.",1611336421,1611336421,True,0,0,0.0,0,True,False,False,76561198253763681,90,11,4950.0,2698.0,4950.0,1611333504.0
+133,292030,The Witcher 3: Wild Hunt,85154633,turkish,Böyle bir şahesere başlamadan önce ilk ve ikinci oyunu oynamalısınız.,1611336346,1611336346,True,0,0,0.0,0,True,False,False,76561198184074515,145,2,12593.0,1286.0,12593.0,1611335922.0
+134,292030,The Witcher 3: Wild Hunt,85154628,turkish,"ben beyenmedim sıkıyo oyun
+",1611336342,1611336342,False,0,0,0.4761904776096344,0,True,False,False,76561199057990357,60,20,213.0,90.0,213.0,1611336006.0
+135,292030,The Witcher 3: Wild Hunt,85154561,schinese,3块钱买的本体，原价买季票，小丑竟是我自己（哭哭）,1611336250,1611336250,True,0,0,0.0,0,True,False,False,76561198864412693,16,1,3544.0,3310.0,3499.0,1611387630.0
+136,292030,The Witcher 3: Wild Hunt,85154535,english,Very good,1611336202,1611336202,True,0,0,0.0,0,True,False,False,76561198048646247,7,1,2390.0,2203.0,2386.0,1611336460.0
+137,292030,The Witcher 3: Wild Hunt,85154511,polish,p o l e c a m.,1611336174,1611336174,True,0,0,0.0,0,True,False,False,76561199013119933,15,1,11827.0,1491.0,11821.0,1611336706.0
+138,292030,The Witcher 3: Wild Hunt,85154398,schinese,1,1611336039,1611336039,True,0,0,0.0,0,True,False,False,76561198103800854,8,1,4409.0,4271.0,4319.0,1611342219.0
+139,292030,The Witcher 3: Wild Hunt,85154324,turkish,Hem hikayesi hem oynanışı sağlam.Grafikleri mükemmel değil ama güzel,1611335962,1611335962,True,0,0,0.0,0,True,False,False,76561198971467267,8,2,433.0,433.0,215.0,1611351314.0
+140,292030,The Witcher 3: Wild Hunt,85154116,schinese,值得,1611335696,1611335696,True,0,0,0.0,0,True,False,False,76561199084691956,8,1,3001.0,3001.0,2763.0,1611349971.0
+141,292030,The Witcher 3: Wild Hunt,85154071,russian,"Игра бомба всем рекомендую 
+",1611335652,1611335652,True,0,0,0.0,0,True,False,False,76561198844247593,18,1,3654.0,35.0,3654.0,1610825512.0
+142,292030,The Witcher 3: Wild Hunt,85154044,russian,стоит своих денег,1611335628,1611335628,True,0,0,0.0,0,True,False,False,76561198137978567,9,3,5515.0,351.0,5505.0,1611335629.0
+143,292030,The Witcher 3: Wild Hunt,85153890,polish,Świetne RPG,1611335457,1611335457,True,0,0,0.0,0,True,False,False,76561198320574440,51,5,3288.0,3288.0,3042.0,1611358830.0
+144,292030,The Witcher 3: Wild Hunt,85153696,brazilian,Esse realmente é um dos jogos já criados.,1611335229,1611335229,True,1,0,0.523809552192688,0,True,False,False,76561199085913176,7,1,1474.0,1094.0,1260.0,1611372944.0
+145,292030,The Witcher 3: Wild Hunt,85153684,english,Immersive and addictive. Believe the hype!,1611335217,1611335217,True,0,0,0.0,0,True,False,False,76561198248206276,15,1,7566.0,2011.0,7566.0,1611162757.0
+146,292030,The Witcher 3: Wild Hunt,85153647,russian,"скучно боевка хуита 
+",1611335171,1611335171,False,1,0,0.0,0,False,False,False,76561198344619208,70,24,279.0,135.0,261.0,1611336180.0
+147,292030,The Witcher 3: Wild Hunt,85152773,russian,"Всё
+",1611334116,1611334116,True,0,0,0.0,0,True,False,False,76561199056541559,1,1,262.0,137.0,199.0,1611344702.0
+148,292030,The Witcher 3: Wild Hunt,85152637,koreana,"명불허전
+최고의 RPG
+2회차는 필수!!",1611333951,1611333951,True,0,0,0.0,0,True,False,False,76561198196476087,20,3,12413.0,17.0,12395.0,1611344737.0
+149,292030,The Witcher 3: Wild Hunt,85152579,schinese,nice,1611333872,1611333872,True,0,0,0.0,0,True,False,False,76561198331440181,56,5,7415.0,448.0,7415.0,1611333798.0
+150,292030,The Witcher 3: Wild Hunt,85152553,russian,"-Ты чудесно пахнешь
+-Геральт, мы на похоронах
+-Ты чудесно пахнешь на этих похоронах",1611333843,1611333843,True,3,0,0.0,0,True,False,False,76561198967994588,59,2,15508.0,0.0,15508.0,1607007952.0
+151,292030,The Witcher 3: Wild Hunt,85152533,russian,Ставлю 10 Трисс из 10 возможных!,1611333817,1611333817,True,0,0,0.0,0,True,False,False,76561198420208265,73,5,2903.0,16.0,2887.0,1611334820.0
+152,292030,The Witcher 3: Wild Hunt,85152390,schinese,"相当容易的摔死 以及有点路痴 
+但是能上头玩一晚上",1611333658,1611333658,True,0,0,0.0,0,True,False,False,76561198836280724,12,1,1112.0,1112.0,869.0,1611387887.0
+153,292030,The Witcher 3: Wild Hunt,85152206,german,cool,1611333436,1611333436,True,0,0,0.0,0,True,False,False,76561198179552014,10,1,1432.0,1270.0,1297.0,1611388273.0
+154,292030,The Witcher 3: Wild Hunt,85152097,spanish,"De los mejores juegos que jugué, si no el mejor. Desde la narrativa y el desarrollo de los personajes, hasta la optimización y el apartado gráfico, 10/10.",1611333297,1611333297,True,1,0,0.523809552192688,0,True,False,False,76561198900910359,16,3,6688.0,0.0,6688.0,1608604475.0
+155,292030,The Witcher 3: Wild Hunt,85152053,spanish,"Superando a sus precuelas por mucho y creando un mundo abierto, tan bien optimizado que ninguna otra compañía ha conseguido igualar, ni siquiera ellos mismos lo han conseguido repetir con CP2077.",1611333250,1611333250,True,0,0,0.0,0,True,False,False,76561198018385948,189,11,7819.0,0.0,7819.0,1492977526.0
+156,292030,The Witcher 3: Wild Hunt,85151930,russian,Самое лучшее во что я играл 10/10.,1611333121,1611333121,True,0,0,0.0,0,True,False,False,76561198862207160,6,3,4558.0,2281.0,4441.0,1611385530.0
+157,292030,The Witcher 3: Wild Hunt,85151764,german,top,1611332948,1611332948,True,0,0,0.0,0,True,False,False,76561199029875529,3,1,7658.0,6730.0,7658.0,1611332602.0
+158,292030,The Witcher 3: Wild Hunt,85151728,english,s,1611332913,1611332913,True,0,0,0.0,0,True,False,False,76561198072613379,52,4,7181.0,1615.0,7180.0,1611377583.0
+159,292030,The Witcher 3: Wild Hunt,85151673,russian,"1. Сюжет отличный - 5
+2. Игровой процесс - 3
+3. Экономика - 3
+4. Музыка - 2
+5. Графика - 3
+6. Мультики - 5
+Всё по 5-ти бальной шкале.
+Описывать и комментировать оценки (они, естественно. очень субъективны) долго, поэтому рекомендую эту игру другим пользователям чтобы составить своё мнение. Сам играю уже второй раз... Первое впечатление обманчиво...",1611332857,1611332857,True,0,0,0.0,0,True,False,False,76561198212211092,6,1,6489.0,6489.0,6105.0,1611355939.0
+160,292030,The Witcher 3: Wild Hunt,85151484,schinese,"不知不觉就玩了14个小时  真上瘾
+",1611332630,1611332630,True,0,0,0.0,0,False,False,False,76561198359540787,29,1,843.0,360.0,843.0,1611332586.0
+161,292030,The Witcher 3: Wild Hunt,85151450,russian,"Когда я купил её на распродаже вместе со всеми дополнениями за тысячу рублей, хайп по этой игре уже давно прошел. Но самое интересное то что установив её и начав играть я удалил её почти сразу, не увидев для себя рпг составляющей, как выбор персонажа и его создание, а мне сразу подсунули седого мужика с предысторией которой я не знал и изучать не хотел ибо ленив. Спустя год или два, у меня на работе появился коллега который только и трындел о Ведьмаке, а так же я услышал положительный отзыв от старого друга которого не видел около 3х лет, когда был у него в гостях в Новосибирске. Ну и наткнулся на пару роликов на ютуб. Ииии понеслось все с фразы Геральта ""Никак вы блядь не научитесь!"", это просто ахуенная игра! Прошел 2 раза обычный и на на игре +, вместе со всеми ДЛЦ. И наверняка пройду еще раз!",1611332592,1611332592,True,0,0,0.0,0,True,False,False,76561198002897245,28,1,18827.0,2884.0,18827.0,1611332133.0
+162,292030,The Witcher 3: Wild Hunt,85151379,turkish,başta çok akıcı çalışan oyun şu an feci takılıyor. Bilgisayarımla bir alakası yok.,1611332519,1611332519,False,1,0,0.523809552192688,0,True,False,False,76561197999360915,9,1,1321.0,1321.0,1122.0,1611344488.0
+163,292030,The Witcher 3: Wild Hunt,85151169,schinese,一开始没有玩进去，然后随着故事的进行，慢慢的被巫师的剧情所吸引，,1611332267,1611332267,True,0,0,0.0,0,True,False,False,76561199117894042,1,1,3833.0,1471.0,3748.0,1611386174.0
+164,292030,The Witcher 3: Wild Hunt,85150737,schinese,GOOD,1611331792,1611331792,True,0,0,0.0,0,True,False,False,76561198357681442,28,3,932.0,330.0,841.0,1611387843.0
+165,292030,The Witcher 3: Wild Hunt,85149907,turkish,Bir şey demeye gerek yok. Her şey ortada.,1611330788,1611330788,True,0,0,0.0,0,True,False,False,76561198371385089,92,3,658.0,658.0,338.0,1611349971.0
+166,292030,The Witcher 3: Wild Hunt,85149360,russian,"крутая игра
+",1611330091,1611330091,True,1,0,0.523809552192688,0,False,False,False,76561198163672644,8,1,13107.0,5.0,13107.0,1610732673.0
+167,292030,The Witcher 3: Wild Hunt,85149311,english,Triss and Keira big lovely eyes ;),1611330020,1611330020,True,0,0,0.0,0,True,False,False,76561198130959369,17,2,1018.0,1018.0,806.0,1611387058.0
+168,292030,The Witcher 3: Wild Hunt,85149244,russian,АХУЕННО,1611329938,1611329938,True,1,0,0.523809552192688,0,True,False,False,76561199025304953,5,1,13814.0,20.0,13804.0,1611351397.0
+169,292030,The Witcher 3: Wild Hunt,85148948,schinese,这款游戏除了开放世界以及继承了魔幻RPG元素之外，还添加了大量的任务对话，这让许多剧情不得不认真看，而且任务不在是不做就玩不了，而是选择性的接受任务，很多需要触发才能完成的任务，还有隐藏武器、怪物图鉴、技能点加成方向、昆特牌等等大量元素。可以说，这款游戏除了钱难赚，很适合养老但不肝的人玩（星际战甲转这款游戏表示很赞，玩起来一点都不累）。,1611329567,1611329567,True,0,0,0.0,0,True,False,False,76561198200107634,9,1,1419.0,1267.0,1251.0,1611378240.0
+170,292030,The Witcher 3: Wild Hunt,85148459,schinese,以同行相形见绌的价格，给玩家波澜壮阔的冒险。,1611329000,1611329000,True,0,0,0.0,0,True,False,False,76561198395004850,5,3,6902.0,37.0,6902.0,1611126297.0
+171,292030,The Witcher 3: Wild Hunt,85148329,hungarian,Best Game Ever!,1611328861,1611328861,True,0,0,0.0,0,True,False,False,76561198050039884,37,1,8812.0,0.0,8812.0,1585411131.0
+172,292030,The Witcher 3: Wild Hunt,85147743,schinese,“你长得就像会打昆特牌的样子。”,1611328138,1611328138,True,2,0,0.5454545617103577,0,True,False,False,76561198870097733,61,2,12592.0,0.0,12592.0,1609490187.0
+173,292030,The Witcher 3: Wild Hunt,85147694,turkish,ii,1611328082,1611328082,True,0,0,0.0,0,True,False,False,76561198219510381,94,1,3469.0,0.0,3469.0,1605028681.0
+174,292030,The Witcher 3: Wild Hunt,85147644,turkish,Şu zamana kadar oynadığım en iyi RYO türünde ve hikâyesi zengin bir savaş oyunu olduğunu söyleyebilirim.,1611328028,1611328028,True,0,0,0.0,0,False,True,False,76561199044790324,3,1,45.0,45.0,45.0,1610829074.0
+175,292030,The Witcher 3: Wild Hunt,85147517,german,si,1611327896,1611327896,True,0,0,0.0,0,True,False,False,76561198437736320,38,1,2573.0,1043.0,2517.0,1611351893.0
+176,292030,The Witcher 3: Wild Hunt,85147501,russian,Йен♥,1611327875,1611327875,True,0,0,0.0,0,True,False,False,76561198059754806,76,14,700.0,1.0,698.0,1611327918.0
+177,292030,The Witcher 3: Wild Hunt,85147372,french,Super jeu ! Les DLC offrent également des ajouts qui en valent la peine.,1611327711,1611327711,True,0,0,0.0,0,True,False,False,76561198168159061,68,4,7908.0,0.0,7908.0,1609777779.0
+178,292030,The Witcher 3: Wild Hunt,85147304,schinese,好玩，确实是神作,1611327611,1611327611,True,1,0,0.523809552192688,0,True,False,False,76561199129345245,1,1,5905.0,5905.0,5451.0,1611359920.0
+179,292030,The Witcher 3: Wild Hunt,85147048,schinese,值得一玩,1611327336,1611327336,True,0,0,0.0,0,True,False,False,76561198839163086,2,1,4664.0,4601.0,4466.0,1611373975.0
+180,292030,The Witcher 3: Wild Hunt,85146923,polish,"Świetna gra, polecam.",1611327192,1611327192,True,0,0,0.0,0,True,False,False,76561198272933797,17,2,633.0,633.0,425.0,1611351121.0
+181,292030,The Witcher 3: Wild Hunt,85146651,spanish,Sigo esperando juegos que lleguen a superar a este título. Éste juego es de locos <3,1611326880,1611326880,True,0,0,0.0,0,True,False,False,76561198854061692,25,1,5026.0,0.0,5026.0,1601315894.0
+182,292030,The Witcher 3: Wild Hunt,85146476,spanish,Simplemente genial.,1611326677,1611326677,True,0,0,0.0,0,True,False,False,76561198052817314,146,1,1556.0,1554.0,1535.0,1611328474.0
+183,292030,The Witcher 3: Wild Hunt,85146399,russian,"⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
+⠸⡇⠀⠿⡀⠀⠀⠀⣀⡴⢿⣿⣿⣿⣿⣿⣿⣿⣷⣦⡀
+⠀⠀⠀⠀⠑⢄⣠⠾⠁⣀⣄⡈⠙⣿⣿⣿⣿⣿⣿⣿⣿⣆
+⠀⠀⠀⠀⢀⡀⠁⠀⠀⠈⠙⠛⠂⠈⣿⣿⣿⣿⣿⠿⡿⢿⣆
+⠀⠀⠀⢀⡾⣁⣀⠀⠴⠂⠙⣗⡀⠀⢻⣿⣿⠭⢤⣴⣦⣤⣹⠀⠀⠀⢀⢴⣶⣆
+⠀⠀⢀⣾⣿⣿⣿⣷⣮⣽⣾⣿⣥⣴⣿⣿⡿⢂⠔⢚⡿⢿⣿⣦⣴⣾⠸⣼⡿
+⠀⢀⡞⠁⠙⠻⠿⠟⠉⠀⠛⢹⣿⣿⣿⣿⣿⣌⢤⣼⣿⣾⣿⡟⠉
+⠀⣾⣷⣶⠇⠀⠀⣤⣄⣀⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⠀⠉⠈⠉⠀⠀⢦⡈⢻⣿⣿⣿⣶⣶⣶⣶⣤⣽⡹⣿⣿⣿⣿⡇
+⠀⠀⠀⠀⠀⠀⠀⠉⠲⣽⡻⢿⣿⣿⣿⣿⣿⣿⣷⣜⣿⣿⣿⡇
+⠀⠀ ⠀⠀⠀⠀⠀⢸⣿⣿⣷⣶⣮⣭⣽⣿⣿⣿⣿⣿⣿⣿⠇
+⠀⠀⠀⠀⠀⠀⣀⣀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇
+⠀⠀⠀⠀⠀⠀⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃. :Zaebumba",1611326586,1611326586,True,0,0,0.0,0,True,False,False,76561198874562883,8,2,8109.0,3355.0,8044.0,1611336125.0
+184,292030,The Witcher 3: Wild Hunt,85146124,tchinese,"mother fucker,dont need to say",1611326262,1611326262,True,0,0,0.0,0,True,False,False,76561198369103564,4,1,4682.0,2589.0,4514.0,1611336296.0
+185,292030,The Witcher 3: Wild Hunt,85146118,polish,super fabula fajna mechanika walki i ogl bardzo dobra gra polecam,1611326255,1611326255,True,0,0,0.0,0,True,False,False,76561199088133512,6,2,2172.0,0.0,2172.0,1609421212.0
+186,292030,The Witcher 3: Wild Hunt,85146071,turkish,Şimdilik ağzımın suları akar bir şekilde oynuyorum 100 saat sonra görüşürüz,1611326200,1611326200,True,0,0,0.0,0,True,False,False,76561198171175851,174,29,1303.0,1175.0,1109.0,1611346727.0
+187,292030,The Witcher 3: Wild Hunt,85146001,english,"I don't recommend this game unless you have played the Witcher 1 and 2. Sure, this is a great game, but many things don't make sense without context. Who's Foltest? Why should you care about Dandelion? etc. It is a heavily story-based series. The combat and a lot of mini-quests are not actually that great. The quests range from good to incredible, but you will simply miss too much if you skip the first two games. The payoff that you get from being a lowly amnesiac in the first game to a living legend by the end of this one makes it all worth it.
+
+Now, as for the game itself, a great theme of the Witcher series is choice, and the Witcher 3 has them in abundance. Be careful not to save scum or spoil your way out of every bad situation. For one, some choices don't have immediate effects, and these effects are not always black and white; for the other, there is a great lesson to be had in each bad decision. The game makes you realize not just what you did wrong, but how you did wrong, in an almost philosophical way, which is quite a rare thing. I would say there are many instances of dilemmas such as the ""trolley problem"", where it is not clear whether your interference is a net ""good"". Of course, when you do make a decision you are happy with, you certainly feel better about yourself, but there is value in neutrality, which is also another overarching theme the Witcher tries to teach you.
+
+Overall, there are many layers to this game, but I don't want to spoil everything. There is much fun to be had, but that is only if you played the Witcher 1 and 2.",1611326108,1611326108,True,0,0,0.0,0,True,False,False,76561198028431042,178,27,8172.0,0.0,8172.0,1609931447.0
+188,292030,The Witcher 3: Wild Hunt,85145919,polish,Najlepsza gra na świecie :),1611326014,1611326014,True,0,0,0.0,0,True,False,False,76561198214070955,134,32,18660.0,0.0,18660.0,1582492165.0
+189,292030,The Witcher 3: Wild Hunt,85145823,turkish,başyapıt,1611325907,1611325907,True,0,0,0.0,0,True,False,False,76561198148676741,73,2,2355.0,1660.0,2355.0,1611185016.0
+190,292030,The Witcher 3: Wild Hunt,85145695,russian," покупалась игра по скидке за 450руб. а игра того стоит.Очень атмосферно,и очень увлекательно.Класс класс класс,однозначно",1611325760,1611325760,True,0,0,0.0,0,True,False,False,76561198417321441,17,7,4698.0,1651.0,4459.0,1611341207.0
+191,292030,The Witcher 3: Wild Hunt,85145532,schinese,一流剧情和剑,1611325587,1611325587,True,0,0,0.0,0,True,False,False,76561198155744952,28,2,2624.0,2536.0,2563.0,1611388094.0
+192,292030,The Witcher 3: Wild Hunt,85145459,schinese,非常喜欢！,1611325499,1611325499,True,0,0,0.0,0,True,False,False,76561198836825465,15,1,3773.0,2508.0,3534.0,1611388013.0
+193,292030,The Witcher 3: Wild Hunt,85145405,schinese,"打完血与酒，点开巫师三十周年庆视频，不知道是不是自己太过矫情，看了三遍哭了三遍，从希里推进白葡萄园大门和雷吉斯拥抱就有点没忍住（刚做完血与酒感觉真的很对不起雷吉斯，因为我的选择让他陷入了本不应该陷入的麻烦），后面一个个熟悉面孔都出来后就绷不住了，好希望这就是我的结局，经历了那么多，还能和老友在一起在庄园里打昆特牌，还能在某个不起眼的夜晚偷偷摸到安娜葡萄园偷葡萄吃，能在酩酊大醉后每天早上从自己的床上起来而不是某个荒原冥想起来，床边上还是那个一袭黑衣，紫罗兰色的眼睛，发色漆黑如渡鸦，丁香和醋栗香味的女人，瞥我一眼，什么都不说
+
+一路上做的选择太多，事后大多后悔，走的路太远，故事无不荒凉。从我割下大狮鹫的头，赶着夕阳余晖策马穿过百草园踏上寻女征程开始，我留下太多足迹。战乱横飞，怪物肆虐的威伦，浸泡在轰雷下雨不断阴郁的空气里，发酵着绝望，痛苦和艰难。盖坦在这里因为绝望屠村，血腥男爵在这里寻求救赎，我也是在这杀过逃兵，却也捡到他的家人寄给他问其归期的信件，里面有他女儿天真热切的语言。然后我到了诺诚，卷入过政治斗争，因为特莉斯血洗教徒护卫。乘船跌到史凯利杰群岛，因为这里慕强之风受到了少有的尊敬，也回到凯尔莫罕，我的老家，在这里最后一役击退了狂猎，同时也牺牲了如父亲般对待我老狼派的维瑟米尔，要是你在白酒园肯定会更加热闹吧。我也在迷雾之岛找回了我的女儿，一路上奔波的劳顿迷茫之心终于得到了解脱，因为只要找到她一切都是值得的。大战后我救了欧吉尔德，只是那个他已不爱，只记得要爱的爱丽丝，永远地离开了这个悲剧的世界。
+我最终留在了陶森特，这个温柔如糖果般的阳光下有着美酒，葡萄的暖色调公国。多年后在葡萄园重读探险收集的信件，难免想起那一个个不大不小的选择，改变了他们的人生，也塑造了现在的杰洛特。那个不轻易评判他人，未知全貌谨慎行事，也明白自身渺小的杰洛特。
+",1611325423,1611325423,True,0,1,0.0,0,True,False,False,76561198969329891,6,2,5447.0,4828.0,5447.0,1611317479.0
+194,292030,The Witcher 3: Wild Hunt,85145265,russian,не понял как 70 часов наиграл...,1611325236,1611325236,True,0,1,0.0,0,True,False,False,76561199013526788,11,2,4203.0,1025.0,4203.0,1610872953.0
+195,292030,The Witcher 3: Wild Hunt,85145263,polish,giga koks,1611325233,1611325233,True,0,0,0.0,0,True,False,False,76561198362279567,22,4,3136.0,496.0,2993.0,1611333898.0
+196,292030,The Witcher 3: Wild Hunt,85145139,schinese,玩过的都说好，我也感觉好，和老滚差不多，但景色比老滚好，而且几乎没BUG。,1611325095,1611325095,True,0,0,0.0,0,True,False,False,76561198323846165,113,18,9289.0,1903.0,8957.0,1611386877.0
+197,292030,The Witcher 3: Wild Hunt,85144827,english,"Read the books, played previous two games plenty of times. 
+The only thing I noticed is that when you play the 3rd while not having played the other 2 games, 
+you are playing a different game. And the same if you played only the 3 games and not the books.
+Having that said, I highly recommend this game as an experience.
+
+If you are new to the Witcher universe, always read every piece of journal entry or info you get. 
+It will help u a lot.Take your time, don't rush it. I hope u have fun.",1611324720,1611325072,True,0,0,0.0,0,True,False,False,76561198415821891,22,4,40800.0,15.0,40800.0,1611138414.0
+198,292030,The Witcher 3: Wild Hunt,85144469,french,Une Aventure incroyable et fantastique,1611324237,1611324237,True,0,0,0.0,0,True,False,False,76561198272567504,120,11,4887.0,462.0,4884.0,1611324452.0
+199,292030,The Witcher 3: Wild Hunt,85144450,schinese,巫师3有多好玩，2077 BUG就有多多，知道吧,1611324213,1611324213,True,0,0,0.0,0,True,False,False,76561199040272654,7,4,2329.0,2329.0,1853.0,1611387945.0
+200,292030,The Witcher 3: Wild Hunt,85144423,schinese,"求救啊！电脑配置天选2060款
+玩巫师 奥德赛 大镖客 只狼 全部闪退...",1611324169,1611324169,True,0,0,0.0,0,True,False,False,76561198807759937,27,4,14.0,14.0,6.0,1611329403.0
+201,292030,The Witcher 3: Wild Hunt,85144282,english,"What a great game I played it allot felt really IMMERSIVE enjoyed it so much 
+really great story wonderful game
+I LOVED IT",1611323968,1611323968,True,0,0,0.0,0,True,False,False,76561198977441984,12,2,11095.0,0.0,11095.0,1602213242.0
+202,292030,The Witcher 3: Wild Hunt,85143634,schinese,FEICHANGNIUBIDEYOUXI,1611323135,1611323135,True,0,0,0.0,0,True,False,False,76561199054187280,16,2,2733.0,2733.0,2733.0,1611322926.0
+203,292030,The Witcher 3: Wild Hunt,85143577,schinese,确实算得上是一部佳作，主线和支线都不错，dlc太够分量了，特别是酒与血，童话世界里很漂亮，石之心则剧情不错,1611323043,1611323043,True,0,0,0.0,0,True,False,False,76561198284951183,183,74,5883.0,0.0,5883.0,1565702829.0
+204,292030,The Witcher 3: Wild Hunt,85143548,schinese,解闷神器,1611323012,1611323012,True,0,0,0.0,0,True,False,False,76561198826686719,8,1,2745.0,267.0,2625.0,1611334612.0
+205,292030,The Witcher 3: Wild Hunt,85143427,spanish,"Muy recomendable sobre todo por la jugabilidad y lo rico de su mundo abierto. Una historia que está buena, acompañada de misiones secundarias que son muy interesantes. Ni que hablar de las dos expansiones que están geniales!!",1611322848,1611322848,True,0,0,0.0,0,True,False,False,76561199053963608,4,1,6502.0,2364.0,6334.0,1611368314.0
+206,292030,The Witcher 3: Wild Hunt,85143172,schinese,细节打磨和人物塑造无与伦比,1611322529,1611322529,True,0,0,0.0,0,True,False,False,76561198192251929,21,1,8374.0,3903.0,8374.0,1611143495.0
+207,292030,The Witcher 3: Wild Hunt,85143108,english,good,1611322462,1611322462,True,0,0,0.0,0,True,False,False,76561199085203433,5,1,2084.0,1523.0,1988.0,1611328285.0
+208,292030,The Witcher 3: Wild Hunt,85143070,brazilian,"todo o jogo é nota 11
+",1611322418,1611322418,True,0,0,0.0,0,True,False,False,76561198038509141,21,3,48880.0,72.0,48807.0,1611333912.0
+209,292030,The Witcher 3: Wild Hunt,85143065,turkish,yan görevleri bitirmeye fırsatım olmadı ama oyun şu güne kadar oynadıklarımın en iyisi oyuncuyu içine çekiyor ilk başlarda sıkılıp silmiştim ama tekrar başladığımda başından kalkamadım saatlerce sıkılmadan oynadığım tek oyundur kısaca almaya değer ve fiyatını fazlasıyla hak ediyor,1611322411,1611322519,True,0,0,0.0,0,True,False,False,76561199075185152,24,5,3051.0,2823.0,2563.0,1611388207.0
+210,292030,The Witcher 3: Wild Hunt,85142937,english,"A game in 2015 has no business being this good, the world is stuffed with things to find and contracts to do.
+The characters are interesting and very well written. Honestly Geralt the 2nd best protagonist in video game history. the first being Arthur Morgan.
+For a game about a witcher without emotions there are some very powerful scenes with Geralt which I won't spoil.
+I completed all of the contracts, done many of the side quests and did all of the subplots and Im sure I haven't experienced everything this game has to offer.
+I bought this game for 15$ and I cant recommend is enough.",1611322256,1611322256,True,0,0,0.0,0,True,False,False,76561198804654117,25,16,3944.0,3201.0,3944.0,1611321145.0
+211,292030,The Witcher 3: Wild Hunt,85142580,schinese,good,1611321793,1611321793,True,0,0,0.0,0,True,False,False,76561199037661746,41,2,5124.0,1623.0,5088.0,1611324112.0
+212,292030,The Witcher 3: Wild Hunt,85142425,turkish,LE LE LE LEY LELE LEY LEY LEY LEY,1611321609,1611321609,True,0,0,0.0,0,True,False,False,76561198800295727,37,3,173.0,173.0,134.0,1611323980.0
+213,292030,The Witcher 3: Wild Hunt,85142280,schinese,不愧3A之名,1611321426,1611321426,True,0,0,0.0,0,True,False,False,76561199086557432,3,1,10670.0,927.0,10670.0,1611317626.0
+214,292030,The Witcher 3: Wild Hunt,85142262,schinese,刚几个小时的我 决定明天辞职,1611321409,1611321409,True,0,0,0.0,0,True,False,False,76561198142030064,9,2,743.0,743.0,674.0,1611325710.0
+215,292030,The Witcher 3: Wild Hunt,85141235,schinese,我换了块显卡来刷三周目，等等，先来一局昆特牌,1611320032,1611320032,True,0,0,0.0,0,True,False,False,76561198130301316,16,1,14443.0,0.0,14443.0,1582880438.0
+216,292030,The Witcher 3: Wild Hunt,85140669,schinese,经典游戏无需多言，买就是了,1611319288,1611319288,True,0,0,0.0,0,True,False,False,76561198112585327,9,2,867.0,785.0,737.0,1611374924.0
+217,292030,The Witcher 3: Wild Hunt,85140361,turkish,Oyunu ilk kez deneyimledim hikayesine kapılıp gidiyorsunuz görevler karakterler senaryo her şey yerli yerinde bence cidden güzel bir oyun indirimde kaçırmayın derim.,1611318809,1611318809,True,0,0,0.0,0,True,False,False,76561198425258610,25,6,535.0,535.0,351.0,1611360898.0
+218,292030,The Witcher 3: Wild Hunt,85140060,english,i like it,1611318383,1611318383,True,0,0,0.0,0,True,False,False,76561198043817723,133,5,5817.0,0.0,5817.0,1584120049.0
+219,292030,The Witcher 3: Wild Hunt,85140025,turkish,Muhteşem !!!,1611318337,1611318337,True,0,0,0.0,0,True,False,False,76561198400880078,20,2,7000.0,46.0,6954.0,1611350175.0
+220,292030,The Witcher 3: Wild Hunt,85139889,english,"best game ever this and cyberpunk 2077 
+",1611318150,1611318150,True,0,0,0.0,0,False,False,False,76561198140416071,102,8,855.0,810.0,620.0,1611332214.0
+221,292030,The Witcher 3: Wild Hunt,85139811,turkish,Film tadında,1611318021,1611318021,True,0,0,0.0,0,True,False,False,76561199114194115,4,2,2770.0,2770.0,2770.0,1611317985.0
+222,292030,The Witcher 3: Wild Hunt,85139421,spanish,uffff compralo y contame,1611317461,1611317461,True,0,0,0.0,0,True,False,False,76561198262019361,34,5,11676.0,387.0,11676.0,1611317320.0
+223,292030,The Witcher 3: Wild Hunt,85139346,schinese,YYDS,1611317353,1611317353,True,0,0,0.0,0,False,False,False,76561198817306526,54,4,1996.0,1996.0,1899.0,1611323338.0
+224,292030,The Witcher 3: Wild Hunt,85139322,schinese,"故事很好
+",1611317317,1611317317,True,0,0,0.0,0,True,False,False,76561198437010897,35,3,341.0,92.0,341.0,1611317284.0
+225,292030,The Witcher 3: Wild Hunt,85139296,polish,"The Witcher 3 is a game with a great plot, beautiful music and graphics that can impress even after almost 6 years from its release. Any fan of Role-Playing Games should try it.",1611317282,1611317282,True,0,0,0.0,0,True,False,False,76561198062265668,248,1,2526.0,2070.0,2523.0,1611355410.0
+226,292030,The Witcher 3: Wild Hunt,85139164,schinese,这个游戏太棒了，细节丰富，里面的许多选择都会产生不同的影响,1611317090,1611317090,True,0,0,0.0,0,True,False,False,76561199108436001,4,1,3104.0,1645.0,2768.0,1611372284.0
+227,292030,The Witcher 3: Wild Hunt,85139042,hungarian,yes,1611316906,1611316906,True,0,0,0.0,0,True,False,False,76561198106458433,37,12,6334.0,2475.0,6037.0,1611335253.0
+228,292030,The Witcher 3: Wild Hunt,85138899,schinese,巫师3，真的是经典中的经典，体量和质量都赶得上巫师3的游戏可以说是寥寥无几，自家的赛博朋克目前也差点火候。RPG/ARPG爱好者必玩。,1611316675,1611316675,True,0,0,0.0,0,False,False,False,76561198400443434,274,15,5850.0,0.0,5850.0,1609779286.0
+229,292030,The Witcher 3: Wild Hunt,85138701,schinese,确实好玩 剧情非常好,1611316394,1611316394,True,0,0,0.0,0,True,False,False,76561198849596656,27,4,5491.0,4105.0,5311.0,1611387343.0
+230,292030,The Witcher 3: Wild Hunt,85138610,schinese,菜且爱玩,1611316277,1611316277,True,0,0,0.0,0,False,False,False,76561199072002508,10,4,849.0,829.0,777.0,1611370101.0
+231,292030,The Witcher 3: Wild Hunt,85138352,schinese,爽,1611315884,1611315884,True,0,0,0.0,0,True,False,False,76561199106746899,20,4,535.0,14.0,535.0,1610179564.0
+232,292030,The Witcher 3: Wild Hunt,85137931,english,Really nice story lines and dialogues.,1611315193,1611315193,True,0,0,0.0,0,True,False,False,76561197968460185,167,1,3701.0,2700.0,3417.0,1611387535.0
+233,292030,The Witcher 3: Wild Hunt,85137852,turkish,Muhteşem ötesi...,1611315067,1611315067,True,0,0,0.0,0,True,False,False,76561198173262829,69,3,7701.0,1953.0,7418.0,1611348704.0
+234,292030,The Witcher 3: Wild Hunt,85137051,schinese,,1611313850,1611313850,True,0,0,0.0,0,True,False,False,76561199072705966,38,2,1138.0,150.0,1138.0,1611313847.0
+235,292030,The Witcher 3: Wild Hunt,85136915,russian,ТОП!!!,1611313630,1611313630,True,1,0,0.523809552192688,0,True,False,False,76561198156483038,33,1,5271.0,2450.0,5271.0,1611249275.0
+236,292030,The Witcher 3: Wild Hunt,85136884,portuguese,"Mano eu sou um bruxo e fiz uma missão de achar uma panela pra uma vovó, cara esse jogo é incrivel 10/10",1611313591,1611313591,True,0,0,0.0,0,True,False,False,76561199001691413,5,3,1822.0,278.0,1822.0,1611270432.0
+237,292030,The Witcher 3: Wild Hunt,85136440,schinese,挺不错的。音效和格斗方面都可以,1611312929,1611312929,True,0,0,0.0,0,True,False,False,76561199121441020,2,1,549.0,549.0,499.0,1611375099.0
+238,292030,The Witcher 3: Wild Hunt,85136390,brazilian,Muito bom estou jogando pelo Gforce now,1611312844,1611312844,True,0,0,0.0,0,True,False,False,76561199024691542,18,1,2687.0,1326.0,2398.0,1611330785.0
+239,292030,The Witcher 3: Wild Hunt,85136322,schinese,是男人就来玩巫师,1611312755,1611312755,True,0,0,0.0,0,True,False,False,76561198451556987,44,3,6168.0,335.0,6058.0,1611319481.0
+240,292030,The Witcher 3: Wild Hunt,85135910,schinese,我是傻逼,1611312081,1611312081,True,0,0,0.0,0,True,False,False,76561199021383039,9,2,11553.0,51.0,11553.0,1610198017.0
+241,292030,The Witcher 3: Wild Hunt,85135900,russian,игра года,1611312058,1611312058,True,1,0,0.523809552192688,1,True,False,False,76561198014749910,303,9,2921.0,2305.0,2520.0,1611350785.0
+242,292030,The Witcher 3: Wild Hunt,85135861,english,Im addicted help,1611311997,1611311997,True,0,1,0.0,0,True,False,False,76561198261131855,3,2,8343.0,1447.0,8063.0,1611341762.0
+243,292030,The Witcher 3: Wild Hunt,85135818,turkish,azıcık oynadım güzele benziyor,1611311920,1611311920,True,0,0,0.0,0,True,False,False,76561198199289171,65,5,12330.0,122.0,12330.0,1611311792.0
+244,292030,The Witcher 3: Wild Hunt,85135736,russian,Отличная игра.,1611311791,1611311791,True,1,0,0.523809552192688,0,True,False,False,76561198025069960,45,1,33142.0,350.0,32791.0,1611343049.0
+245,292030,The Witcher 3: Wild Hunt,85135603,koreana,스토리는 좋다는데 왜 이 하기꺼림직한 느낌은뭐지,1611311582,1611311582,False,0,0,0.0,0,True,False,False,76561198851909226,46,39,261.0,0.0,261.0,1585012019.0
+246,292030,The Witcher 3: Wild Hunt,85135078,english,"Toss a coin for your Witcher, definitely one of the best games ever.",1611310719,1611310719,True,0,0,0.0,0,True,False,False,76561198065625217,68,5,9608.0,0.0,9608.0,1543245495.0
+247,292030,The Witcher 3: Wild Hunt,85135072,schinese,"上头
+",1611310714,1611310714,True,0,0,0.0,0,True,False,False,76561199082347233,12,1,1233.0,1074.0,1008.0,1611387624.0
+248,292030,The Witcher 3: Wild Hunt,85134950,english,"What great game. So much depth, fantastic stories and missions.",1611310537,1611310537,True,0,0,0.0,0,True,False,False,76561197996569707,81,2,1318.0,1040.0,1182.0,1611375916.0
+249,292030,The Witcher 3: Wild Hunt,85134258,schinese,直线扭曲的纵火犯和纵火犯打架第一次出不了拳，直接被打死，复活之后打他一下5他还会弹反，我打你嘛个b，殺碧公司不会做游戏就不要做，2077也全是bug，天天宣传你麻阁b，怎么不宣传你麻去世了呢，这种老游戏还他妈这优化，你妈妈是不是也被优化了啊？？？真牛逼，我祝你们公司的老总全家暴毙，谢谢,1611309386,1611309386,False,0,1,0.331578940153122,0,True,False,False,76561199096341377,20,2,802.0,802.0,351.0,1611369649.0
+250,292030,The Witcher 3: Wild Hunt,85133983,english,jay cheng approves. my favourite gaem of all tiem ;),1611308941,1611308941,True,0,0,0.0,0,True,False,False,76561198145571081,94,10,236.0,0.0,236.0,1591787399.0
+251,292030,The Witcher 3: Wild Hunt,85133847,english,"A worthy capstone to the Witcher-Saga of games, although it is kind of funny how vastly superior the DLCs stories are to the main plot of the base game.",1611308730,1611308730,True,0,0,0.0,0,True,False,False,76561198420780834,33,13,10380.0,0.0,10380.0,1607622264.0
+252,292030,The Witcher 3: Wild Hunt,85133841,polish,game good,1611308724,1611308724,True,0,0,0.0,0,True,False,False,76561198254290860,69,2,1916.0,1672.0,1915.0,1611313081.0
+253,292030,The Witcher 3: Wild Hunt,85133829,english,Amazing story and beautiful graphics,1611308709,1611308709,True,0,0,0.0,0,True,False,False,76561199026885124,4,3,3611.0,3258.0,3611.0,1611292021.0
+254,292030,The Witcher 3: Wild Hunt,85133576,turkish,kotu bıraz ama ıyı,1611308302,1611308302,True,0,1,0.0,0,True,False,False,76561199008018468,21,6,797.0,545.0,372.0,1611387706.0
+255,292030,The Witcher 3: Wild Hunt,85133524,english,"The Witcher 3 is near aesthetic perfection. The modular animation system is so seamless that I hardly ever notice it. The camera work for each conversation and scene keeps things interesting visually, and voice acting and music tie it all together. The conversation and choice systems are extremely well fleshed out, and the amount of an effect that player choice has on the story is highly commendable on CDPRs part. HOWEVER, the gameplay really dragged this game down for me. The inventory ui pisses me off as a graphic designer/normal fucking person, and the crafting is extremely tedious. The fighting is slippery, unintuitive, and inconsistent, although it does look very nice most of the time. Merely running around is awkward, and Geralt gets hung up on small bits of geometry or items a lot. The RPG statistics and such were far to complicated for me, as someone who primarily comes to these games for the scenery and writing. It's a rather large and unnecessary roadblock to all of the other content within this game. Also, people need to stop putting weapon degradation in their games purely for realism and immersion. If there isn't a gameplay purpose for weapon degradation, it shouldn't be in the game. If you enjoy complex RPG stat management, then you might enjoy this on normal, otherwise play it on it's easiest setting.",1611308228,1611308228,True,0,0,0.0,0,True,False,False,76561198355736403,54,9,1254.0,0.0,1254.0,1555060470.0
+256,292030,The Witcher 3: Wild Hunt,85133502,english,yup,1611308187,1611308187,True,0,0,0.0,0,True,False,False,76561199095937125,19,5,242.0,27.0,214.0,1611308860.0
+257,292030,The Witcher 3: Wild Hunt,85133460,schinese,剧情很不错。,1611308127,1611308127,True,1,0,0.523809552192688,0,True,False,False,76561198394226920,42,8,2448.0,2448.0,1968.0,1611350292.0
+258,292030,The Witcher 3: Wild Hunt,85133383,schinese,慢慢玩，就和看电影一样，比较休闲，有代入感,1611307998,1611307998,True,0,0,0.0,0,True,False,False,76561198066863613,4,1,5831.0,1488.0,5449.0,1611388086.0
+259,292030,The Witcher 3: Wild Hunt,85133187,english,amazing,1611307671,1611307671,True,0,0,0.0,0,True,False,False,76561198396589936,14,8,237.0,0.0,237.0,1588374232.0
+260,292030,The Witcher 3: Wild Hunt,85133150,ukrainian,мало багів)))),1611307610,1611307610,True,0,0,0.0,0,True,False,False,76561198049715362,15,1,5452.0,2571.0,5293.0,1611316998.0
+261,292030,The Witcher 3: Wild Hunt,85132993,koreana,스토리가 좋네요 부가 퀘스트도 스토리가 좋아 영화를 보는 기분이네요,1611307351,1611307351,True,0,0,0.0,0,True,False,False,76561198156235123,3,1,7097.0,4614.0,6697.0,1611379440.0
+262,292030,The Witcher 3: Wild Hunt,85132932,schinese,？,1611307260,1611307260,True,0,0,0.0,0,True,False,False,76561198989271628,24,2,770.0,770.0,626.0,1611325550.0
+263,292030,The Witcher 3: Wild Hunt,85132819,schinese,n,1611307065,1611307065,True,0,0,0.0,0,False,False,False,76561199049428476,26,12,279.0,279.0,247.0,1611387467.0
+264,292030,The Witcher 3: Wild Hunt,85132614,schinese,perfect,1611306674,1611306674,True,0,0,0.0,0,True,False,False,76561198824853724,17,3,954.0,245.0,834.0,1611329591.0
+265,292030,The Witcher 3: Wild Hunt,85132450,schinese,太好玩了,1611306455,1611306455,True,0,0,0.0,0,True,False,False,76561199106770138,2,1,4777.0,2970.0,4764.0,1611370309.0
+266,292030,The Witcher 3: Wild Hunt,85132311,schinese,nb,1611306239,1611306239,True,0,0,0.0,0,True,False,False,76561198447802377,32,2,310.0,50.0,259.0,1611309260.0
+267,292030,The Witcher 3: Wild Hunt,85132026,english,"A masterpiece, best game in the series.",1611305777,1611305777,True,1,0,0.523809552192688,0,True,False,False,76561198298862385,24,1,5860.0,180.0,5860.0,1610737732.0
+268,292030,The Witcher 3: Wild Hunt,85131702,spanish, Simplemente: JU-E-GA-ZO,1611305193,1611305193,True,0,0,0.0,0,True,False,False,76561198041619345,95,2,18371.0,5267.0,18371.0,1611188111.0
+269,292030,The Witcher 3: Wild Hunt,85131518,german,macht viel spaß und ist anfängerfreundlich,1611304864,1611304864,True,0,0,0.0,0,True,False,False,76561199116788861,4,1,3202.0,463.0,3175.0,1611333289.0
+270,292030,The Witcher 3: Wild Hunt,85131299,schinese,买就对了,1611304532,1611304532,True,0,0,0.0,0,True,False,False,76561199094293514,8,1,337.0,312.0,334.0,1611304890.0
+271,292030,The Witcher 3: Wild Hunt,85131186,koreana,스토리 업데이트 계속해줫으면 좋겠당ㅎㅎ;,1611304365,1611304365,True,0,0,0.0,0,True,False,False,76561198188160121,12,1,2253.0,729.0,2235.0,1611321997.0
+272,292030,The Witcher 3: Wild Hunt,85131132,polish,"~POZIOM TRUDNOŚCI~
+
+🔲Moja 70-letnia babcia może w to zagrać
+🔲 Łatwa
+✅Normalny
+🔲 Trudna
+🔲 Hardcore
+
+~GRAFIKA~
+
+🔲 Projektowana w Paincie
+🔲 Słaba
+🔲 W porządku
+✅ Piękna
+✅ Arcydzieło (pomijając błędy graficzne)
+
+~MUZYKA~
+
+🔲 Odpal sobie Spotify w tle
+🔲 Nic specjalnego
+🔲 Dobra
+🔲 W sumie to odpal Spotify i znajdź soundtrack z tej gry
+✅ Zajeb1sta !
+
+~ FABUŁA~
+
+🔲 Minecraft też ma fabułę
+🔲 Esej z gimnazjum
+🔲 W porządku
+🔲 Dobrze napisana
+✅ Tolkien uczył się pisać od scenarzystów
+
+~CENA~
+
+🔲 Darmowa
+✅ Zaskakująco tania ( Niecałe 50 zł edycja GOTY na promocji)
+🔲 Idealna cena
+🔲 Mogłaby być tańsza
+🔲 Kup sobie coś innego
+
+
+~WYMAGANIA SPRZĘTOWE~
+
+🔲Pójdzie na mikrofalówce
+✅ Przeciętne
+🔲 High end
+🔲 Przydałby się komputer z NASA
+
+~DŁUGOŚĆ~
+
+🔲 W sam raz na raz (0-2 godziny)
+🔲 Krótka (2-15 godzin)
+🔲 Przeciętna (15-30 godzin)
+🔲 Długa (30-60 godzin)
+✅ Bardzo długa (60 i więcej godzin)
+
+~ZABAWA~
+
+🔲 Oglądanie schnącej farby jest ciekawsze
+🔲 Powtarzalna
+🔲 Całkiem niezła
+🔲 Będziesz bardzo ciepło wspominał
+✅ Zapamiętasz tę grę
+
+~PONOWNE OGRYWANIE~
+
+🔲 Jednorazowe doświadczenie
+🔲 Jeśli trochę zapomnisz/zatęsknisz
+🔲 ""Ciekawe co by się stało, jakbym wtedy zrobił inaczej...""
+✅ ""Ja chcę jeszcze raz!""
+
+
+~CZY WARTO KUPIĆ? ~
+
+🔲Nie
+🔲 Poczekaj na naprawę błędów
+✅ Kupuj!
+
+Jeżeli ci pomogłem nie zapomnij dać mi nagrodę na profilu !",1611304281,1611304281,True,0,0,0.0,0,True,False,False,76561198206132281,48,9,974.0,715.0,844.0,1611330473.0
+273,292030,The Witcher 3: Wild Hunt,85131001,schinese,你玩了它，你就拥有了这个世界,1611304094,1611304094,True,0,0,0.0,0,True,False,False,76561198972693037,9,2,1189.0,1056.0,1189.0,1611304066.0
+274,292030,The Witcher 3: Wild Hunt,85130808,schinese,很烦哦 新手村直接摔死了 我杰洛特真就没有腿哦？,1611303763,1611303763,True,0,0,0.0,0,True,False,False,76561198991155208,3,1,1395.0,638.0,1039.0,1611380538.0
+275,292030,The Witcher 3: Wild Hunt,85130670,turkish,Çok iyi oyun almayan mal,1611303522,1611303522,True,0,0,0.0,0,True,False,False,76561198300704341,17,1,6094.0,1.0,6092.0,1611304132.0
+276,292030,The Witcher 3: Wild Hunt,85130553,russian,Шедевр в мире РПГ.,1611303328,1611303328,True,1,0,0.523809552192688,0,True,False,False,76561198914493230,7,1,2758.0,1301.0,2758.0,1611076604.0
+277,292030,The Witcher 3: Wild Hunt,85130399,schinese,还不错还不错还不错还不错还不错。,1611303073,1611303073,True,0,0,0.0,0,True,False,False,76561198853974624,19,1,313.0,0.0,313.0,1607743035.0
+278,292030,The Witcher 3: Wild Hunt,85130268,schinese,越玩越好玩，剧情太棒啦,1611302824,1611302824,True,0,0,0.0,0,False,False,False,76561198077593900,61,9,3775.0,289.0,3568.0,1611365047.0
+279,292030,The Witcher 3: Wild Hunt,85129802,english,"The most masterfully crafted RPG of this generation by far, The Witcher 3 blows you away with an incredible main story and side quests, detailed and meaningful choices, graphics that still look incredible to this day (the environment detail is ballslapping), a soundtrack that makes you FEEL like you're in the middle of a medieval fantasy adventure (with a lot of influences from Eastern European culture) and really good gameplay which has weight and makes you feel like a legendary sword fighter. 
+
+With over 500 hrs played on GOG and PS4, replaying this again on Steam is a joy and I can say it is still just as enjoyable as when I first tried it. Completely recommend buying it.",1611302060,1611302060,True,0,0,0.0,0,True,False,False,76561198987049405,142,2,667.0,564.0,667.0,1611263705.0
+280,292030,The Witcher 3: Wild Hunt,85129259,turkish,"Alttaki videonun başlığı her şeyi açıklıyor aslında
+
+https://youtu.be/MhZHMzGvuMU",1611301169,1611301169,True,0,0,0.0,0,True,False,False,76561198836753913,17,2,1907.0,1680.0,1572.0,1611338871.0
+281,292030,The Witcher 3: Wild Hunt,85129232,turkish,oyuncuyum diyen herkesin elinin değmesi gereken bir oyun,1611301111,1611301111,True,0,0,0.0,0,True,False,False,76561198961797095,73,3,2882.0,2786.0,2659.0,1611322550.0
+282,292030,The Witcher 3: Wild Hunt,85129190,schinese,又恐怖又好玩,1611301024,1611301024,True,0,0,0.0,0,True,False,False,76561198828162694,7,1,1385.0,689.0,993.0,1611384944.0
+283,292030,The Witcher 3: Wild Hunt,85129150,schinese,good,1611300964,1611300964,True,0,0,0.0,0,True,False,False,76561198419356296,2,1,3139.0,2249.0,2783.0,1611387518.0
+284,292030,The Witcher 3: Wild Hunt,85129064,schinese,"玩一万遍都不腻
+",1611300796,1611300796,True,0,0,0.0,0,True,False,False,76561198107878689,24,2,2633.0,2625.0,1967.0,1611340843.0
+285,292030,The Witcher 3: Wild Hunt,85128919,bulgarian,I like the story and the soundtrck,1611300569,1611300569,True,0,0,0.0,0,True,False,False,76561198334080767,29,8,5873.0,1208.0,5415.0,1611347038.0
+286,292030,The Witcher 3: Wild Hunt,85128790,schinese,".. ... ... ... ... ... ... ... ,,----~~”'¯¯¯¯¯¯”'~~
+... ... ... ... ... ...,,-~”¯::::::::::::::::::::::::::::::::::¯”'~
+... ... ... ... ..,,~”::::::::::::::::::::::::::::::::::::::::::::::::::::”~
+... ... ... ..,,-“:::::::::::::::/::::::/::::::::::::::::\::::::::::::\:::::::::\
+... ... ...,-“:::::,-“:::/:::::/::::::/:|::::::::::::::::\::::::::::::\:::::::::\
+... ... .,-“:::::::/:::::|:::::|:::::::|:|:::::::|:::::::\\:::::::::::|:|:::::\::\
+... ... /::::::/:::|::::::|:::::|::|::::\:\:::::/\::::/:::||:::::::::|:/::::::|:::|
+... .../::::::|:::::\::::::\::::\::\::::/\:\,::/::\::/::::|:|:::::::/\/::::::/::::|
+... ../::::::/::::::'\::::::\-,:::\/\::/: :\-,”/ : :\/:\:::/: |:::::/::/::::::|::::/
+... ./::::::|:::::::::\::::::\|::/: \/: : : \/: : : : : \,/: \/::_/\//:\:::::/:::/
+... /::::::/::/:::::::|::/,__/:/: :__/ . .: : : : : : :\__. \/: \:::::/::/:::/
+... |:::|::::::::::::/::/::::/;/ ;/ ,. .,\: : : : : : : / ,._., \ /::::::|::/:|
+...|:::/:::/::::::::/::/|:::|.\: |.|❤||; : : : : : :|.|.❤||;|::|:::\/:/::/
+...|::|:::|::::::::/:::\|:::'\,|: \.""'"" /: : : : : : : :'\."" '""/ : \: |:::|::\
+...|::|:::|:::::::/:::::|::::|/: : “¯': : : : : : : : : :""¯'' : : :\ : :/::::'\
+...|::|:::|::::::/:::::/:::::'\: : : : : : : : : : : : : : :': : : : :| :/::::::|
+... \:|:::|:::::|::::::|::::::|,: : : : : : :~,___,~: : : : : :,-“:::::::|::|
+... .'\|::|:::::|::::::||::::::\'~,: : : : : : '~--~': : : : ,,~”\:::::::::|:/
+... ...'\:|:::::|::::::/.|::::::|: : “~,: : : : : : : : ,,-~,”::::::'\::::::::/
+... ... .\\:::::|”~,/-,|:::::::|: : : : ¯”~,-,,,-~”:::,,-'\::::::::\-,,_::|
+... ... ..',\,::|~--'-~\:::::::|: : : : : : |::|,,-~”¯___\::::::::\... .'|
+... ..,~”': : \|: : : : : \::::::|: : : : : : |¯”'~~”~,”,: : \:::::::|... /
+..,-“: : : : : :|: : : : : :\::::::|: : : : : : \: : : : : : “~'-,:\::::::|\,/
+..|: : : : : : : |: : : : : : |::::|,\,: : : : : : : : : : : : : :”-,-\::::|: \
+..| : : : : : : : : : : : : : |::::|:'-,\: : : : : : : : : : : : : : :”-'\,|: :|
+...\ : : : : : : : : : :'\: : :\:::|: : '\'\: : : : :~,,: : : : : : : : : “~-
+...| : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : : :”-'\,,
+...\: : : : : : : : : : :'\: : : : : : : : : : : : : :~,,: : : : : : : : : “~-.,_
+....\ : : : : : : : : : : :\: /: : : : : : : : : : : : : : : “,: : : : : : : : : : :""~,_
+... .\: : : : : : : : : : :\|: : : : : : : : :_._ : : : : : : \: : : : : : : : : : : : :”- .
+... ...\: : : : : : : : : : \: : : : : : : : ( O ) : : : : : : \: : : : : : : : : : : : : : '\._
+... ... .\ : : : : : : : : : '\': : : : : : : :""*"": : : : : : : :|: : : : : : : : : : : : : : : |0)
+... ... ...\ : : : : : : : : : '\: : : : : : : : : : : : : : : :/: : : : : : : : : : : : : : : /
+... ... .....\ : : : : : : : : : \: : : : : : : : : : : : : ,-“: : : : : : : : : : : : : : : :/
+... ... ... ...\ : : : : : : : : : \: : : : : : : : : _="" : : : : : ',_.: : : : : : : :,-“
+... ... ... ... \,: : : : : : : : : \: :""”'~---~”"" : : : : : : : : : : : : = :""”~~
+... ... ... ... ..'\,: : : : : : : : : \: : : : : : : : : : : : : : : : : : : '\: : : \
+... ... ... ... ... .\, : : : : : : : : '\: : : : : : : : : : : : : : : : : : :|: : ::\
+... ... ... ... ... ...\,: : : : : : : : : \: : : : : : : : : : : : : : : : : :I : : :|
+... ... ... ... ... ... ..\ : : : : : : : : \: : : : : : : : : : : : : : : : :|: : : :|
+... ... ... ... ... ... ...\\,: : : : : : : , \: : : : : : : : : : : : : : : I: : : : |
+... ... ... ... ... ... ... .\\ : : : : : : : :'\ : : : : : : : : : : : : : :|: : : : |
+... ... ... ... ... ... ... ./:\: : : : : : : : :'\, : : : : : : : : : : : : |: : : ::|
+... ... ... ... ... ... .../: : : '\: : : : : : : : : :'\,: : : : : : : : : :|: : : ::|
+... ... ... ... ... ... ../: : : : :\: : : : : : : : : : ,\ : : : : : : : : :|: : : ::|
+... ... ... ... ... ... ,/: : : : : : :\: : : : : : : : : : '\,: : : : : : : |: : : ::|
+... ... ... ... ... ..,-“: : : : : : : :“-,: : : : : : : : : : \: : : : : : I: : : ::|
+... ... ... ... ... ,/ : : : : : : : : : :”-, : : : : : : : : : :\: : : : : I: : : :/
+... ... ... ... ..,/ : : : : : : : : : : : : :”-, : : : : : : : : :'\: : : :I : : : /
+... ... ... ... ,/ : : : : : : : : : : : : : : : “-,: : : : : : : : :'\: : :I : : : /
+... ... ... .../: : : : : : : : : : : : : : : : : : “-,: : : : : : : : '\: :I : : : /
+... ... ... ../: : : : : : : : : : : : : : : : : : : : :“-,: : : : : : : \,:I : : :/
+... ... ... ,/: : : : : : : : : : : : : : : : : : : : : : :“-,: : : : : : :\: : : :/
+... ... .../-,-,”,,-,~-,,_: : : : : : : : : : : : : : : : : “-,: : : : : :'\: : /
+... ... ..|',/,/:||:\,\: : ::: """"~,,~~---,,,_: : : : : : : : : :'\: : : : : ,:\
+... ... ..|: :”: ||: :”: : : : : : :”-,........ ¯¯”''~~~-----~|\: : : : : : \
+... ... ..|: : : ||: : : : : : : : : : :”-,..........................|: : : : : : :\
+... ... ..| : : : : : : : : : : : : : : : :”-,.......................\: : : : : : : :\
+... ... ..| : : : : : : : : : : : : : : : :”-,\....................,-“\: : : : : : : :':\
+... ... ..| : : : : : : : : : : : : : : : : : :”-\...............,/: : :\: : : : : : : : \
+... ... ..| : : : : : : : : : : : : : : : : : : : \,.........,../: : :: '\: : : : : : : : |
+... ... ..| : : : : : : : : : : : : : : : : : : : : \.......,/: : : : ,-~/: : ,: : |: :/|
+... ... ..'|: : : : : : : : : : : : : : : : : : : : : \~”¯: : : : : |: :|: : /: :/::::|
+... ... ...|: : : : : : : : : : : : : : : : : : : : : |: : : : : : : :”-,,_/_,/-~”:|
+... ... ...|: : : : : : : : : : : : : : : : : : : : : |: : : : : : : : : : : : : : : |
+... ... ... |: : : : : : : : : : : : : : : : : : : : : |: : : : : : : : : : : : : : :",1611300328,1611300328,True,0,0,0.0,0,True,False,False,76561199028273017,16,6,199.0,24.0,174.0,1611388210.0
+287,292030,The Witcher 3: Wild Hunt,85128717,russian,"Первые часов 30-40 играл без остановки, дальше надоела однообразность заказов и большинства доп. квестов (поговори → приди на место → осмотри все дерьмачьим чутьем → пройди по следам → подерись), из интересного только сами сюжетные квесты.",1611300207,1611300207,True,1,0,0.0,0,True,False,False,76561198437750420,197,49,3150.0,394.0,3150.0,1610986290.0
+288,292030,The Witcher 3: Wild Hunt,85128538,russian,Очень интересные квесты  и таких много,1611299865,1611299865,True,0,0,0.0,0,True,False,False,76561198873021017,6,1,5632.0,2302.0,5632.0,1611048772.0
+289,292030,The Witcher 3: Wild Hunt,85128327,schinese,发生什么事，打不开游戏了,1611299473,1611299473,True,0,0,0.0,0,True,False,False,76561198977813429,58,1,1438.0,169.0,1269.0,1611309973.0
+290,292030,The Witcher 3: Wild Hunt,85128162,schinese,好,1611299141,1611299141,True,0,0,0.0,0,True,False,False,76561199103380435,9,2,4828.0,271.0,4556.0,1611387898.0
+291,292030,The Witcher 3: Wild Hunt,85128129,english,"terribly bugs, keeps kicking me out to home screen, takes many tries to get it to stay up.",1611299056,1611299056,False,0,0,0.0,0,True,False,False,76561198332696736,23,1,8565.0,4973.0,8442.0,1611363530.0
+292,292030,The Witcher 3: Wild Hunt,85128022,russian,Супер игра,1611298852,1611298852,True,0,0,0.0,0,True,False,False,76561198039783061,22,1,2093.0,0.0,2093.0,1609358687.0
+293,292030,The Witcher 3: Wild Hunt,85127923,koreana,역대급 게임. 이것보다 재밌는 게임은 아직까지 본 적 없다,1611298679,1611298679,True,0,0,0.0,0,True,False,False,76561198891593245,9,1,4452.0,2929.0,4391.0,1611302316.0
+294,292030,The Witcher 3: Wild Hunt,85127843,spanish,JUEGAZO 10/10,1611298543,1611298543,True,1,0,0.523809552192688,0,True,False,False,76561198075680907,230,8,1392.0,1073.0,1304.0,1611367329.0
+295,292030,The Witcher 3: Wild Hunt,85127842,english,The Raven says you should of already beaten this ... Thrice,1611298543,1611298543,True,0,0,0.0,0,True,False,False,76561198016590453,106,30,4775.0,0.0,4775.0,1552360251.0
+296,292030,The Witcher 3: Wild Hunt,85127078,koreana,It is Witcher 3,1611296931,1611296931,True,0,0,0.0,0,True,False,False,76561198076052352,35,1,1074.0,938.0,690.0,1611383331.0
+297,292030,The Witcher 3: Wild Hunt,85126780,schinese,开放性虽然不强 但是像是亲手在写小说一样代入感极强，椰奶无敌,1611296329,1611296329,True,0,0,0.0,0,True,False,False,76561198127599183,34,1,5211.0,4527.0,5211.0,1610702811.0
+298,292030,The Witcher 3: Wild Hunt,85126240,french,Cool game,1611295272,1611295272,True,0,0,0.0,0,True,False,False,76561198037514469,26,3,7822.0,1.0,7822.0,1610861620.0
+299,292030,The Witcher 3: Wild Hunt,85126226,english,very nice,1611295242,1611295242,True,0,0,0.0,0,True,False,False,76561198196080886,26,1,3255.0,535.0,3194.0,1611299302.0
+300,292030,The Witcher 3: Wild Hunt,85126185,schinese,史上最强猎魔人，一米摔死可笑人。,1611295164,1611295164,True,0,0,0.0,0,True,False,False,76561198415904247,21,11,1797.0,194.0,1797.0,1611241600.0
+301,292030,The Witcher 3: Wild Hunt,85126068,schinese,太好玩了,1611294928,1611294928,True,0,0,0.0,0,False,False,False,76561198397937073,23,2,2316.0,2095.0,1871.0,1611331138.0
+302,292030,The Witcher 3: Wild Hunt,85125989,turkish,its fucking good,1611294739,1611294739,True,0,0,0.0,0,True,False,False,76561198202847999,183,14,6357.0,3283.0,5782.0,1611387837.0
+303,292030,The Witcher 3: Wild Hunt,85125856,schinese,太好玩了，给女朋友口了2小时才给买的,1611294449,1611294449,True,0,0,0.0,0,False,False,False,76561199059183195,8,4,394.0,285.0,249.0,1611368824.0
+304,292030,The Witcher 3: Wild Hunt,85125697,schinese,"棒
+",1611294090,1611294090,True,0,0,0.0,0,True,False,False,76561199073257016,30,3,2614.0,107.0,2614.0,1610972443.0
+305,292030,The Witcher 3: Wild Hunt,85125403,schinese,兼职无敌的游戏,1611293432,1611293432,True,0,0,0.0,0,True,False,False,76561199066698336,2,1,3225.0,2492.0,2448.0,1611386269.0
+306,292030,The Witcher 3: Wild Hunt,85124877,schinese,值得收藏,1611292306,1611292306,True,0,0,0.0,0,True,False,False,76561198191986103,4,3,6093.0,584.0,5970.0,1611299714.0
+307,292030,The Witcher 3: Wild Hunt,85124871,english,波兰蠢驴nb,1611292299,1611292299,True,0,0,0.0,0,True,False,False,76561198069685214,137,6,7106.0,370.0,6735.0,1611314711.0
+308,292030,The Witcher 3: Wild Hunt,85124716,schinese,一周目通关本体，感人至深,1611291970,1611291970,True,0,0,0.0,0,True,False,False,76561199117922727,2,2,6672.0,3685.0,6341.0,1611335118.0
+309,292030,The Witcher 3: Wild Hunt,85124620,russian,Игра крутая проходил на ps4 и решил в стиме преобрести,1611291771,1611291771,True,2,0,0.523809552192688,0,True,False,False,76561199106321614,6,1,378.0,238.0,295.0,1611376137.0
+310,292030,The Witcher 3: Wild Hunt,85124386,schinese,可能一开始并没有觉得这个游戏有那么的好玩还觉得有点枯燥的跑图，但随着剧情的深入会发现这个游戏的特点，现在已经开始打dlc了值得购买,1611291274,1611291274,True,0,0,0.0,0,False,False,False,76561198873628824,12,1,2709.0,2446.0,2558.0,1611324222.0
+311,292030,The Witcher 3: Wild Hunt,85123992,schinese,perfect,1611290463,1611290463,True,0,0,0.0,0,True,False,False,76561198802318726,4,1,4894.0,136.0,4894.0,1611290454.0
+312,292030,The Witcher 3: Wild Hunt,85123924,schinese,"代入感很强，将近30个小时的游戏，开放世界感觉很强而且不用愁金币问题，在马丁，费力的农场刷牛就可以了，游戏剧情可以跟随玩家想成为的人发展，成为你自己特别的猎魔人，善于恶不是绝对的，很多事情在短时间内无法做出判断，这个世界比你想象的黑暗，强盗身后可能是嗷嗷待哺的婴儿，特里斯离你而去是遭人逮捕，很多事情没有预兆，没有先例，重要的不是你改变了什么，而是你决定的事情，只要你觉得问心无愧就好，1000个玩家，1000个巫师3
+这不在于这布游戏你花多少钱买的，你在游戏中经理的才是你最宝贵的+",1611290342,1611290342,True,0,0,0.0,0,True,False,False,76561199100626009,5,2,1878.0,1787.0,1712.0,1611381300.0
+313,292030,The Witcher 3: Wild Hunt,85123642,schinese,开放世界+（A？）RPG，爷的最爱。很像魂系的战斗手感，但是上手门槛低很多，体力限制也小。,1611289737,1611289737,True,0,0,0.0,0,True,False,False,76561199087529582,9,1,1545.0,1545.0,1116.0,1611381783.0
+314,292030,The Witcher 3: Wild Hunt,85123484,schinese,什么是好游戏 什么是好剧情 什么是好作品,1611289436,1611289436,True,0,0,0.0,0,True,False,False,76561198331024872,26,1,6435.0,4906.0,6153.0,1611306413.0
+315,292030,The Witcher 3: Wild Hunt,85123148,russian,ЭПОХАЛЬНО.,1611288782,1611288806,True,1,0,0.0,0,True,False,False,76561198421223064,198,6,8621.0,1820.0,8340.0,1611307341.0
+316,292030,The Witcher 3: Wild Hunt,85123113,schinese,nice,1611288724,1611288724,True,0,0,0.0,0,True,False,False,76561198417130586,10,1,2181.0,862.0,1998.0,1611383259.0
+317,292030,The Witcher 3: Wild Hunt,85122999,english,gud gam,1611288515,1611288515,True,0,0,0.0,0,True,False,False,76561197999770755,410,9,6175.0,549.0,6008.0,1611386648.0
+318,292030,The Witcher 3: Wild Hunt,85122907,russian,Балдёжно,1611288353,1611288353,True,1,0,0.0,0,True,False,False,76561198056531504,14,3,760.0,336.0,760.0,1611150314.0
+319,292030,The Witcher 3: Wild Hunt,85122630,schinese,剧情很赞 画面绚丽 仿佛就在那片大陆上 持剑冒险,1611287819,1611287819,True,0,0,0.0,0,True,False,False,76561198174834851,33,3,1801.0,489.0,1801.0,1611224677.0
+320,292030,The Witcher 3: Wild Hunt,85122346,english,so poggers,1611287282,1611287282,True,0,0,0.0,0,True,False,False,76561199111631435,2,1,3374.0,3024.0,2958.0,1611374290.0
+321,292030,The Witcher 3: Wild Hunt,85122164,schinese,(。’▽’。)♡,1611286912,1611286912,True,0,0,0.0,0,False,False,False,76561198277218887,272,18,682.0,0.0,682.0,1607052174.0
+322,292030,The Witcher 3: Wild Hunt,85122119,schinese,haohaohao,1611286840,1611286840,True,0,0,0.0,0,True,False,False,76561199116677575,2,1,351.0,351.0,191.0,1611366497.0
+323,292030,The Witcher 3: Wild Hunt,85121396,german,Einfach nur Cool,1611285573,1611285573,True,0,0,0.0,0,True,False,False,76561198069212798,4,2,5167.0,5167.0,4121.0,1611387366.0
+324,292030,The Witcher 3: Wild Hunt,85120995,english,"Pretty decent, kinda boring sometimes, didnt really care for the combat personally or the weapons system.",1611284731,1611284731,True,0,0,0.0,0,True,False,False,76561198003958743,139,5,1648.0,25.0,1623.0,1611338473.0
+325,292030,The Witcher 3: Wild Hunt,85120801,schinese,非常好玩，故事耐人寻味,1611284402,1611284402,True,1,0,0.0,0,True,False,False,76561199086812418,3,2,2260.0,1456.0,1832.0,1611379563.0
+326,292030,The Witcher 3: Wild Hunt,85120767,spanish,ta bueno,1611284343,1611284343,True,0,0,0.0,0,True,False,False,76561198145173764,104,9,612.0,2.0,612.0,1611101254.0
+327,292030,The Witcher 3: Wild Hunt,85120459,schinese,巫师3yyds,1611283834,1611283834,True,0,0,0.0,0,False,False,False,76561198997973237,26,11,516.0,0.0,516.0,1600350591.0
+328,292030,The Witcher 3: Wild Hunt,85120090,english,nice,1611283165,1611283165,True,0,0,0.0,0,True,False,False,76561198886127764,6,1,3217.0,1711.0,3127.0,1611375697.0
+329,292030,The Witcher 3: Wild Hunt,85119902,schinese,"五年了，巫师三的品质已经不需要我来赘述了。
+刚出的时候，我从网上搜到的盗版，玩了一阵子之后放弃了，但是一直都在回味那短暂的游玩
+现在补票重新上车，是表达对制作组的歉意和尊敬，也是重回巫师世界继续没有完成的探索",1611282838,1611282838,True,1,0,0.523809552192688,0,False,False,False,76561198164907130,49,2,2354.0,2354.0,1909.0,1611309940.0
+330,292030,The Witcher 3: Wild Hunt,85119707,schinese,补个票,1611282445,1611282445,True,1,0,0.523809552192688,0,True,False,False,76561199004106861,21,3,3214.0,3214.0,2813.0,1611325912.0
+331,292030,The Witcher 3: Wild Hunt,85119425,english,Fantastic game. Visually stunning and fun to play.,1611281894,1611281894,True,0,0,0.0,0,True,False,False,76561198223728052,31,3,985.0,944.0,192.0,1611381668.0
+332,292030,The Witcher 3: Wild Hunt,85118801,english,;',1611280675,1611280675,True,0,0,0.0,0,True,False,False,76561198450439778,12,2,260.0,0.0,260.0,1577137019.0
+333,292030,The Witcher 3: Wild Hunt,85118583,spanish,Hola,1611280260,1611280260,True,0,0,0.0,0,True,False,False,76561198236180884,7,1,910.0,910.0,432.0,1611377186.0
+334,292030,The Witcher 3: Wild Hunt,85118126,schinese,40金币打一次桩，这波血赚,1611279467,1611279467,True,0,1,0.0,0,True,False,False,76561198919589185,10,2,3155.0,987.0,2890.0,1611334820.0
+335,292030,The Witcher 3: Wild Hunt,85117985,brazilian,"O Jogo é simplesmente incrível, Muito Bom.",1611279245,1611279245,True,0,0,0.0,0,True,False,False,76561198870484908,27,1,7210.0,3436.0,7210.0,1611278820.0
+336,292030,The Witcher 3: Wild Hunt,85117859,english,great story,1611279042,1611279042,True,0,0,0.0,0,True,False,False,76561198019030888,469,10,274.0,274.0,193.0,1611285304.0
+337,292030,The Witcher 3: Wild Hunt,85117726,brazilian,otimo game,1611278823,1611278823,True,0,0,0.0,0,True,False,False,76561199094954111,1,1,1639.0,659.0,1601.0,1611368001.0
+338,292030,The Witcher 3: Wild Hunt,85117523,schinese,当之无愧的国宝级作品,1611278501,1611278501,True,0,0,0.0,0,True,False,False,76561198147761712,199,6,10694.0,5185.0,10080.0,1611363570.0
+339,292030,The Witcher 3: Wild Hunt,85117186,turkish,Açık dünyası olsun canvar çeşitliliği olsun beni benden aldı,1611277919,1611277919,True,0,0,0.0,0,True,False,False,76561199012332938,36,6,3292.0,0.0,3292.0,1609363864.0
+340,292030,The Witcher 3: Wild Hunt,85116936,schinese,没想到这么耐玩,1611277446,1611277446,True,0,0,0.0,0,True,False,False,76561198801324872,26,5,1960.0,1960.0,1798.0,1611388064.0
+341,292030,The Witcher 3: Wild Hunt,85116908,russian,.,1611277395,1611277395,True,1,0,0.0,0,True,False,False,76561198820430318,32,3,659.0,659.0,659.0,1611277364.0
+342,292030,The Witcher 3: Wild Hunt,85116519,schinese,我相信每一个玩家在翠鸟旅馆都有一个存档，巫师三真的太好玩了，在打折的时候仅仅花上47rmb就能买到真正的世界,1611276710,1611276710,True,0,0,0.0,0,True,False,False,76561198916450082,7,6,3387.0,2100.0,2623.0,1611386789.0
+343,292030,The Witcher 3: Wild Hunt,85116369,english,One of the best rpg's ever,1611276460,1611276460,True,0,0,0.0,0,True,False,False,76561198800446829,11,1,5574.0,1596.0,5574.0,1611275591.0
+344,292030,The Witcher 3: Wild Hunt,85116247,polish,Zajebiste ,1611276222,1611276282,True,1,0,0.0,0,True,False,False,76561198113189261,29,1,7565.0,35.0,7565.0,1611066469.0
+345,292030,The Witcher 3: Wild Hunt,85115619,schinese,差评里跟风买游戏的人好可怜，希望你们下次买游戏能自己带脑子，别别人买什么你就买什么，至少没人逼你买巫师三。当然估计有不少至少纯粹为了2077来黑巫师的。,1611275012,1611275012,True,0,0,0.0,0,True,False,False,76561198975774406,28,2,9689.0,304.0,9596.0,1611321355.0
+346,292030,The Witcher 3: Wild Hunt,85115316,czech,"Prostě nejlepší RPG hra posledních 10ti let, úžasný příběh, úžasná hratelnost, no prostě perfektní hra.",1611274480,1611274480,True,0,0,0.0,0,True,False,False,76561198860673571,9,2,969.0,233.0,735.0,1611320772.0
+347,292030,The Witcher 3: Wild Hunt,85114719,spanish,aguante el porro,1611273544,1611273544,True,1,0,0.0,0,True,False,False,76561198317766149,25,5,497.0,497.0,318.0,1611284308.0
+348,292030,The Witcher 3: Wild Hunt,85114556,english,Very engaging.,1611273291,1611273291,True,1,0,0.0,0,True,False,False,76561198866984418,15,1,66744.0,3463.0,65694.0,1611383020.0
+349,292030,The Witcher 3: Wild Hunt,85114535,english,"---{Graphics}---
+☐ You forget what reality is
+☑ Beautiful
+☐ Good
+☐ Decent
+☐ Bad
+☐ Don‘t look too long at it
+☐ Paint.exe
+
+---{Gameplay}---
+☐ Very good
+☐ Good
+☑ Fun but repetitive
+☐ It‘s just gameplay
+☐ Mehh
+☐ Starring at walls is better
+☐ Just don‘t
+
+---{Audio}---
+☐ Eargasm
+☐ Very good
+☑ Good
+☐ Not too bad
+☐ Bad
+☐ Earrape
+
+---{Soundtracks}---
+☐ Eargasm
+☐ Very good
+☑ Good
+☐ Not too bad
+☐ Bad
+☐ Earrape
+
+---{PC Requirements}---
+☐ Check if you can run paint
+☐ Potato
+☑ Decent
+☐ Fast
+☐ Ask NASA if they have a spare computer
+
+---{Difficulity}---
+☐ Just press ‚A‘
+☐ Easy
+☐ Significant brain usage
+☑ Normal / Changable
+☐ Easy to learn / Hard to master
+☐ Difficult
+☐ Dark Souls
+
+---{Grind}---
+☐ Nothing to grind
+☐ Only if u care about leaderboards/ranks
+☑ Isnt necessary to progress
+☐ Average grind level
+☐ Too much grind
+☐ You‘ll need a second live for grinding
+
+---{Story}---
+☐ Story?
+☐ Text or Audio floating around
+☐ Minimal but the feeling of a much bigger picture
+☐ Average
+☐ Good
+☑ Lovely
+☐ It‘ll replace your life
+
+---{Game Time}---
+☐ Long enough for a cup of coffee
+☐ Short
+☐ Average
+☑ Long
+☐ To infinity and beyond
+
+---{Price}---
+☐ It’s free!
+☑ Worth the price
+☐ If u have some spare money left
+☐ Not recommended
+☐ You could also just burn your money
+
+---{Bugs}---
+☑ Never heard of
+☐ Minor bugs
+☐ Can get annoying
+☐ ARK: Survival Evolved
+☐ The game itself is a big terrarium for bugs Good",1611273256,1611273256,True,1,0,0.0,0,True,False,False,76561198856737496,47,7,10404.0,0.0,10404.0,1608595715.0
+350,292030,The Witcher 3: Wild Hunt,85114503,schinese,这游戏除了镜头有点晕，别的还好，这镜头有问题，仔细观察了一下，感觉是打斗的时候人物惯性和镜头的细微自动缩放引起的,1611273186,1611273186,True,1,0,0.0,0,True,False,False,76561198060681495,8,6,310.0,266.0,310.0,1611272924.0
+351,292030,The Witcher 3: Wild Hunt,85114419,brazilian,"QUE BOSTA EM
+",1611273032,1611273032,True,1,0,0.0,0,False,False,False,76561198193383369,20,1,3069.0,0.0,3069.0,1604422903.0
+352,292030,The Witcher 3: Wild Hunt,85114258,russian,"Если вы ищете классную,динамичную игру,тогда-это ваш выбор!
+",1611272756,1611272756,True,3,0,0.523809552192688,0,True,False,False,76561198132439535,24,2,8858.0,5180.0,8830.0,1611274400.0
+353,292030,The Witcher 3: Wild Hunt,85114125,english,One of the best games.,1611272514,1611272514,True,1,0,0.0,0,True,False,False,76561198049482200,279,16,12128.0,396.0,11781.0,1611356090.0
+354,292030,The Witcher 3: Wild Hunt,85113848,spanish,10/10,1611272034,1611272034,True,1,0,0.4761904776096344,0,True,False,False,76561199060703135,3,1,1090.0,1080.0,982.0,1611386679.0
+355,292030,The Witcher 3: Wild Hunt,85112978,turkish,oyun fena sarıyo inşallah bağımlısı olmayız,1611270359,1611270359,True,1,0,0.0,0,True,False,False,76561198184859119,60,4,1857.0,1857.0,1301.0,1611349802.0
+356,292030,The Witcher 3: Wild Hunt,85112944,russian,Какого хера ты еще не купил эту игру?,1611270282,1611270282,True,2,0,0.0,1,True,False,False,76561198380678863,39,9,10029.0,7494.0,9867.0,1611314453.0
+357,292030,The Witcher 3: Wild Hunt,85112710,english,BEST GAME EVER,1611269853,1611269853,True,0,0,0.0,0,True,False,False,76561198256141193,39,3,4585.0,1.0,4585.0,1611269809.0
+358,292030,The Witcher 3: Wild Hunt,85112600,brazilian,um dos melhores jogos já feitos até hoje,1611269662,1611269662,True,0,0,0.0,0,True,False,False,76561198807022597,45,5,5628.0,125.0,5628.0,1610766071.0
+359,292030,The Witcher 3: Wild Hunt,85112170,english,gud g8m u kno,1611268902,1611268902,True,0,0,0.0,0,True,False,False,76561198025261583,251,2,2945.0,2945.0,2036.0,1611376857.0
+360,292030,The Witcher 3: Wild Hunt,85111865,koreana,"수만가지 모드와 함께 즐기는 제 2의 스카이림
+싸이버빵꾸2077때문에 불안하시다구요? 걱정하지 마세요! 위쳐3도 초기 버그는 어마어마했지만 지금은 대부분 다 고쳐졌습니다!",1611268401,1611268401,True,0,0,0.0,0,True,False,False,76561197998454875,262,88,648.0,0.0,648.0,1610012140.0
+361,292030,The Witcher 3: Wild Hunt,85111841,polish,Bardzo fajny tytuł. Polecam,1611268365,1611268365,True,1,0,0.0,0,True,False,False,76561198167702084,15,1,1655.0,994.0,1369.0,1611349690.0
+362,292030,The Witcher 3: Wild Hunt,85111463,russian,Лучшая в своём жанре,1611267718,1611267718,True,1,0,0.0,0,True,False,False,76561198281830767,219,22,2630.0,1446.0,2630.0,1611267390.0
+363,292030,The Witcher 3: Wild Hunt,85111380,polish,"♐ Grafika:
+☐Jak Bazyliszek
+☐ Zła
+☐ Ok
+☐ Retro
+☐Dobra
+☐ Piękna
+☐ Przepiękna
+☑ Arcydzieło
+
+♐ Cena:
+☑ Kupić od razu z pełną ceną na steam
+☐ Poczekać na wyprzedaż
+☐ Lepiej kupić w internetowych sklepach
+☐ Lepiej zwróć tą grę póki możesz
+☐ Po prostu tego nie kupuj (Nie Warto)
+☐ Za Darmo
+
+♐ Poziom trudności:
+☐ Jak po maśle
+☐ Łatwa
+☑ Średnia
+☐ Łatwe do nauczenia lecz trudne do opanowania
+☐ Trudne
+☑ Prawie jak Dark Souls
+☐ Łatwiejszy jest Dark Souls
+
+⏰ Czas gry:
+☐ Bardzo krótkie (5-3 m/godzin)
+☐ Krótkie (3-10 godzin)
+☐ Średnio (10-20 godzin)
+☑ Długie (+20 godzin)
+☑ Nieskończone (Jeśli dodamy Gwinta)
+
+♐ Fabuła:
+☐ Brak
+☐ OK
+☐ Dobra
+☐ Fantastyczna
+☑ Najlepsza
+
+♐ Bugi:
+☐ Gra nie powinna zostać nigdy wydana
+☐ Dużo bugów
+☑ Mała ilość ale bugi obecne
+☐ Ledwo widoczne
+☐ Brak bugów
+
+♐ Muzyka:
+☐ Brak
+☐ Porażka
+☐ OK
+☐ Dobra
+☑ Klimatyczna
+☑ Uzależnia",1611267573,1611267573,True,1,0,0.0,0,True,False,False,76561198280049628,148,30,2524.0,0.0,2524.0,1597519138.0
+364,292030,The Witcher 3: Wild Hunt,85111249,english,Its kinda too long but if you're not an impatient little goblin like me then yeah its good,1611267360,1611267360,True,0,0,0.0,0,True,False,False,76561198303125229,66,18,4890.0,0.0,4890.0,1595375080.0
+365,292030,The Witcher 3: Wild Hunt,85111091,english,"storyline is very interisting and  nice ,graphics are nice",1611267095,1611267095,True,0,0,0.0,0,True,False,False,76561199085825678,3,1,7366.0,3113.0,7134.0,1611344918.0
+366,292030,The Witcher 3: Wild Hunt,85110723,latam,ta bueno porque tiene sexoooooooooo,1611266540,1611266540,True,0,0,0.0,0,True,False,False,76561198811304007,20,7,6940.0,123.0,6940.0,1610222652.0
+367,292030,The Witcher 3: Wild Hunt,85110378,english,awesomness,1611266016,1611266016,True,0,0,0.474452555179596,0,True,False,False,76561198239857700,23,6,558.0,558.0,186.0,1611288843.0
+368,292030,The Witcher 3: Wild Hunt,85110338,turkish,efsane,1611265963,1611265963,True,0,0,0.0,0,True,False,False,76561199089630944,8,1,3558.0,867.0,3558.0,1611265940.0
+369,292030,The Witcher 3: Wild Hunt,85110198,english,can't believe i haven't rated this so far lol :D,1611265740,1611265740,True,0,0,0.0,0,True,False,False,76561198223877852,87,5,12995.0,2490.0,12723.0,1611358088.0
+370,292030,The Witcher 3: Wild Hunt,85110155,english,Gwent,1611265669,1611265669,True,1,0,0.52173912525177,0,True,False,False,76561198876018449,107,2,10016.0,0.0,10016.0,1604941099.0
+371,292030,The Witcher 3: Wild Hunt,85109990,italian,"è figo, si può fare fiki fiki",1611265382,1611265382,True,0,0,0.0,0,True,False,False,76561198288700055,11,5,547.0,520.0,547.0,1611181876.0
+372,292030,The Witcher 3: Wild Hunt,85109753,english,"While there is a lot of content, the game loves to waste your time by filling huge amounts of time with mindless/idle activities such as riding your horse from point A to point B or having to walk to a signpost to fast travel. There are also tons of filler quests that have no impact on the story at all and boil down to killing a few monsters. On a positive note, Gwent is the best minigame in any game I've played. However, after 10+ hours I was already finding myself bored of the dull combat and repetitive quest design. I eventually added mods to try to improve the experience (multiple quest icons, fast travel from anywhere, other misc QOL mods) but even after adding these basic features that should have been in the game in the first place, it still was not compelling enough to continue.",1611265004,1611265004,False,0,0,0.0,0,True,False,False,76561198098346837,507,47,2081.0,0.0,2081.0,1606027048.0
+373,292030,The Witcher 3: Wild Hunt,85109681,german,"Eines der wenigen Spiele dieser Art die ich wirklich gut finde, unendlich lange story (bin mit aktuell 76h immer noch nicht fertig) und auch jetzt noch tolle Grafik!",1611264873,1611264873,True,0,0,0.0,0,True,False,False,76561198351050973,92,6,4604.0,1095.0,4604.0,1611264594.0
+374,292030,The Witcher 3: Wild Hunt,85109531,turkish,güzel...sarıyor,1611264661,1611264661,True,0,0,0.0,0,True,False,False,76561198352868467,30,4,209.0,209.0,194.0,1611265190.0
+375,292030,The Witcher 3: Wild Hunt,85109444,russian,Лучшая игра которую я когда либо проходил!,1611264517,1611264517,True,2,0,0.523809552192688,0,True,False,False,76561199003240358,10,1,17390.0,28.0,17390.0,1611148518.0
+376,292030,The Witcher 3: Wild Hunt,85109387,latam,Juegazo,1611264439,1611264439,True,0,0,0.0,0,True,False,False,76561198846334777,51,18,9441.0,69.0,9373.0,1611268662.0
+377,292030,The Witcher 3: Wild Hunt,85109111,russian,Лучшая игра CD Project,1611264077,1611264077,True,0,0,0.0,0,True,False,False,76561198935605495,11,1,7506.0,844.0,7254.0,1611341220.0
+378,292030,The Witcher 3: Wild Hunt,85108777,english,"- DIFFICULTY -
+
+🔲 My 90 year old grandma could play it
+🔲 Easy
+☑️ Normal
+🔲 Hard
+🔲 ""Dark Souls""
+
+- GRAPHICS -
+
+🔲 ""MS Paint""
+🔲 Bad
+🔲 Meh
+🔲 Graphics don't matter in this game
+🔲 Good
+🔲 Beautiful
+☑️ Masterpiece
+
+- MUSIC -
+
+🔲 Bad
+🔲 Not special
+🔲 Good
+☑️ Beautiful
+
+- STORY -
+
+🔲 This game has no story
+🔲 Like playing ""Temple Runners"" for the story
+🔲 It's there for the people who want it
+🔲 Well written
+☑️ Epic story
+
+- PRICE -
+
+🔲 Underpriced
+☑️ Perfect price
+🔲 Could be cheaper
+🔲 Overpriced
+🔲 Complete waste of money
+
+- REQUIREMENTS -
+
+🔲 You can run it on a microwave
+☑️ Average
+🔲High end
+🔲 ""NASA"" computer
+
+- LENGTH -
+
+🔲 Very short (0 - 3 hours)
+🔲 Short (3 - 15 hours)
+🔲 Average (15 - 50 hours)
+☑️ Long (50 - 90 hours)
+🔲 Extremely long (90 - 110 hours)
+🔲 No Ending
+
+- FUN -
+
+🔲 I'd rather watch paint dry
+🔲 Hard to enjoy
+🔲 Repetitive
+🔲 Actually pretty amusing
+☑️ Ride of your life
+
+- REPLAYABILITY -
+
+🔲 It's a one - time experience
+🔲 Only for achievements
+🔲 If you wait a few months / years
+☑️ Definitely
+🔲 Infinitely replayable
+
+- WORTH BUYING -
+
+🔲 No
+🔲 Wait for sale
+☑️ Yes",1611263613,1611263613,True,7,0,0.5351784229278564,0,True,False,False,76561198209587964,176,9,1662.0,143.0,1646.0,1611318743.0
+379,292030,The Witcher 3: Wild Hunt,85108654,russian,"Эту игру хвалили уже столько, что я не смогу подобрать слов для описания всего хорошего в ней. Так что просто скажу: хорошая игра. Правда.",1611263439,1611263439,True,0,0,0.0,0,True,False,False,76561198105446265,189,10,10210.0,257.0,10009.0,1611355096.0
+380,292030,The Witcher 3: Wild Hunt,85108570,turkish,"Ölmeden önce oynanması gereken oyunlardan. Hikaye temelli bir oyun olduğunu göz önüne alıp Dark souls, the Elder Scrolls gibi bir combat beklentisine girmezseniz 10/10 bir tecrübe yaşamamanız için bir sebep yok.",1611263305,1611263305,True,2,0,0.523809552192688,0,True,False,False,76561198398754574,13,4,5394.0,3641.0,4926.0,1611348744.0
+381,292030,The Witcher 3: Wild Hunt,85108519,russian,"Лучшая single-player игра, в которую когда-либо играл. Перепрошел много раз и всегда только положительные эмоции.",1611263228,1611263228,True,0,0,0.0,0,True,False,False,76561198201921718,37,1,10148.0,0.0,10148.0,1602086546.0
+382,292030,The Witcher 3: Wild Hunt,85108403,schinese,"隔壁1977已经死了，你要的嘛，阿伟！
+真就无脑吹呗
+还好爷没跟风",1611263050,1611263050,False,0,0,0.4561403691768646,0,True,False,False,76561198842165796,20,11,3245.0,0.0,3245.0,1608307907.0
+383,292030,The Witcher 3: Wild Hunt,85108186,spanish,UwU,1611262775,1611262775,True,0,0,0.0,0,True,False,False,76561199045670127,13,2,438.0,438.0,243.0,1611368290.0
+384,292030,The Witcher 3: Wild Hunt,85107836,brazilian,MUITO BOM JOGO!!,1611262294,1611262294,True,0,0,0.0,0,True,False,False,76561198332845381,39,7,4925.0,1178.0,4482.0,1611288760.0
+385,292030,The Witcher 3: Wild Hunt,85107433,english,papo papo pleep your mome as drip,1611261786,1611261786,True,0,0,0.0,0,True,False,False,76561199001862559,30,17,580.0,51.0,580.0,1610393030.0
+386,292030,The Witcher 3: Wild Hunt,85107266,russian,Просто классно.,1611261569,1611261569,True,0,0,0.0,0,True,False,False,76561198213443071,43,1,9038.0,532.0,8889.0,1611353870.0
+387,292030,The Witcher 3: Wild Hunt,85107022,latam,"Su progreso y historia son variados al igual que sus finales, este es un juego con una ambientación y historia memorable, a pesar de tener algunos bogs recomiendo este juego",1611261224,1611261224,True,0,0,0.0,0,False,False,False,76561198881414533,24,2,3389.0,467.0,2921.0,1611388045.0
+388,292030,The Witcher 3: Wild Hunt,85106992,turkish,başarılı,1611261179,1611261179,True,0,0,0.0,0,True,False,False,76561198830019459,6,2,4807.0,1.0,4807.0,1611353079.0
+389,292030,The Witcher 3: Wild Hunt,85106947,russian,"Классный сюжет, хорошая озвучка , классные персонажи.
+",1611261108,1611261108,True,0,0,0.0,0,True,True,False,76561198443647492,11,2,846.0,104.0,742.0,1611345887.0
+390,292030,The Witcher 3: Wild Hunt,85106940,french,"Magnifique graphismes, scénario super bien ficelé, quêtes annexes intéressantes. Un très très bon RPG. Pourtant je n'étais pas fan de l'univers.",1611261101,1611261101,True,0,0,0.0,0,True,False,False,76561197976149869,26,1,1869.0,865.0,1757.0,1611346920.0
+391,292030,The Witcher 3: Wild Hunt,85106317,english,"Honestly, just play it already.",1611260150,1611260150,True,0,0,0.0,0,True,False,False,76561198047511068,14,14,12379.0,0.0,12379.0,1609878656.0
+392,292030,The Witcher 3: Wild Hunt,85106272,english,Amazing,1611260076,1611260076,True,0,0,0.0,0,True,False,False,76561198052689743,21,1,2598.0,827.0,2376.0,1611363004.0
+393,292030,The Witcher 3: Wild Hunt,85106182,turkish,".
+",1611259936,1611259936,True,0,0,0.0,0,True,False,False,76561199093697541,9,4,5432.0,1058.0,5004.0,1611342530.0
+394,292030,The Witcher 3: Wild Hunt,85105828,thai,หนุกมาก,1611259493,1611259493,True,0,0,0.0,0,True,False,False,76561198214925632,21,3,879.0,783.0,662.0,1611336192.0
+395,292030,The Witcher 3: Wild Hunt,85105031,russian,Хорошая игра,1611258365,1611258365,True,1,0,0.0,0,True,False,False,76561198006671809,173,18,2845.0,0.0,2845.0,1578436529.0
+396,292030,The Witcher 3: Wild Hunt,85104648,russian,"В целом игра отличная! Хороший сюжет, доп задания, много различных мест которые можно исследовать. Красивые пейзажи и не плохая графика. Но озвучка персонажей в игре с разной скоростью произношения, но это мелочь. Ни одного бага в игре не заметил кроме озвучивания персонажей.",1611257839,1611257839,True,0,0,0.0,0,True,False,False,76561199055393455,15,1,18586.0,3196.0,17755.0,1611386681.0
+397,292030,The Witcher 3: Wild Hunt,85104501,polish,"""Trzeba tu się rozejrzeć"" (c) Geralt
+Zajefajna gra RPG, poprostu świetna, just GG.",1611257657,1611259979,True,1,0,0.0,0,True,False,False,76561198437388899,59,2,6142.0,4056.0,6021.0,1611303220.0
+398,292030,The Witcher 3: Wild Hunt,85104240,english,It's 2021. This is the first time I have played this. All of the good things that I was told about this game still hold up to this day. What an amazing game! 11/10. Recommended for everyone!,1611257334,1611257334,True,0,0,0.0,0,True,False,False,76561198058951899,12,3,5026.0,3654.0,4601.0,1611357974.0
+399,292030,The Witcher 3: Wild Hunt,85103793,polish,"Zajebista gra polecam wszystkim .
+ocena 11/10",1611256730,1611256730,True,0,0,0.0,0,True,False,False,76561198347082913,54,5,7980.0,5562.0,7980.0,1611126672.0
+400,292030,The Witcher 3: Wild Hunt,85103564,polish,E,1611256408,1611256408,True,0,0,0.0,0,True,False,False,76561198349578947,88,8,3358.0,355.0,3239.0,1611344131.0
+401,292030,The Witcher 3: Wild Hunt,85103489,tchinese,fantastic game,1611256305,1611256305,True,0,0,0.0,0,True,False,False,76561198798871990,11,3,2262.0,2209.0,1729.0,1611338980.0
+402,292030,The Witcher 3: Wild Hunt,85103449,turkish,Herkes oynasın tşk,1611256260,1611256260,True,0,0,0.0,0,True,False,False,76561199042641630,15,1,8146.0,23.0,8122.0,1611353294.0
+403,292030,The Witcher 3: Wild Hunt,85103358,russian,Лучшая из лучших,1611256137,1611256137,True,1,0,0.0,0,True,False,False,76561198133206129,14,1,2788.0,663.0,2766.0,1611321445.0
+404,292030,The Witcher 3: Wild Hunt,85103357,schinese,为剧情点赞,1611256135,1611256135,True,0,0,0.0,0,True,False,False,76561198152843829,11,2,8400.0,2501.0,8400.0,1611256034.0
+405,292030,The Witcher 3: Wild Hunt,85102996,schinese,这游戏剧情真他妈精彩，昆特牌真他妈好玩,1611255678,1611255678,True,0,0,0.0,0,True,False,False,76561198364913706,35,5,2388.0,2154.0,1502.0,1611387474.0
+406,292030,The Witcher 3: Wild Hunt,85102930,english,"best rpg ever made !
+music ,combat ,story , enviroment, 
+this game is a diamond",1611255599,1611255599,True,0,0,0.0,0,True,False,False,76561198873912971,65,16,2477.0,2474.0,284.0,1611387478.0
+407,292030,The Witcher 3: Wild Hunt,85102740,french,oh ça décoiffe dites moi,1611255333,1611255333,True,0,0,0.0,0,False,False,False,76561198354289282,73,24,36.0,0.0,36.0,1579538273.0
+408,292030,The Witcher 3: Wild Hunt,85102616,russian,бомба!,1611255170,1611255170,True,0,0,0.0,0,True,False,False,76561198015808707,103,5,3847.0,2144.0,3568.0,1611350656.0
+409,292030,The Witcher 3: Wild Hunt,85102394,spanish,Buena historia,1611254870,1611254870,True,0,0,0.0,0,True,False,False,76561198870969181,8,2,3221.0,2250.0,3199.0,1611278043.0
+410,292030,The Witcher 3: Wild Hunt,85102194,english,"geralt is hot 
+",1611254625,1611254625,True,0,0,0.0,0,True,False,False,76561198998161204,10,2,4985.0,588.0,4904.0,1611268293.0
+411,292030,The Witcher 3: Wild Hunt,85102160,russian,"Хорошая игра!
+Прям, как в жизни!",1611254578,1611254578,True,0,0,0.0,0,True,False,False,76561198127496021,5,1,5211.0,1532.0,5177.0,1611256602.0
+412,292030,The Witcher 3: Wild Hunt,85102071,turkish,Eğlenveli ve zefkli bir oyun. Fiyat açısından da uygun. Zaten The Witcher serisi denince kelimelr yeetersiz kalır :),1611254461,1611254461,True,0,0,0.0,0,True,False,False,76561198981533875,33,1,569.0,482.0,209.0,1611367878.0
+413,292030,The Witcher 3: Wild Hunt,85101898,russian,Одна из лучших игр в которые я играл,1611254243,1611254243,True,1,0,0.0,0,True,False,False,76561199117516181,5,1,5354.0,3596.0,5317.0,1611312216.0
+414,292030,The Witcher 3: Wild Hunt,85101797,french,j'adore les guenaudes aquaties,1611254104,1611254104,True,0,0,0.0,0,True,False,False,76561198129394826,61,4,2886.0,83.0,2886.0,1611254068.0
+415,292030,The Witcher 3: Wild Hunt,85101766,english,Great,1611254058,1611254058,True,0,0,0.0,0,True,False,False,76561199072855736,10,3,6656.0,1712.0,6498.0,1611345121.0
+416,292030,The Witcher 3: Wild Hunt,85101319,english,Fucking amazing!,1611253481,1611253481,True,0,0,0.0,0,True,False,False,76561198076002843,520,12,5030.0,1243.0,5030.0,1611253420.0
+417,292030,The Witcher 3: Wild Hunt,85100397,ukrainian,"Напишу коротко. Я у захваті від гри. Ніколи ще не отримував таких емоцій. Правду говорять, після цієї гри всі інші здаються гівном. Кінцівка дуже крута, і я випустив маленьку стальну сльозу. Ще залишилось 2 ДЛС. Я віддаю пошану компанії CD Projekt RED. Дякую Вам. (Ні в одній з ігор не зустрічав таких об'ємних квестів) Мене переповнює купа емоцій!!!!! Пройшов на максимальній важкості. Не відчув проблем, і Вам раджу теж.",1611252378,1611252419,True,0,0,0.0,0,True,False,False,76561198382127050,90,2,10110.0,4161.0,9809.0,1611356921.0
+418,292030,The Witcher 3: Wild Hunt,85099845,polish,Fajna,1611251697,1611251697,True,3,0,0.523809552192688,0,True,False,False,76561198280918011,17,1,6657.0,1338.0,6598.0,1611256105.0
+419,292030,The Witcher 3: Wild Hunt,85099834,russian,Всем советую  ),1611251684,1611251684,True,1,0,0.0,0,True,False,False,76561198882457660,46,5,10779.0,4647.0,10779.0,1611079290.0
+420,292030,The Witcher 3: Wild Hunt,85099817,polish,"Bardzo Klimatyczna giereczka Polecamm!!
+",1611251660,1611251660,True,3,0,0.523809552192688,0,True,False,False,76561198302293961,35,11,4501.0,365.0,4501.0,1610956340.0
+421,292030,The Witcher 3: Wild Hunt,85099706,schinese,完美  这辈子玩过最好玩的RPG  希望出续作,1611251494,1611251494,True,0,0,0.0,0,True,False,False,76561198450810370,10,2,20435.0,6.0,20433.0,1611388120.0
+422,292030,The Witcher 3: Wild Hunt,85099665,greek,Great open game realy nice,1611251434,1611251434,True,0,0,0.0,0,True,False,False,76561199108673092,9,1,5060.0,3042.0,4871.0,1611337174.0
+423,292030,The Witcher 3: Wild Hunt,85099638,english,best game of all time by a country mile,1611251408,1611251408,True,0,0,0.0,0,True,False,False,76561198040615764,46,15,13383.0,4.0,13383.0,1610675455.0
+424,292030,The Witcher 3: Wild Hunt,85099573,german,"Bestes Game ever... Ich liebe diese Story, diese Landschaft einfach alles... 100% kauf Empfehlung.. Dieses Game ist jeden Cent wert",1611251338,1611251338,True,0,0,0.0,0,True,False,False,76561198036819038,167,1,5773.0,1096.0,5553.0,1611337335.0
+425,292030,The Witcher 3: Wild Hunt,85099569,schinese,"nice
+",1611251330,1611251330,True,0,0,0.0,0,True,False,False,76561199074001061,5,1,2082.0,1143.0,1845.0,1611305939.0
+426,292030,The Witcher 3: Wild Hunt,85099509,english,Best story game ever,1611251259,1611251259,True,0,0,0.0,0,True,False,False,76561198359617116,125,25,886.0,235.0,726.0,1611264023.0
+427,292030,The Witcher 3: Wild Hunt,85099466,english,"Great story, interesting characters, engaging card game side quest, but true to its reputation a very long game. Even Geralt sounded tired at times.
+
+The Good: I have been on and off this game several times over the years. Each time I return, I know there is plenty of unexplored world and content awaiting me. Money worth? Definitely. With updated quest journal, beast glossary (and my previously saved mouse key bindings), it really wasn't difficult to get back into the rhythm.
+
+The Bad: Developers obviously do not understand the meaning of the word ""Climax"" and ""Final"". All the while I was progressing in the main quest and about to reach the ""Final"" battle to kick the last boss back to before he was born. And after that close encounter, I find myself still have to go through even more quests to find him to fight him again! Like, I need to go find a dude to ask about some stone, who in turn refer me to two other dudes. Seriously man, if the game does not reach a peak, its called a plateau. Ever wondered why so many players gave up and dropped out of this beloved game? And I think I have been on and about this ""Final"" main quest for days now! Only this time when I am done typing this review, I hope it will finally be final in maybe another 10, 20 hours? Geez, anticlimax. You don't build up players expectations to drag on.
+
+After I am done with this ""final"", I need to reconsider starting the purchased expansions immediately after. Need a change in scenery and environment. Like what I said, another on and off the game, again. ",1611251206,1611254264,True,0,0,0.0,0,True,False,False,76561198059700923,42,21,11971.0,2392.0,11921.0,1611311672.0
+428,292030,The Witcher 3: Wild Hunt,85099150,english,"Nothing much to say, definitely a perfect game!",1611250771,1611250771,True,0,0,0.0,0,True,False,False,76561198387661396,4,1,2296.0,211.0,2296.0,1611250696.0
+429,292030,The Witcher 3: Wild Hunt,85098752,russian,"Очень крутой сюжет и все остальное, не буду даже писать огромный обзор, просто скажу что игра шедевр.",1611250266,1611250266,True,1,0,0.0,0,True,False,False,76561198846613943,125,7,2793.0,0.0,2793.0,1609586266.0
+430,292030,The Witcher 3: Wild Hunt,85098627,english,"Fucking love this series to death!! By far the best in the trilogy and if you haven't played it, you better get on it!",1611250111,1611250111,True,0,0,0.0,0,True,False,False,76561198055771155,20,1,1375.0,1375.0,1373.0,1611250312.0
+431,292030,The Witcher 3: Wild Hunt,85098498,russian,"The Witcher 3: Wild Hunt – ролевая игра нового поколения, действие которой разворачивается в удивительном фэнтезийном мире, где необходимо принимать сложные решения и отвечать за их последствия.
+
+Мир охвачен войной. Армия империи Нильфгаард стирает все на своем пути, стремясь добраться до самого сердца Северных королевств. Движимый глубоко личными мотивами знаменитый ведьмак, Геральт из Ривии, не остановится ни перед чем, чтобы найти и защитить некую особу, о которой говорится в древнем пророчестве. Меж тем за ним самим по пятам следует враг, не ведающий страха и жалости, самый невообразимый кошмар – Дикая Охота, кавалькада призрачных всадников, предвестников рока и гибели, способных за одну лишь ночь не оставить и следа от целых поселений…
+
+The Witcher 3: Wild Hunt предлагает нелинейную, взрослую, насыщенную историю и не имеющую аналогов боевую систему без использования QTE, которая сочетает широкий выбор тактических элементов, свойственных ролевым играм, с динамичными и зрелищными сражениями, достойными лучших игр жанра экшен.",1611249979,1611249979,True,0,0,0.0,3,True,False,False,76561198862627224,98,11,11883.0,0.0,11883.0,1609765173.0
+432,292030,The Witcher 3: Wild Hunt,85098448,polish,bywaj,1611249915,1611249915,True,0,0,0.0,0,True,False,False,76561198301948308,23,6,4145.0,58.0,4108.0,1611252603.0
+433,292030,The Witcher 3: Wild Hunt,85098423,russian,"зашёл в данную игру и за 4 дня наиграл 50 часов, это самые класные часы",1611249886,1611249886,True,0,0,0.0,0,True,False,False,76561198332066130,15,1,3455.0,0.0,3455.0,1610065138.0
+434,292030,The Witcher 3: Wild Hunt,85098318,turkish,Hayatımda oynadığım en iyi üçlemelerdendi.,1611249772,1611249772,True,0,0,0.0,0,True,False,False,76561198168324951,31,2,3205.0,3205.0,3205.0,1611239265.0
+435,292030,The Witcher 3: Wild Hunt,85098246,russian,Топ игра,1611249656,1611249656,True,2,0,0.523809552192688,0,True,False,False,76561198255256115,14,2,1895.0,254.0,1895.0,1610753220.0
+436,292030,The Witcher 3: Wild Hunt,85098209,english,Very good story driven game,1611249610,1611249610,True,0,0,0.0,0,True,False,False,76561198021450005,529,11,2296.0,1507.0,2296.0,1611249525.0
+437,292030,The Witcher 3: Wild Hunt,85098056,english,i love it,1611249400,1611249400,True,0,0,0.0,0,True,False,False,76561199107899651,3,1,714.0,48.0,712.0,1611286999.0
+438,292030,The Witcher 3: Wild Hunt,85097807,schinese,"#模范 #标杆 #业界良心 
+心目中真正的神作。",1611249064,1611249064,True,0,0,0.0,0,True,False,False,76561198315406475,392,4,13168.0,0.0,13168.0,1607602305.0

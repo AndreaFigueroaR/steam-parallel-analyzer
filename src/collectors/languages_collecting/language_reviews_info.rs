@@ -3,7 +3,7 @@ use crate::utils::top_k::TopK;
 
 use std::cmp::Ordering;
 
-/// LanguageReviewsInfo: contiene, respeto a un idioma, el nombre, la cantidad de reviews que se registraronen este idioma y el top review en este idioma (contenido y cantidad de votos que indican que es útil)
+/// LanguageReviewsInfo: contiene, respeto a un idioma, el nombre, la cantidad de reviews que se registraron en este idioma y sus top reviews en este idioma (contenido y cantidad de votos que indican que es útil)
 pub struct LanguageReviewsInfo {
     language: String,
     review_count: u32,
@@ -12,42 +12,51 @@ pub struct LanguageReviewsInfo {
 
 impl LanguageReviewsInfo {
     /// Método que crea un nuevo LanguageReviewsInfo con el nombre del idioma, a partir de la información del primer review en este idioma registrado.
-    /// Para lo cual teiene en cuenta la cantidad de reviews y el top review de
-    pub fn new(reviews_to_retain: usize, language: String, review: Review) -> Self {
-        let mut top_reviews: TopK<Review> = TopK::new(reviews_to_retain);
-        top_reviews.consider_include(review);
-        LanguageReviewsInfo {
-            language,
-            review_count: 1,
-            top_reviews,
-        }
+    pub fn new(reviews_to_retain: usize, language: &str, review: &str, votes: u32) -> Self {
+        let mut info = LanguageReviewsInfo {
+            language: language.to_owned(),
+            review_count: 0,
+            top_reviews: TopK::new(reviews_to_retain),
+        };
+        info.consider_new_review(review, votes);
+        info
     }
-    pub fn get_name(&self) -> String {
-        self.language.clone()
+
+    pub fn get_name(&self) -> &str {
+        &self.language
     }
-    /// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews del lenguage
-    pub fn consider_new_review(&mut self, review: Review) {
+
+    /// Método que considera un nuevo review en el idioma, actualizando la cuenta de reviews del idioma y considerando si el nuevo review es útil para el top k reviews del lenguage.
+    /// El texto de la review solo se copia si efectivamente entra al top k (caso poco frecuente una vez que el top se estabiliza).
+    pub fn consider_new_review(&mut self, review: &str, votes: u32) {
         self.review_count += 1;
-        self.top_reviews.consider_include(review);
+        if self
+            .top_reviews
+            .admits(|smallest| Review::ranks_above(votes, review, smallest))
+        {
+            self.top_reviews
+                .consider_include(Review::new(review.to_owned(), votes));
+        }
     }
 
     /// Método que junta la información de otro LanguageReviewsInfo (otra info del mismo lenguage) en esta instancia.
-    /// Actualizando la cuenta de reviews del lenguage y actualizando cuál es el review más útil en este lenguage
+    /// Actualizando la cuenta de reviews del lenguage y actualizando cuáles son los reviews más útiles en este lenguage
     pub fn join(&mut self, other: LanguageReviewsInfo) {
         assert!(self.language == other.language);
         self.review_count += other.review_count;
-        //podría cambiarlo por una implementación de Ord de los Reviews que solo tenga en cuenta cual es la más útil
-        //debería hacer un merge de los review counts
-        //necesito tratar de insertar todos los elementos del otro LanguageReviewsInfo, no me imprta en qué orden los saco
         for value in other.top_reviews.into_unsorted() {
             self.top_reviews.consider_include(value);
         }
     }
-    pub fn into_serializable(self) -> LanguageDto {
+
+    /// Convierte la información en su DTO con las reviews ordenadas de más a menos votada.
+    /// `single_top_review` indica si se serializa en el formato de una única top review.
+    pub fn into_serializable(self, single_top_review: bool) -> LanguageDto {
         LanguageDto::new(
             self.language,
             self.review_count,
-            self.top_reviews.into_unsorted(),
+            self.top_reviews.into_sorted_desc(),
+            single_top_review,
         )
     }
 }
@@ -72,9 +81,8 @@ impl PartialOrd for LanguageReviewsInfo {
 impl Ord for LanguageReviewsInfo {
     /// Implementación que establece el el orden de los `LanguageReviewsInfo` primero por `review_count` y si ambos tienen la misma cantidad de reseñas, desempata usando el nombre del idioma.
     fn cmp(&self, other: &Self) -> Ordering {
-        match self.review_count.cmp(&other.review_count) {
-            Ordering::Equal => self.language.cmp(&other.language),
-            other_ordering => other_ordering,
-        }
+        self.review_count
+            .cmp(&other.review_count)
+            .then_with(|| self.language.cmp(&other.language))
     }
 }

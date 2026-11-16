@@ -1,0 +1,95 @@
+<svg width="960" height="348" viewBox="0 0 960 348" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="960" height="348" opacity="1" fill="#FCFCFB" stroke="none"/>
+<text x="24" y="18" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="16.935483870967744" opacity="1" fill="#0B0B0B" font-weight="bold">
+Reviews por idioma en los juegos más reseñados
+</text>
+<text x="24" y="46" dy="0.76em" text-anchor="start" font-family="sans-serif" font-size="11.290322580645162" opacity="1" fill="#52514E">
+Aporte de los idiomas principales de cada juego sobre su total de reviews
+</text>
+<rect x="24" y="72" width="12" height="12" opacity="1" fill="#2A78D6" stroke="none"/>
+<text x="42" y="78" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+english
+</text>
+<rect x="121" y="72" width="12" height="12" opacity="1" fill="#EB6834" stroke="none"/>
+<text x="139" y="78" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+schinese
+</text>
+<rect x="226" y="72" width="12" height="12" opacity="1" fill="#1BAF7A" stroke="none"/>
+<text x="244" y="78" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+russian
+</text>
+<rect x="323" y="72" width="12" height="12" opacity="1" fill="#B4B3AD" stroke="none"/>
+<text x="341" y="78" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+otros idiomas
+</text>
+<text x="601" y="348" dy="-0.5ex" text-anchor="middle" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+reviews
+</text>
+<line opacity="1" stroke="#E4E3DF" stroke-width="1" x1="274" y1="307" x2="274" y2="96"/>
+<line opacity="1" stroke="#E4E3DF" stroke-width="1" x1="446" y1="307" x2="446" y2="96"/>
+<line opacity="1" stroke="#E4E3DF" stroke-width="1" x1="619" y1="307" x2="619" y2="96"/>
+<line opacity="1" stroke="#E4E3DF" stroke-width="1" x1="792" y1="307" x2="792" y2="96"/>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="273,96 273,307 "/>
+<text x="264" y="272" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+Tom Clancy&apos;s Rainbow Six Siege
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="268,272 273,272 "/>
+<text x="264" y="201" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+Grand Theft Auto V
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="268,201 273,201 "/>
+<text x="264" y="131" dy="0.5ex" text-anchor="end" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+PLAYERUNKNOWN&apos;S BATTLEGROUNDS
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="268,131 273,131 "/>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="274,308 927,308 "/>
+<text x="274" y="318" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+0
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="274,308 274,313 "/>
+<text x="446" y="318" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+500 k
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="446,308 446,313 "/>
+<text x="619" y="318" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+1 M
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="619,308 619,313 "/>
+<text x="792" y="318" dy="0.76em" text-anchor="middle" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#52514E">
+1,5 M
+</text>
+<polyline fill="none" opacity="1" stroke="#E4E3DF" stroke-width="1" points="792,308 792,313 "/>
+<rect x="274" y="108" width="290" height="46" opacity="1" fill="#EB6834" stroke="none"/>
+<rect x="274" y="108" width="290" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="564" y="108" width="109" height="46" opacity="1" fill="#2A78D6" stroke="none"/>
+<rect x="564" y="108" width="109" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="673" y="108" width="52" height="46" opacity="1" fill="#1BAF7A" stroke="none"/>
+<rect x="673" y="108" width="52" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="725" y="108" width="116" height="46" opacity="1" fill="#B4B3AD" stroke="none"/>
+<rect x="725" y="108" width="116" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<text x="849" y="131" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#0B0B0B">
+1.644.255
+</text>
+<rect x="274" y="178" width="110" height="47" opacity="1" fill="#2A78D6" stroke="none"/>
+<rect x="274" y="178" width="110" height="47" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="384" y="178" width="84" height="47" opacity="1" fill="#EB6834" stroke="none"/>
+<rect x="384" y="178" width="84" height="47" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="468" y="178" width="54" height="47" opacity="1" fill="#1BAF7A" stroke="none"/>
+<rect x="468" y="178" width="54" height="47" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="522" y="178" width="103" height="47" opacity="1" fill="#B4B3AD" stroke="none"/>
+<rect x="522" y="178" width="103" height="47" opacity="1" fill="none" stroke="#FCFCFB"/>
+<text x="633" y="201" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#0B0B0B">
+1.019.116
+</text>
+<rect x="274" y="249" width="128" height="46" opacity="1" fill="#2A78D6" stroke="none"/>
+<rect x="274" y="249" width="128" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="402" y="249" width="47" height="46" opacity="1" fill="#EB6834" stroke="none"/>
+<rect x="402" y="249" width="47" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="449" y="249" width="28" height="46" opacity="1" fill="#1BAF7A" stroke="none"/>
+<rect x="449" y="249" width="28" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<rect x="477" y="249" width="87" height="46" opacity="1" fill="#B4B3AD" stroke="none"/>
+<rect x="477" y="249" width="87" height="46" opacity="1" fill="none" stroke="#FCFCFB"/>
+<text x="572" y="272" dy="0.5ex" text-anchor="start" font-family="sans-serif" font-size="10.483870967741936" opacity="1" fill="#0B0B0B">
+841.918
+</text>
+</svg>

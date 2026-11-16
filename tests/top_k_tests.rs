@@ -1,27 +1,36 @@
-use std::cmp::Reverse;
-use std::collections::BinaryHeap;
+use steam_reviews::utils::top_k::TopK;
 
-#[cfg(test)]
-mod top_k_tests {
-    use super::*;
+#[test]
+fn keeps_the_k_largest_sorted_desc() {
+    let mut top_k = TopK::new(3);
+    [4, 1, 7, 3, 9, 2, 5]
+        .into_iter()
+        .for_each(|n| top_k.consider_include(n));
+    assert_eq!(top_k.into_sorted_desc(), vec![9, 7, 5]);
+}
 
-    #[test]
-    fn test_top_k_basic() {
-        let nums = vec![4, 1, 7, 3, 9, 2, 5];
-        let res = vec![5, 7, 9];
-        let k = 3;
-        let mut top_k = BinaryHeap::new();
-        nums.into_iter().for_each(|num| {
-            if top_k.len() < k {
-                top_k.push(Reverse(num));
-            } else if top_k.peek().unwrap().0 < num {
-                top_k.pop();
-                top_k.push(Reverse(num));
-            }
-        });
-        for i in 0..k {
-            println!("{:?}", top_k.peek().unwrap().0);
-            assert_eq!(top_k.pop().unwrap().0, res[i]);
-        }
-    }
+#[test]
+fn zero_capacity_never_stores() {
+    let mut top_k = TopK::new(0);
+    top_k.consider_include(1);
+    assert!(!top_k.admits(|_| true));
+    assert!(top_k.into_unsorted().is_empty());
+}
+
+#[test]
+fn admits_matches_consider_include() {
+    let mut top_k = TopK::new(2);
+    assert!(top_k.admits(|_| false), "con lugar libre siempre admite");
+    top_k.consider_include(10);
+    top_k.consider_include(20);
+    assert!(top_k.admits(|smallest| 15 > *smallest));
+    assert!(!top_k.admits(|smallest| 5 > *smallest));
+}
+
+#[test]
+fn fewer_elements_than_capacity() {
+    let mut top_k = TopK::new(5);
+    top_k.consider_include(2);
+    top_k.consider_include(8);
+    assert_eq!(top_k.into_sorted_desc(), vec![8, 2]);
 }

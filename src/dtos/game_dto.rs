@@ -1,7 +1,7 @@
 use crate::dtos::language_dto::LanguageDto;
-use serde::Serialize;
+use serde::{Deserialize, Serialize};
 
-#[derive(Serialize)]
+#[derive(Debug, Serialize, Deserialize)]
 pub struct GameDto {
     game: String,
     review_count: u32,
@@ -15,5 +15,18 @@ impl GameDto {
             review_count,
             languages,
         }
+    }
+
+    pub fn game(&self) -> &str {
+        &self.game
+    }
+
+    pub fn review_count(&self) -> u32 {
+        self.review_count
+    }
+
+    /// Idiomas con más reviews del juego, de mayor a menor.
+    pub fn languages(&self) -> &[LanguageDto] {
+        &self.languages
     }
 }

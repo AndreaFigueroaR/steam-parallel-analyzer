@@ -1,14 +1,15 @@
 use serde::Deserialize;
 use serde::de::Deserializer;
 
-// structure only used to obtain useful data from the registers
-// when reading tyhe csv data file
+/// Estructura usada solo para obtener los datos útiles de cada registro del csv.
+/// Los campos de texto se toman prestados del registro crudo (zero-copy): solo se copian a memoria
+/// propia cuando efectivamente se almacenan (juego/idioma nuevo o review que entra a un top k).
 #[derive(Debug, Deserialize)]
-pub struct ReviewRegister {
+pub struct ReviewRegister<'a> {
     pub app_id: u32,
-    pub app_name: String,
-    pub language: String,
-    pub review: String,
+    pub app_name: &'a str,
+    pub language: &'a str,
+    pub review: &'a str,
     #[serde(deserialize_with = "de_votes_helpful")]
     pub votes_helpful: u32,
 }
@@ -19,8 +20,5 @@ where
     D: Deserializer<'de>,
 {
     let s: &str = Deserialize::deserialize(deserializer)?;
-    match s.parse::<u32>() {
-        Ok(v) => Ok(v),
-        Err(_) => Ok(0),
-    }
+    Ok(s.parse::<u32>().unwrap_or(0))
 }
